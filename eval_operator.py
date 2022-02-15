@@ -52,7 +52,6 @@ def test_2d(config):
                         nx=data_config['nx'], sub=data_config['sub'],
                         offset=data_config['offset'], num=data_config['n_sample'])
     dataloader = DataLoader(dataset, batch_size=config['test']['batchsize'], shuffle=False)
-    print(device)
     model = FNN2d(modes1=config['model']['modes1'],
                   modes2=config['model']['modes2'],
                   fc_dim=config['model']['fc_dim'],

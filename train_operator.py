@@ -9,7 +9,7 @@ from train_utils import Adam
 from train_utils.datasets import NSLoader, online_loader, DarcyFlow
 from train_utils.train_3d import mixed_train
 from train_utils.train_2d import train_2d_operator
-from models import FNN3d, FNN2d
+from models import FNN3d, FNN2d, PINO2d
 
 
 def train_3d(args, config):
@@ -82,11 +82,11 @@ def train_2d(args, config):
                         nx=data_config['nx'], sub=data_config['sub'],
                         offset=data_config['offset'], num=data_config['n_sample'])
     train_loader = DataLoader(dataset, batch_size=config['train']['batchsize'], shuffle=True)
-    model = FNN2d(modes1=config['model']['modes1'],
+    model = FNN3d(modes1=config['model']['modes1'],
                   modes2=config['model']['modes2'],
+                  modes3=config['model']['modes3'],
                   fc_dim=config['model']['fc_dim'],
-                  layers=config['model']['layers'],
-                  activation=config['model']['activation']).to(device)
+                  layers=config['model']['layers']).to(device)
     # Load from checkpoint
     if 'ckpt' in config['train']:
         ckpt_path = config['train']['ckpt']

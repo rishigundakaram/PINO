@@ -22,7 +22,7 @@ class FNN2d(nn.Module):
         3. Project from the channel space to the output space by self.fc1 and self.fc2 .
         
         input: the solution of the coefficient function and locations (a(x, y), x, y)
-        input shape: (batchsize, x=s, y=s, c=3)
+        input shape: (batchsize, x=s, y=s c=3)
         output: the solution 
         output shape: (batchsize, x=s, y=s, c=1)
         """

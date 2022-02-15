@@ -1,6 +1,6 @@
 data:
   name: 'Darcy'
-  datapath: '/mnt/md1/zongyi/piececonst_r421_N1024_smooth1.mat'
+  datapath: '/groups/tensorlab/rgundaka/code/data/piececonst_r421_N1024_smooth1.mat'
   total_num: 1024
   offset: 0
   n_sample: 1000

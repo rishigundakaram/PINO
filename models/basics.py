@@ -4,6 +4,7 @@ import torch
 import torch.nn as nn
 
 from functools import partial
+from train_utils.losses import LpLoss, weighted_darcy_loss, FDM_NS_vorticity
 
 
 def compl_mul1d(a, b):
@@ -197,3 +198,64 @@ class FourierBlock(nn.Module):
         if self.activation is not None:
             out = self.activation(out)
         return out
+
+
+class SAWeightDarcy(nn.Module):
+    def __init__(self, nx, ny, normalize=True):
+        super(SAWeightDarcy, self).__init__()
+        self.params = nn.Parameter(torch.ones(nx,ny))
+        if normalize: 
+            self.normalize()
+            
+
+    def normalize(self):
+        self.params = torch.div(self.params, torch.sum(self.params))
+
+    def forward(self, u, a):
+        return weighted_darcy_loss(u, a, self.params)
+
+
+class SAWeightNS(nn.Module):
+    def __init__(self, nx, ny, nt, sub=1, sub_t=1, normalize=True):
+        super(SAWeightNS, self).__init__()
+        self.init_param = nn.Parameter(torch.ones((nx//sub,ny//sub)))
+        self.domain_param = nn.Parameter(torch.ones(nx//sub, ny//sub, (nt-1)//sub_t))
+        self.num_init = (nx//sub)*(ny//sub)
+        self.num_domain = (nx//sub) * (ny//sub) * ((nt-1)//sub_t)
+        self.sub = sub
+        self.nx = nx
+        self.ny = ny
+        self.nt = nt
+        self.sub_t = sub_t
+        self.loss = LpLoss()
+
+    def normalize(self): 
+        # if not self.init_param.data.equal(torch.ones((self.nx//self.sub,self.ny//self.sub)).to(torch.device('cuda:0'))): 
+        #     print('initial condition not normal')
+        #     exit(1)
+        # if not self.domain_param.data.equal(torch.ones(self.nx//self.sub, self.ny//self.sub, (self.nt-1)//self.sub_t).to(torch.device('cuda:0'))): 
+        #     print('domain condition not normal')
+        #     exit(1)
+        self.init_param.data = self.num_init * torch.div(self.init_param.data, torch.sum(self.init_param.data))
+        self.domain_param.data = self.num_domain * torch.div(self.domain_param.data, torch.sum(self.domain_param.data))
+
+    def forward(self,u, u0, forcing, v=1/40, t_interval=1.0):
+        batchsize = u.size(0)
+        nx = u.size(1)
+        ny = u.size(2)
+        nt = u.size(3)
+
+        u = u.reshape(batchsize, nx, ny, nt)
+
+        u_in = u[:, :, :, 0]
+        loss_ic_w = self.loss.rel_weighted(u_in, u0, self.init_param)
+        loss_ic = self.loss.rel(u_in, u0)
+
+
+        Du = FDM_NS_vorticity(u, v, t_interval)
+        f = forcing.repeat(batchsize, 1, 1, nt-2)
+        loss_f_w = self.loss.rel_weighted(Du, f, self.domain_param)
+        loss_f = self.loss.rel(Du, f)
+
+
+        return loss_ic_w, loss_f_w, loss_ic, loss_f

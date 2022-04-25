@@ -13,6 +13,7 @@ model:
   modes2: [20, 20, 20, 20]
   fc_dim: 128
   activation: gelu
+  self_adaptive: False
 
 train:
   batchsize: 20
@@ -23,10 +24,10 @@ train:
   f_loss: 1.0
   xy_loss: 5.0
   save_dir: 'darcy-FDM'
-  save_name: 'darcy-pretrain-pino.pt'
+  save_name: 'darcy-pretrain-pino-d.pt'
 
 others:
-  project: 'PINO-Darcy-pretrain'
+  project: 'PINO-Darcy-pretrain-sa'
   group: 'gelu-pino'
 
 

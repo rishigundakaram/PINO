@@ -1,0 +1,1338 @@
+diff --git a/configs/baseline/Re500-pinns.yaml b/configs/baseline/Re500-pinns.yaml
+index 1bbcc46..2bbb00b 100644
+--- a/configs/baseline/Re500-pinns.yaml
++++ b/configs/baseline/Re500-pinns.yaml
+@@ -12,7 +12,7 @@ data:
+   shuffle: True
+ 
+ train:
+-  batchsize: 1
++  batchsize: 10
+   epochs: 5000
+   base_lr: 0.001
+   num_domain: 5000
+diff --git a/configs/finetune/Darcy-finetune.yaml b/configs/finetune/Darcy-finetune.yaml
+index 99d4c62..66a79f2 100644
+--- a/configs/finetune/Darcy-finetune.yaml
++++ b/configs/finetune/Darcy-finetune.yaml
+@@ -13,12 +13,14 @@ model:
+   modes2: [20, 20, 20, 20]
+   fc_dim: 128
+   activation: gelu
++  self_adaptive: False
+ 
+ train:
+   batchsize: 1
+-  epochs: 500
++  epochs: 300
+   milestones: [100, 200, 300, 400]
+   base_lr: 0.0025
++  sa_lr: 0.01
+   scheduler_gamma: 0.5
+   f_loss: 1.0
+   xy_loss: 0.0
+@@ -27,7 +29,8 @@ train:
+   ckpt: 'checkpoints/darcy-FDM/darcy-pretrain-pino.pt'
+ 
+ others:
+-  project: 'ICLR-Darcy-finetune'
+-  group: 'gelu-pino-pino'
++  project: 'sa-pino'
++  entity: 'rishigundakaram'
++  group: 'darcy-finetune'
+ 
+ 
+diff --git a/configs/finetune/Re500-finetune-1s.yaml b/configs/finetune/Re500-finetune-1s.yaml
+index fd3ca4d..f76d049 100644
+--- a/configs/finetune/Re500-finetune-1s.yaml
++++ b/configs/finetune/Re500-finetune-1s.yaml
+@@ -1,11 +1,11 @@
+ data:
+-  datapath: 'data/NS_fine_Re500_T128_part2.npy'
++  datapath: '/groups/tensorlab/rgundaka/code/data/NS_data/NS_fine_Re500_T128_part2.npy'
+   Re: 500
+   total_num: 100
+   offset: 0
+   n_sample: 1
+   time_interval: 1
+-  nx: 256
++  nx: 128
+   nt: 128
+   sub: 2
+   sub_t: 2
+@@ -24,7 +24,7 @@ train:
+   milestones: [500, 1500, 3000, 4000, 5000]
+   base_lr: 0.0025
+   scheduler_gamma: 0.5
+-  ckpt: 'checkpoints/Re500-FDM/PINO-pretrain-Re500-1s.pt'
++  ckpt: '/groups/tensorlab/rgundaka/scripts/checkpoints/Re500-FDM/PINO-pretrain-Re500-1s-nd.pt'
+   ic_loss: 5.0
+   f_loss: 1.0
+   xy_loss: 0
+@@ -32,6 +32,7 @@ train:
+   save_name: 'PINO-Re500-fintune-1s.pt'
+ 
+ others:
++  entity: 'rishigundakaram'
+   project: 'PINO-sweep'
+   group: 'Re500-finetune'
+ 
+diff --git a/configs/pretrain/Darcy-pretrain.yaml b/configs/pretrain/Darcy-pretrain.yaml
+index f104263..27054f3 100644
+--- a/configs/pretrain/Darcy-pretrain.yaml
++++ b/configs/pretrain/Darcy-pretrain.yaml
+@@ -13,6 +13,7 @@ model:
+   modes2: [20, 20, 20, 20]
+   fc_dim: 128
+   activation: gelu
++  self_adaptive: False
+ 
+ train:
+   batchsize: 20
+@@ -23,10 +24,10 @@ train:
+   f_loss: 1.0
+   xy_loss: 5.0
+   save_dir: 'darcy-FDM'
+-  save_name: 'darcy-pretrain-pino.pt'
++  save_name: 'darcy-pretrain-pino-d.pt'
+ 
+ others:
+-  project: 'PINO-Darcy-pretrain'
++  project: 'PINO-Darcy-pretrain-sa'
+   group: 'gelu-pino'
+ 
+ 
+diff --git a/configs/scratch/Re500-scratch-1s.yaml b/configs/scratch/Re500-scratch-1s.yaml
+index 13987aa..2193505 100644
+--- a/configs/scratch/Re500-scratch-1s.yaml
++++ b/configs/scratch/Re500-scratch-1s.yaml
+@@ -1,5 +1,5 @@
+ data:
+-  datapath: 'data/NS_fine_Re500_T128_part2.npy'
++  datapath: '/NS_fine_Re500_T128_part2.npy'
+   Re: 500
+   total_num: 100
+   offset: 0
+diff --git a/eval_operator.py b/eval_operator.py
+index 617b393..7fccf59 100644
+--- a/eval_operator.py
++++ b/eval_operator.py
+@@ -45,7 +45,7 @@ def test_3d(config):
+             device=device)
+ 
+ 
+-def test_2d(config):
++def test_2d(args, config):
+     device = 0 if torch.cuda.is_available() else 'cpu'
+     data_config = config['data']
+     dataset = DarcyFlow(data_config['datapath'],
+@@ -63,7 +63,7 @@ def test_2d(config):
+         ckpt = torch.load(ckpt_path)
+         model.load_state_dict(ckpt['model'])
+         print('Weights loaded from %s' % ckpt_path)
+-    eval_darcy(model, dataloader, config, device)
++    eval_darcy(model, dataloader, config, device, log=args.log)
+ 
+ 
+ if __name__ == '__main__':
+@@ -76,8 +76,8 @@ if __name__ == '__main__':
+         config = yaml.load(stream, yaml.FullLoader)
+ 
+     if 'name' in config['data'] and config['data']['name'] == 'Darcy':
+-        test_2d(config)
++        test_2d(options, config)
+     else:
+-        test_3d(config)
++        test_3d(options, config)
+ 
+ 
+diff --git a/models/basics.py b/models/basics.py
+index 68ed98e..7490839 100644
+--- a/models/basics.py
++++ b/models/basics.py
+@@ -4,6 +4,7 @@ import torch
+ import torch.nn as nn
+ 
+ from functools import partial
++from train_utils.losses import LpLoss, weighted_darcy_loss, FDM_NS_vorticity
+ 
+ 
+ def compl_mul1d(a, b):
+@@ -197,3 +198,41 @@ class FourierBlock(nn.Module):
+         if self.activation is not None:
+             out = self.activation(out)
+         return out
++
++
++class SAWeightDarcy(nn.Module):
++    def __init__(self, mesh_size):
++        super(SAWeightDarcy, self).__init__()
++        self.params = nn.Parameter(torch.ones(mesh_size))
++
++    
++    def forward(self, u, a):
++        return weighted_darcy_loss(u, a, self.params)
++
++
++class SAWeightNS(nn.Module):
++    def __init__(self, nx, ny, nt, sub=1, sub_t=1):
++        super(SAWeightNS, self).__init__()
++        self.init_param = nn.Parameter(torch.ones((nx//sub,ny//sub)))
++        self.boundary_param = nn.Parameter(torch.ones(nx//sub, ny//sub, (nt-1)//sub_t))
++
++        self.loss = LpLoss()
++
++    def forward(self,u, u0, forcing, v=1/40, t_interval=1.0):
++        batchsize = u.size(0)
++        nx = u.size(1)
++        ny = u.size(2)
++        nt = u.size(3)
++
++        u = u.reshape(batchsize, nx, ny, nt)
++
++        u_in = u[:, :, :, 0]
++        loss_ic_w = self.loss.rel_weighted(u_in, u0, self.init_param)
++        loss_ic = self.loss.rel(u_in, u0)
++
++        Du = FDM_NS_vorticity(u, v, t_interval)
++        f = forcing.repeat(batchsize, 1, 1, nt-2)
++        loss_f_w = self.loss.rel_weighted(Du, f, self.boundary_param)
++        loss_f = self.loss.rel(Du, f)
++
++        return loss_ic_w, loss_f_w, loss_ic, loss_f
+\ No newline at end of file
+diff --git a/models/fourier2d.py b/models/fourier2d.py
+index 791cec3..0e5690a 100644
+--- a/models/fourier2d.py
++++ b/models/fourier2d.py
+@@ -3,7 +3,7 @@ import torch.nn as nn
+ import torch.nn.functional as F
+ 
+ from .lowrank2d import LowRank2d
+-from .basics import SpectralConv2d
++from .basics import SpectralConv2d, SAWeightDarcy
+ 
+ 
+ class FNN2d(nn.Module):
+@@ -103,7 +103,6 @@ class PINO2d(nn.Module):
+         else:
+             self.layers = layers
+         self.fc0 = nn.Linear(in_dim, layers[0])
+-
+         self.sp_convs = nn.ModuleList([SpectralConv2d(
+             in_size, out_size, mode1_num, mode2_num)
+             for in_size, out_size, mode1_num, mode2_num
+diff --git a/rishi/bin/darcy_loss_pino.png b/rishi/bin/darcy_loss_pino.png
+deleted file mode 100644
+index b97e3fb..0000000
+Binary files a/rishi/bin/darcy_loss_pino.png and /dev/null differ
+diff --git a/rishi/darcy_loss_pino.png b/rishi/darcy_loss_pino.png
+deleted file mode 100644
+index b97e3fb..0000000
+Binary files a/rishi/darcy_loss_pino.png and /dev/null differ
+diff --git a/rishi/hello.png b/rishi/hello.png
+deleted file mode 100644
+index 1ea71a3..0000000
+Binary files a/rishi/hello.png and /dev/null differ
+diff --git a/rishi/visualizations/darcy_visualization.py b/rishi/visualizations/darcy_visualization.py
+index 51bdc97..80ebec8 100644
+--- a/rishi/visualizations/darcy_visualization.py
++++ b/rishi/visualizations/darcy_visualization.py
+@@ -7,17 +7,18 @@ from models import FNN2d
+ 
+ import torch
+ from torch.utils.data import DataLoader
++from train_utils.losses import FDM_Darcy
+ 
+ import numpy as np
+ import matplotlib.pyplot as plt
+ 
+ # Data related params
+ base_dir = '/central/groups/tensorlab/rgundaka'
+-checkpoint = base_dir + '/scripts/checkpoints/darcy-FDM/darcy-pretrain-fno.pt'
+-data_path = base_dir + '/code/data/piececonst_r421_N1024_smooth2.mat'
++checkpoint = base_dir + '/scripts/checkpoints/darcy-FDM/darcy-pino-sa-lr-10-nd.pt'
++data_path = base_dir + '/code/data/piececonst_r421_N1024_smooth1.mat'
+ total_num = 1024
+ offset = 0 
+-n_sample = 500 
++n_sample = 1000 
+ nx = 421
+ sub = 7
+ shuffle = False
+@@ -50,12 +51,32 @@ mollifier = torch.sin(np.pi * mesh[..., 0]) * torch.sin(np.pi * mesh[..., 1]) *
+ mollifier = mollifier.to(device)
+ 
+ # defining loss functions: 
+-def data_Loss(pred, y, p=2): 
+-    return torch.div(torch.abs(pred - y), y)
++def loss(pred, y): 
++    return torch.div((pred - y)**2, y**2)
++
++def darcy_loss(u, a, loss):
++    batchsize = u.size(0)
++    size = u.size(1)
++    u = u.reshape(batchsize, size, size)
++    a = a.reshape(batchsize, size, size)
++    Du = FDM_Darcy(u, a)
++    f = torch.ones(Du.shape, device=u.device)
++    return (Du-f)**2
++
++def reject_outliers(data):
++    m = 4
++    u = np.mean(data)
++    print(u)
++    s = np.std(data)
++    areas = np.where(np.abs(u-data)/s > m)
++    data[areas] = u
++    return data
++
++lploss = LpLoss(d=2, p=2, size_average=False, reduction=False)
+ 
+-lploss = LpLoss(d=2, p=2, reduction=False)
+ 
+ data_loss = torch.zeros([1, dataset.S, dataset.S]).to(device)
++physics_loss = torch.zeros([1, dataset.S-4, dataset.S-4]).to(device)
+ print(mesh.size())
+ with torch.no_grad(): 
+     for x,y in dataloader: 
+@@ -63,17 +84,36 @@ with torch.no_grad():
+         pred = model(x)
+         pred = pred.reshape(y.shape)
+         pred = pred * mollifier
+-        cur_data_loss = data_Loss(pred, y)
++        cur_data_loss = loss(pred, y)
+         data_loss = torch.add(data_loss, cur_data_loss)
++        
++        a = x[..., 0]
++        cur_physics_loss = darcy_loss(pred, a, lploss)
++        physics_loss = torch.add(physics_loss, cur_physics_loss)
++
+ 
+-print(data_loss.size())
+ data_loss = data_loss.reshape([dataset.S, dataset.S]).cpu().numpy()
+-data_loss = data_loss / total_num
++data_loss = data_loss / len(dataloader)
++
++physics_loss = physics_loss.reshape([dataset.S-4, dataset.S-4]).cpu().numpy()
++physics_loss = physics_loss / len(dataloader)
++
++
+ [a, b] = np.shape(data_loss)
+ data_loss = data_loss[1:a-1, 1:b-1]
+-print(data_loss)
+-print(np.shape(data_loss))
+-plt.matshow(data_loss)
+-plt.savefig('darcy_loss_pino')
++physics_loss = physics_loss[1:a-1, 1:b-1]
++
++physics_loss = reject_outliers(physics_loss)
++
++plt.imshow(data_loss)
++plt.colorbar()
++plt.savefig('../bin/Darcy/no_data/darcy_data_loss_sapino_train_no_out')
++plt.clf()
++
++plt.imshow(physics_loss)
++plt.colorbar()
++plt.title('Darcy relative error')
++plt.savefig('../bin/Darcy/no_data/darcy_physics_loss_sapino_train_no_out')
++
+ 
+ 
+diff --git a/run_pino2d.py b/run_pino2d.py
+deleted file mode 100644
+index b5afd63..0000000
+--- a/run_pino2d.py
++++ /dev/null
+@@ -1,65 +0,0 @@
+-import yaml
+-from argparse import ArgumentParser
+-import random
+-
+-import torch
+-
+-from models import FNN2d
+-from train_utils import Adam
+-from torch.utils.data import DataLoader
+-from train_utils.datasets import DarcyFlow
+-from train_utils.train_2d import train_2d_operator
+-
+-
+-def train(args, config):
+-    seed = random.randint(1, 10000)
+-    print(f'Random seed :{seed}')
+-    torch.manual_seed(seed)
+-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+-    data_config = config['data']
+-    dataset = DarcyFlow(data_config['datapath'],
+-                        nx=data_config['nx'], sub=data_config['sub'],
+-                        offset=data_config['offset'], num=data_config['n_sample'])
+-    dataloader = DataLoader(dataset, batch_size=config['train']['batchsize'])
+-    model = FNN2d(modes1=config['model']['modes1'],
+-                  modes2=config['model']['modes2'],
+-                  fc_dim=config['model']['fc_dim'],
+-                  layers=config['model']['layers'],
+-                  activation=config['model']['activation']).to(device)
+-    # Load from checkpoint
+-    if 'ckpt' in config['train']:
+-        ckpt_path = config['train']['ckpt']
+-        ckpt = torch.load(ckpt_path)
+-        model.load_state_dict(ckpt['model'])
+-        print('Weights loaded from %s' % ckpt_path)
+-    optimizer = Adam(model.parameters(), betas=(0.9, 0.999),
+-                         lr=config['train']['base_lr'])
+-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer,
+-                                                     milestones=config['train']['milestones'],
+-                                                     gamma=config['train']['scheduler_gamma'])
+-    train_2d_operator(model,
+-                      dataloader,
+-                      optimizer, scheduler,
+-                      config, rank=0, log=args.log,
+-                      project=config['others']['project'],
+-                      group=config['others']['group'])
+-
+-
+-if __name__ == '__main__':
+-    torch.backends.cudnn.benchmark = True
+-    parser = ArgumentParser(description='Basic paser')
+-    parser.add_argument('--config_path', type=str, help='Path to the configuration file')
+-    parser.add_argument('--start', type=int, help='Start index of test instance')
+-    parser.add_argument('--stop', type=int, help='Stop index of instances')
+-    parser.add_argument('--log', action='store_true', help='Turn on the wandb')
+-    args = parser.parse_args()
+-
+-    config_file = args.config_path
+-    with open(config_file, 'r') as stream:
+-        config = yaml.load(stream, yaml.FullLoader)
+-
+-    for i in range(args.start, args.stop):
+-        print(f'Start solving instance {i}')
+-        config['data']['offset'] = i
+-        train(args, config)
+-    print(f'{args.stop - args.start} instances are solved')
+\ No newline at end of file
+diff --git a/run_pino3d.py b/run_pino3d.py
+deleted file mode 100644
+index 2118f46..0000000
+--- a/run_pino3d.py
++++ /dev/null
+@@ -1,94 +0,0 @@
+-import random
+-import yaml
+-
+-import torch
+-from torch.utils.data import DataLoader
+-
+-from train_utils import Adam, NSLoader, get_forcing
+-from train_utils.train_3d import train
+-
+-from models import FNN3d
+-from argparse import ArgumentParser
+-from train_utils.utils import requires_grad
+-
+-
+-def run_instance(loader, config, data_config):
+-    trainset = loader.make_dataset(data_config['n_sample'],
+-                                   start=data_config['offset'])
+-    train_loader = DataLoader(trainset, batch_size=config['train']['batchsize'])
+-    model = FNN3d(modes1=config['model']['modes1'],
+-                  modes2=config['model']['modes2'],
+-                  modes3=config['model']['modes3'],
+-                  fc_dim=config['model']['fc_dim'],
+-                  layers=config['model']['layers']).to(device)
+-
+-    if 'ckpt' in config['train']:
+-        ckpt_path = config['train']['ckpt']
+-        ckpt = torch.load(ckpt_path)
+-        model.load_state_dict(ckpt['model'])
+-        print('Weights loaded from %s' % ckpt_path)
+-
+-    if 'twolayer' in config['train'] and config['train']['twolayer']:
+-        requires_grad(model, False)
+-        requires_grad(model.sp_convs[-1], True)
+-        requires_grad(model.ws[-1], True)
+-        requires_grad(model.fc1, True)
+-        requires_grad(model.fc2, True)
+-        params = []
+-        for param in model.parameters():
+-            if param.requires_grad == True:
+-                params.append(param)
+-    else:
+-        params = model.parameters()
+-
+-    beta1 = config['train']['beta1'] if 'beta1' in config['train'] else 0.9
+-    beta2 = config['train']['beta2'] if 'beta2' in config['train'] else 0.999
+-    optimizer = Adam(params, betas=(beta1, beta2),
+-                     lr=config['train']['base_lr'])
+-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer,
+-                                                     milestones=config['train']['milestones'],
+-                                                     gamma=config['train']['scheduler_gamma'])
+-    forcing = get_forcing(loader.S).to(device)
+-    train(model,
+-          loader, train_loader,
+-          optimizer, scheduler,
+-          forcing, config,
+-          rank=0,
+-          log=options.log,
+-          project=config['others']['project'],
+-          group=config['others']['group'],
+-          use_tqdm=True,
+-          profile=config['train']['profile'])
+-
+-
+-if __name__ == '__main__':
+-    torch.backends.cudnn.benchmark = True
+-    parser = ArgumentParser(description='Basic paser')
+-    parser.add_argument('--config_path', type=str, help='Path to the configuration file')
+-    parser.add_argument('--start', type=int, help='Start index of test instance')
+-    parser.add_argument('--stop', type=int, help='Stop index of instances')
+-    parser.add_argument('--log', action='store_true', help='Turn on the wandb')
+-    options = parser.parse_args()
+-
+-    config_file = options.config_path
+-    with open(config_file, 'r') as stream:
+-        config = yaml.load(stream, yaml.FullLoader)
+-
+-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+-    data_config = config['data']
+-
+-    loader = NSLoader(datapath1=data_config['datapath'],
+-                      nx=data_config['nx'], nt=data_config['nt'],
+-                      sub=data_config['sub'], sub_t=data_config['sub_t'],
+-                      N=data_config['total_num'],
+-                      t_interval=data_config['time_interval'])
+-    for i in range(options.start, options.stop):
+-        print('Start training on instance %d' % i)
+-        config['data']['offset'] = i
+-        data_config['offset'] = i
+-        seed = random.randint(1, 10000)
+-        print(f'Random seed :{seed}')
+-        torch.manual_seed(seed)
+-        torch.cuda.manual_seed_all(seed)
+-        run_instance(loader, config, data_config)
+-    print('Done!')
+diff --git a/train_operator.py b/train_operator.py
+deleted file mode 100644
+index a64f123..0000000
+--- a/train_operator.py
++++ /dev/null
+@@ -1,126 +0,0 @@
+-import yaml
+-from argparse import ArgumentParser
+-import math
+-import torch
+-from torch.utils.data import DataLoader
+-
+-from solver.random_fields import GaussianRF
+-from train_utils import Adam
+-from train_utils.datasets import NSLoader, online_loader, DarcyFlow
+-from train_utils.train_3d import mixed_train
+-from train_utils.train_2d import train_2d_operator
+-from models import FNN3d, FNN2d, PINO2d
+-
+-
+-def train_3d(args, config):
+-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+-    data_config = config['data']
+-
+-    # prepare dataloader for training with data
+-    if 'datapath2' in data_config:
+-        loader = NSLoader(datapath1=data_config['datapath'], datapath2=data_config['datapath2'],
+-                          nx=data_config['nx'], nt=data_config['nt'],
+-                          sub=data_config['sub'], sub_t=data_config['sub_t'],
+-                          N=data_config['total_num'],
+-                          t_interval=data_config['time_interval'])
+-    else:
+-        loader = NSLoader(datapath1=data_config['datapath'],
+-                          nx=data_config['nx'], nt=data_config['nt'],
+-                          sub=data_config['sub'], sub_t=data_config['sub_t'],
+-                          N=data_config['total_num'],
+-                          t_interval=data_config['time_interval'])
+-
+-    train_loader = loader.make_loader(data_config['n_sample'],
+-                                      batch_size=config['train']['batchsize'],
+-                                      start=data_config['offset'],
+-                                      train=data_config['shuffle'])
+-    # prepare dataloader for training with only equations
+-    gr_sampler = GaussianRF(2, data_config['S2'], 2 * math.pi, alpha=2.5, tau=7, device=device)
+-    a_loader = online_loader(gr_sampler,
+-                             S=data_config['S2'],
+-                             T=data_config['T2'],
+-                             time_scale=data_config['time_interval'],
+-                             batchsize=config['train']['batchsize'])
+-    # create model
+-    print(device)
+-    model = FNN3d(modes1=config['model']['modes1'],
+-                  modes2=config['model']['modes2'],
+-                  modes3=config['model']['modes3'],
+-                  fc_dim=config['model']['fc_dim'],
+-                  layers=config['model']['layers']).to(device)
+-    # Load from checkpoint
+-    if 'ckpt' in config['train']:
+-        ckpt_path = config['train']['ckpt']
+-        ckpt = torch.load(ckpt_path)
+-        model.load_state_dict(ckpt['model'])
+-        print('Weights loaded from %s' % ckpt_path)
+-    # create optimizer and learning rate scheduler
+-    optimizer = Adam(model.parameters(), betas=(0.9, 0.999),
+-                     lr=config['train']['base_lr'])
+-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer,
+-                                                     milestones=config['train']['milestones'],
+-                                                     gamma=config['train']['scheduler_gamma'])
+-    mixed_train(model,
+-                train_loader,
+-                loader.S, loader.T,
+-                a_loader,
+-                data_config['S2'], data_config['T2'],
+-                optimizer,
+-                scheduler,
+-                config,
+-                device,
+-                log=args.log,
+-                project=config['others']['project'],
+-                group=config['others']['group'])
+-
+-
+-def train_2d(args, config):
+-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+-    data_config = config['data']
+-
+-    dataset = DarcyFlow(data_config['datapath'],
+-                        nx=data_config['nx'], sub=data_config['sub'],
+-                        offset=data_config['offset'], num=data_config['n_sample'])
+-    train_loader = DataLoader(dataset, batch_size=config['train']['batchsize'], shuffle=True)
+-    model = FNN3d(modes1=config['model']['modes1'],
+-                  modes2=config['model']['modes2'],
+-                  modes3=config['model']['modes3'],
+-                  fc_dim=config['model']['fc_dim'],
+-                  layers=config['model']['layers']).to(device)
+-    # Load from checkpoint
+-    if 'ckpt' in config['train']:
+-        ckpt_path = config['train']['ckpt']
+-        ckpt = torch.load(ckpt_path)
+-        model.load_state_dict(ckpt['model'])
+-        print('Weights loaded from %s' % ckpt_path)
+-
+-    optimizer = Adam(model.parameters(), betas=(0.9, 0.999),
+-                         lr=config['train']['base_lr'])
+-    scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer,
+-                                                     milestones=config['train']['milestones'],
+-                                                     gamma=config['train']['scheduler_gamma'])
+-    train_2d_operator(model,
+-                      train_loader,
+-                      optimizer, scheduler,
+-                      config, rank=0, log=args.log,
+-                      project=config['others']['project'],
+-                      group=config['others']['group'])
+-
+-
+-if __name__ == '__main__':
+-    device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
+-
+-    # parse options
+-    parser = ArgumentParser(description='Basic paser')
+-    parser.add_argument('--config_path', type=str, help='Path to the configuration file')
+-    parser.add_argument('--log', action='store_true', help='Turn on the wandb')
+-    args = parser.parse_args()
+-
+-    config_file = args.config_path
+-    with open(config_file, 'r') as stream:
+-        config = yaml.load(stream, yaml.FullLoader)
+-
+-    if 'name' in config['data'] and config['data']['name'] == 'Darcy':
+-        train_2d(args, config)
+-    else:
+-        train_3d(args, config)
+diff --git a/train_utils/datasets.py b/train_utils/datasets.py
+index 40662c1..a6bfc36 100644
+--- a/train_utils/datasets.py
++++ b/train_utils/datasets.py
+@@ -135,7 +135,6 @@ class NSLoader(object):
+         self.time_scale = t_interval
+         data1 = np.load(datapath1)
+         data1 = torch.tensor(data1, dtype=torch.float)[..., ::sub_t, ::sub, ::sub]
+-
+         if datapath2 is not None:
+             data2 = np.load(datapath2)
+             data2 = torch.tensor(data2, dtype=torch.float)[..., ::sub_t, ::sub, ::sub]
+@@ -288,12 +287,18 @@ class DarcyFlow(Dataset):
+                  offset=0,
+                  num=1):
+         self.S = int(nx // sub) + 1
+-        data = scipy.io.loadmat(datapath)
+-        a = data['coeff']
+-        u = data['sol']
++        self.data = scipy.io.loadmat(datapath)
++        a = self.data['coeff']
++        u = self.data['sol']
+         self.a = torch.tensor(a[offset: offset + num, ::sub, ::sub], dtype=torch.float)
+         self.u = torch.tensor(u[offset: offset + num, ::sub, ::sub], dtype=torch.float)
+         self.mesh = torch2dgrid(self.S, self.S)
++        self.num = num
++        self.sub = sub
++
++    def resample(self, offset): 
++        self.a = torch.tensor(self.data['coeff'][offset: offset + self.num, ::self.sub, ::self.sub], dtype=torch.float)
++        self.u = torch.tensor(self.data['sol'][offset: offset + self.num, ::self.sub, ::self.sub], dtype=torch.float)
+ 
+     def __len__(self):
+         return self.a.shape[0]
+@@ -302,5 +307,3 @@ class DarcyFlow(Dataset):
+         fa = self.a[item]
+         return torch.cat([fa.unsqueeze(2), self.mesh], dim=2), self.u[item]
+ 
+-
+-
+diff --git a/train_utils/eval_2d.py b/train_utils/eval_2d.py
+index d999dd9..cd4f705 100644
+--- a/train_utils/eval_2d.py
++++ b/train_utils/eval_2d.py
+@@ -15,7 +15,17 @@ def eval_darcy(model,
+                dataloader,
+                config,
+                device,
+-               use_tqdm=True):
++               use_tqdm=True, 
++               log=False,
++               project=None, 
++               tags=None):
++    if wandb and log:
++        run = wandb.init(project=config['others']['project'],
++                            entity=config['others']['entity'],
++                            group=config['others']['group'],
++                            config=config,
++                            tags=tags, reinit=True,
++                            settings=wandb.Settings(start_method="fork"))
+     model.eval()
+     myloss = LpLoss(size_average=True)
+     if use_tqdm:
+@@ -56,6 +66,17 @@ def eval_darcy(model,
+ 
+     print(f'==Averaged relative L2 error mean: {mean_err}, std error: {std_err}==\n'
+           f'==Averaged equation error mean: {mean_f_err}, std error: {std_f_err}==')
++    if device == 0:
++        if wandb and log:
++            wandb.log(
++                {
++                    'mean f error': mean_f_err,
++                    'std err f' : std_f_err, 
++                    'mean L2 error': mean_err, 
++                    'std error L2': std_err
++                }
++            )
++            run.finish()
+ 
+ 
+ def eval_burgers(model,
+diff --git a/train_utils/eval_3d.py b/train_utils/eval_3d.py
+index b9cbe24..c6fd2b3 100644
+--- a/train_utils/eval_3d.py
++++ b/train_utils/eval_3d.py
+@@ -21,14 +21,15 @@ def eval_ns(model,  # model
+             log=False,
+             project='PINO-default',
+             group='FDM',
+-            tags=['Nan'],
+-            use_tqdm=True):
++            tags=None,
++            use_tqdm=True, 
++            entity='rishigundakaram'):
+     '''
+     Evaluate the model for Navier Stokes equation
+     '''
+     if wandb and log:
+         run = wandb.init(project=project,
+-                         entity='hzzheng-pino',
++                         entity=entity,
+                          group=group,
+                          config=config,
+                          tags=tags, reinit=True,
+diff --git a/train_utils/losses.py b/train_utils/losses.py
+index 393349e..c5ea1e3 100644
+--- a/train_utils/losses.py
++++ b/train_utils/losses.py
+@@ -35,6 +35,20 @@ def FDM_Darcy(u, a, D=1):
+     Du = - (auxx + auyy)
+     return Du
+ 
++def weighted_darcy_loss(u, a, w): 
++    batchsize = u.size(0)
++    size = u.size(1)
++    u = u.reshape(batchsize, size, size)
++    a = a.reshape(batchsize, size, size)
++    lploss = LpLoss(size_average=True)
++
++    Du = FDM_Darcy(u, a)
++    f = torch.ones(Du.shape, device=u.device)
++    loss_f = lploss.rel(Du, f)
++    loss_f_w = lploss.rel_weighted(Du, f, w)
++    
++    return loss_f_w, loss_f 
++    
+ 
+ def darcy_loss(u, a):
+     batchsize = u.size(0)
+@@ -51,8 +65,7 @@ def darcy_loss(u, a):
+     # boundary_u = u[:, index_x, index_y]
+     # truth_u = torch.zeros(boundary_u.shape, device=u.device)
+     # loss_u = lploss.abs(boundary_u, truth_u)
+-
+-    Du = FDM_Darcy(u, a)
++    Du = FDM_Darcy(u, a) 
+     f = torch.ones(Du.shape, device=u.device)
+     loss_f = lploss.rel(Du, f)
+ 
+@@ -179,6 +192,22 @@ class LpLoss(object):
+                 return torch.sum(all_norms)
+ 
+         return all_norms
++    
++    def abs_weighted(self, x, y, w): 
++        num_examples = x.size()[0]
++
++        #Assume uniform mesh
++        h = 1.0 / (x.size()[1] - 1.0)
++        terms = w.view(-1)*(x.view(num_examples,-1) - y.view(num_examples,-1))
++        all_norms = (h**(self.d/self.p))*torch.norm(terms, self.p, 1)
++
++        if self.reduction:
++            if self.size_average:
++                return torch.mean(all_norms)
++            else:
++                return torch.sum(all_norms)
++
++        return all_norms
+ 
+     def rel(self, x, y):
+         num_examples = x.size()[0]
+@@ -194,6 +223,20 @@ class LpLoss(object):
+ 
+         return diff_norms/y_norms
+ 
++    def rel_weighted(self, x, y, w):
++        num_examples = x.size()[0]
++        terms = w.view(-1)*(x.view(num_examples,-1) - y.view(num_examples,-1))    
++        diff_norms = torch.norm(terms, self.p, 1)
++        y_norms = torch.norm(y.reshape(num_examples,-1), self.p, 1)
++
++        if self.reduction:
++            if self.size_average:
++                return torch.mean(diff_norms/y_norms)
++            else:
++                return torch.sum(diff_norms/y_norms)
++
++        return diff_norms/y_norms
++    
+     def __call__(self, x, y):
+         return self.rel(x, y)
+ 
+diff --git a/train_utils/train_2d.py b/train_utils/train_2d.py
+index 51a2b73..cd55603 100644
+--- a/train_utils/train_2d.py
++++ b/train_utils/train_2d.py
+@@ -10,7 +10,7 @@ except ImportError:
+     wandb = None
+ 
+ 
+-def train_2d_operator(model,
++def  train_2d_operator(model,
+                       train_loader,
+                       optimizer, scheduler,
+                       config,
+@@ -19,7 +19,7 @@ def train_2d_operator(model,
+                       group='default',
+                       tags=['default'],
+                       use_tqdm=True,
+-                      profile=False):
++                      entity='hzzeng-pino'):
+     '''
+     train PINO on Darcy Flow
+     Args:
+@@ -41,11 +41,12 @@ def train_2d_operator(model,
+     '''
+     if rank == 0 and wandb and log:
+         run = wandb.init(project=project,
+-                         entity='hzzheng-pino',
++                         entity=entity,
+                          group=group,
+                          config=config,
+                          tags=tags, reinit=True,
+                          settings=wandb.Settings(start_method="fork"))
++        freq = config["data"]["n_sample"] // config["train"]["batchsize"]
+ 
+     data_weight = config['train']['xy_loss']
+     f_weight = config['train']['f_loss']
+@@ -74,7 +75,6 @@ def train_2d_operator(model,
+ 
+             a = x[..., 0]
+             f_loss = darcy_loss(pred, a)
+-
+             loss = data_weight * data_loss + f_weight * f_loss
+             loss.backward()
+             optimizer.step()
+@@ -159,6 +159,7 @@ def train_2d_burger(model,
+             data_l2 += data_loss.item()
+             train_pino += loss_f.item()
+             train_loss += total_loss.item()
++
+         scheduler.step()
+         data_l2 /= len(train_loader)
+         train_pino /= len(train_loader)
+@@ -187,4 +188,117 @@ def train_2d_burger(model,
+     save_checkpoint(config['train']['save_dir'],
+                     config['train']['save_name'],
+                     model, optimizer)
++    print('Done!')
++
++
++def train_2d_operator_competitive(model, weight_model,
++                                train_loader,
++                                optimizer, weight_optimizer,
++                                scheduler, weight_scheduler,
++                                config,
++                                rank=0, log=False,
++                                project='PINO-2d-default-SA',
++                                group='default',
++                                tags=['default'],
++                                use_tqdm=True,
++                                entity='rishigundakaram'):
++    '''
++    train PINO on Darcy Flow
++    Args:
++        model:
++        train_loader:
++        optimizer:
++        scheduler:
++        config:
++        rank:
++        log:
++        project:
++        group:
++        tags:
++        use_tqdm:
++        profile:
++
++    Returns:
++
++    '''
++    if rank == 0 and wandb and log:
++        run = wandb.init(project=project,
++                         entity=entity,
++                         group=group,
++                         config=config,
++                         tags=tags, reinit=True,
++                         settings=wandb.Settings(start_method="fork"))
++        freq = config["data"]["n_sample"] // config["train"]["batchsize"]
++        wandb.watch(weight_model, log="paraemters", log_freq=freq)
++    data_weight = config['train']['xy_loss']
++    f_weight = config['train']['f_loss']
++    model.train()
++    weight_model.train()
++    myloss = LpLoss(size_average=True)
++    pbar = range(config['train']['epochs'])
++    if use_tqdm:
++        pbar = tqdm(pbar, dynamic_ncols=True, smoothing=0.1)
++    mesh = train_loader.dataset.mesh
++    mollifier = torch.sin(np.pi * mesh[..., 0]) * torch.sin(np.pi * mesh[..., 1]) * 0.001
++    mollifier = mollifier.to(rank)
++    for e in pbar:
++        loss_dict = {'train_loss': 0.0,
++                     'data_loss': 0.0,
++                     'f_loss': 0.0,
++                     'test_error': 0.0}
++        for x, y in train_loader:
++            x, y = x.to(rank), y.to(rank)
++            
++            optimizer.zero_grad()
++            weight_optimizer.zero_grad()
++
++            pred = model(x).reshape(y.shape)
++            pred = pred * mollifier
++
++            data_loss = myloss(pred, y)
++
++            a = x[..., 0]
++            f_loss_w, f_loss = weight_model(pred, a)
++            
++            loss = data_weight * data_loss + f_weight * f_loss_w
++            loss.backward()
++            weight_optimizer.step()
++            optimizer.step()
++            
++            loss = data_weight * data_loss + f_weight * f_loss
++
++            loss_dict['train_loss'] += loss.item() * y.shape[0]
++            loss_dict['f_loss'] += f_loss.item() * y.shape[0]
++            loss_dict['data_loss'] += data_loss.item() * y.shape[0]
++
++        scheduler.step()
++        weight_scheduler.step()
++        train_loss_val = loss_dict['train_loss'] / len(train_loader.dataset)
++        f_loss_val = loss_dict['f_loss'] / len(train_loader.dataset)
++        data_loss_val = loss_dict['data_loss'] / len(train_loader.dataset)
++
++        if use_tqdm:
++            pbar.set_description(
++                (
++                    f'Epoch: {e}, train loss: {train_loss_val:.5f}, '
++                    f'f_loss: {f_loss_val:.5f}, '
++                    f'data loss: {data_loss_val:.5f}'
++                )
++            )
++        if wandb and log:
++            wandb.log(
++                {
++                    'train loss': train_loss_val,
++                    'f loss': f_loss_val,
++                    'data loss': data_loss_val
++                }
++            )
++    save_checkpoint(config['train']['save_dir'],
++                    config['train']['save_name'],
++                    model, optimizer)
++    save_checkpoint(config['train']['save_dir'],
++                    config['train']['save_name'][:-3] + "-weights.pt",
++                    weight_model, weight_optimizer)
++    if wandb and log:
++        run.finish()
+     print('Done!')
+\ No newline at end of file
+diff --git a/train_utils/train_3d.py b/train_utils/train_3d.py
+index 7b182d2..8577121 100644
+--- a/train_utils/train_3d.py
++++ b/train_utils/train_3d.py
+@@ -20,13 +20,14 @@ def train(model,
+           rank=0,
+           log=False,
+           project='PINO-default',
++          entity='rishigundakaram',
+           group='FDM',
+           tags=['Nan'],
+           use_tqdm=True,
+           profile=False):
+     if rank == 0 and wandb and log:
+         run = wandb.init(project=project,
+-                         entity='hzzheng-pino',
++                         entity=entity,
+                          group=group,
+                          config=config,
+                          tags=tags, reinit=True,
+@@ -121,6 +122,126 @@ def train(model,
+         if wandb and log:
+             run.finish()
+ 
++def train_sa(model, weight_model, 
++          loader, train_loader,
++          optimizer, scheduler,
++          weight_optimizer, weight_scheduler, 
++          forcing, config,
++          rank=0,
++          log=False,
++          project='PINO-default',
++          group='FDM',
++          tags=['Nan'],
++          entity='rishigundakaram',
++          use_tqdm=True,
++          profile=False):
++    if rank == 0 and wandb and log:
++        run = wandb.init(project=project,
++                         entity=entity,
++                         group=group,
++                         config=config,
++                         tags=tags, reinit=True,
++                         settings=wandb.Settings(start_method="fork"))
++        freq = config["data"]["n_sample"] // config["train"]["batchsize"]
++        wandb.watch(weight_model, log="paraemters", log_freq=freq)
++
++    # data parameters
++    v = 1 / config['data']['Re']
++    S, T = loader.S, loader.T
++    t_interval = config['data']['time_interval']
++
++    # training settings
++    batch_size = config['train']['batchsize']
++    ic_weight = config['train']['ic_loss']
++    f_weight = config['train']['f_loss']
++    xy_weight = config['train']['xy_loss']
++
++    model.train()
++    myloss = LpLoss(size_average=True)
++    pbar = range(config['train']['epochs'])
++    if use_tqdm:
++        pbar = tqdm(pbar, dynamic_ncols=True, smoothing=0.05)
++    zero = torch.zeros(1).to(rank)
++
++    for ep in pbar:
++        loss_dict = {'train_loss': 0.0,
++                     'train_ic': 0.0,
++                     'train_f': 0.0,
++                     'test_l2': 0.0}
++
++        if rank == 0 and profile:
++                torch.cuda.synchronize()
++                t1 = default_timer()
++        # start solving
++        for x, y in train_loader:
++            x, y = x.to(rank), y.to(rank)
++
++            optimizer.zero_grad()
++            x_in = F.pad(x, (0, 0, 0, 5), "constant", 0)
++            out = model(x_in).reshape(batch_size, S, S, T + 5)
++            out = out[..., :-5]
++            x = x[:, :, :, 0, -1]
++
++            loss_l2 = myloss(out.view(batch_size, S, S, T), y.view(batch_size, S, S, T))
++
++            if ic_weight != 0 or f_weight != 0:
++                loss_ic_w, loss_f_w, loss_ic, loss_f = weight_model(out.view(batch_size, S, S, T),
++                                            x, forcing,
++                                            v, t_interval) 
++            else:
++                loss_ic_w, loss_f_w, loss_ic, loss_f = zero, zero, zero, zero
++
++            total_loss = loss_l2 * xy_weight + loss_f_w * f_weight + loss_ic_w * ic_weight
++
++            total_loss.backward()
++            optimizer.step()
++            weight_optimizer.step()
++
++            loss_dict['train_ic'] += loss_ic
++            loss_dict['test_l2'] += loss_l2
++            loss_dict['train_loss'] += total_loss
++            loss_dict['train_f'] += loss_f
++
++        if rank == 0 and profile:
++            torch.cuda.synchronize()
++            t2 = default_timer()
++        scheduler.step()
++        weight_scheduler.step()
++        loss_reduced = reduce_loss_dict(loss_dict)
++        train_ic = loss_reduced['train_ic'].item() / len(train_loader)
++        train_f = loss_reduced['train_f'].item() / len(train_loader)
++        train_loss = loss_reduced['train_loss'].item() / len(train_loader)
++        test_l2 = loss_reduced['test_l2'].item() / len(train_loader)
++        if rank == 0:
++            if use_tqdm:
++                pbar.set_description(
++                    (
++                        f'Train f error: {train_f:.5f}; Train ic l2 error: {train_ic:.5f}. '
++                        f'Train loss: {train_loss:.5f}; Test l2 error: {test_l2:.5f}'
++                    )
++                )
++            if wandb and log:
++                wandb.log(
++                    {
++                        'Train f error': train_f,
++                        'Train L2 error': train_ic,
++                        'Train loss': train_loss,
++                        'Test L2 error': test_l2,
++                        'Time cost': t2 - t1
++                    }
++                )
++
++    if rank == 0:
++        save_checkpoint(config['train']['save_dir'],
++                        config['train']['save_name'],
++                        model, optimizer)
++        save_checkpoint(config['train']['save_dir'],
++                        config['train']['save_name'][:-3] + "-weights.pt",
++                        weight_model, weight_optimizer)
++        if wandb and log:
++            run.finish()
++
++
+ 
+ def mixed_train(model,              # model of neural operator
+                 train_loader,       # dataloader for training with data
+@@ -135,10 +256,11 @@ def mixed_train(model,              # model of neural operator
+                 project='PINO-default', # project name
+                 group='FDM',        # group name
+                 tags=['Nan'],       # tags
+-                use_tqdm=True):     # turn on tqdm
++                use_tqdm=True, 
++                entity='rishigundakaram'):     # turn on tqdm
+     if wandb and log:
+         run = wandb.init(project=project,
+-                         entity='hzzheng-pino',
++                         entity=entity,
+                          group=group,
+                          config=config,
+                          tags=tags, reinit=True,
+@@ -183,12 +305,12 @@ def mixed_train(model,              # model of neural operator
+             x = x[:, :, :, 0, -1]
+ 
+             loss_l2 = myloss(out.view(batch_size, S1, S1, T1),
+-                             y.view(batch_size, S1, S1, T1))
++                            y.view(batch_size, S1, S1, T1))
+ 
+             if ic_weight != 0 or f_weight != 0:
+                 loss_ic, loss_f = PINO_loss3d(out.view(batch_size, S1, S1, T1),
+-                                              x, forcing_1,
+-                                              v, t_interval)
++                                            x, forcing_1,
++                                            v, t_interval)
+             else:
+                 loss_ic, loss_f = zero, zero
+ 
+@@ -232,7 +354,7 @@ def mixed_train(model,              # model of neural operator
+             pbar.set_description(
+                 (
+                     f'Data f error: {train_f:.5f}; Data ic l2 error: {train_ic:.5f}. '
+-                    f'Data train loss: {train_loss:.5f}; Data l2 error: {test_l2:.5f}'
++                    f'Data train loss: {train_loss:.5f}; Data l2 error: {test_l2:.5f}. '
+                     f'Eqn loss: {err_eqn:.5f}'
+                 )
+             )
+@@ -254,6 +376,151 @@ def mixed_train(model,              # model of neural operator
+     if wandb and log:
+         run.finish()
+ 
++def mixed_train_sa(model, weight_model,      # model of neural operator and SA weight model
++                train_loader,                # dataloader for training with data
++                S1, T1,                      # spacial and time dimension for training with data
++                a_loader,                    # generator for  ICs
++                S2, T2,                      # spacial and time dimension for training with equation only
++                optimizer, weight_optimizer, # optimizer and SA weight optimizer
++                scheduler, weight_scheduler, # learning rate schedulers
++                config,                      # configuration dict
++                device=torch.device('cpu'),
++                log=False,                   # turn on the wandb
++                project='PINO-default',      # project name
++                group='FDM',                 # group name
++                entity='rishigundakaram',
++                tags=['Nan'],                # tags
++                use_tqdm=True):              # turn on tqdm
++    if wandb and log:
++        run = wandb.init(project=project,
++                         entity=entity,
++                         group=group,
++                         config=config,
++                         tags=tags, reinit=True,
++                         settings=wandb.Settings(start_method="fork"))
++        freq = config["data"]["n_sample"] // config["train"]["batchsize"]
++        wandb.watch(weight_model, log="paraemters", log_freq=freq)
++    print(S1, S2, T1, T2)
++    # data parameters
++    v = 1 / config['data']['Re']
++    t_interval = config['data']['time_interval']
++    forcing_1 = get_forcing(S1).to(device)
++    forcing_2 = get_forcing(S2).to(device)
++    # training settings
++    batch_size = config['train']['batchsize']
++    ic_weight = config['train']['ic_loss']
++    f_weight = config['train']['f_loss']
++    xy_weight = config['train']['xy_loss']
++    num_data_iter = config['train']['data_iter']
++    num_eqn_iter = config['train']['eqn_iter']
++
++    model.train()
++    weight_model.train()
++    myloss = LpLoss(size_average=True)
++    pbar = range(config['train']['epochs'])
++    if use_tqdm:
++        pbar = tqdm(pbar, dynamic_ncols=True, smoothing=0.05)
++    zero = torch.zeros(1).to(device)
++    train_loader = sample_data(train_loader)
++    for ep in pbar:
++        model.train()
++        weight_model.train()
++        t1 = default_timer()
++        train_loss = 0.0
++        train_ic = 0.0
++        train_f = 0.0
++        test_l2 = 0.0
++        err_eqn = 0.0
++        # train with data
++        for _ in range(num_data_iter):
++            x, y = next(train_loader)
++            x, y = x.to(device), y.to(device)
++            optimizer.zero_grad()
++            weight_optimizer.zero_grad()
++            x_in = F.pad(x, (0, 0, 0, 5), "constant", 0)
++            out = model(x_in).reshape(batch_size, S1, S1, T1 + 5)
++            out = out[..., :-5]
++            x = x[:, :, :, 0, -1]
++            data_loss_l2 = myloss(out.view(batch_size, S1, S1, T1),
++                            y.view(batch_size, S1, S1, T1))
++            # weight model takes in 
++            if ic_weight != 0 or f_weight != 0:
++                loss_ic_w, loss_f_w, loss_ic, loss_f = weight_model(out.view(batch_size, S1, S1, T1),
++                                            x, forcing_1,
++                                            v, t_interval) 
++            else:
++                loss_ic, loss_f = zero, zero
++
++            total_loss = data_loss_l2 * xy_weight + loss_f_w * f_weight + loss_ic_w * ic_weight
++
++            total_loss.backward()
++            optimizer.step()
++            weight_optimizer.step()
++
++            train_ic = loss_ic.item()
++            test_l2 += data_loss_l2.item()
++            train_loss += total_loss.item()
++            train_f += loss_f.item()
++        if num_data_iter != 0:
++            train_ic /= num_data_iter
++            train_f /= num_data_iter
++            train_loss /= num_data_iter
++            test_l2 /= num_data_iter
++        # train with random ICs
++        for _ in range(num_eqn_iter):
++            new_a = next(a_loader)
++            new_a = new_a.to(device)
++            optimizer.zero_grad()
++            weight_optimizer.zero_grad()
++            x_in = F.pad(new_a, (0, 0, 0, 5), "constant", 0)
++            out = model(x_in).reshape(batch_size, S2, S2, T2 + 5)
++            out = out[..., :-5]
++            new_a = new_a[:, :, :, 0, -1]
++            loss_ic_w, loss_f_w, loss_ic, loss_f = weight_model(out.view(batch_size, S2, S2, T2),
++                                                    new_a, forcing_2,
++                                                    v, t_interval)
++            eqn_loss = loss_f_w * f_weight + loss_ic_w * ic_weight
++            eqn_loss.backward()
++            optimizer.step()
++            weight_optimizer.step()
++            with torch.no_grad(): 
++                eqn_loss_nw = loss_f * f_weight + loss_ic * ic_weight
++            err_eqn += eqn_loss_nw.item()
++
++        scheduler.step()
++        weight_scheduler.step()
++
++        t2 = default_timer()
++        if num_eqn_iter != 0:
++            err_eqn /= num_eqn_iter
++        if use_tqdm:
++            pbar.set_description(
++                (
++                    f'Data f error: {train_f:.5f}; Data ic l2 error: {train_ic:.5f}. '
++                    f'Data train loss: {train_loss:.5f}; Data l2 error: {test_l2:.5f}'
++                    f'Eqn loss: {err_eqn:.5f}'
++                )
++            )
++        if wandb and log:
++            wandb.log(
++                {
++                    'Data f error': train_f,
++                    'Data IC L2 error': train_ic,
++                    'Data train loss': train_loss,
++                    'Data L2 error': test_l2,
++                    'Random IC Train equation loss': err_eqn,
++                    'Time cost': t2 - t1
++                }
++            )
++
++    save_checkpoint(config['train']['save_dir'],
++                    config['train']['save_name'],
++                    model, optimizer)
++    save_checkpoint(config['train']['save_dir'],
++                    config['train']['save_name'][:-3] + "-weights.pt",
++                    weight_model, weight_optimizer)
++    if wandb and log:
++        run.finish()
+ 
+ def progressive_train(model,
+                       loader, train_loader,

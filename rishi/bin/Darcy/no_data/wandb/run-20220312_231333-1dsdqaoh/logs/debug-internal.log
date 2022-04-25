@@ -1,0 +1,162 @@
+2022-03-12 23:13:35,006 INFO    MainThread:1192 [internal.py:wandb_internal():92] W&B internal server running at pid: 1192, started at: 2022-03-12 23:13:35.005631
+2022-03-12 23:13:35,010 DEBUG   SenderThread:1192 [sender.py:send():235] send: header
+2022-03-12 23:13:35,010 INFO    WriterThread:1192 [datastore.py:open_for_write():77] open: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/run-1dsdqaoh.wandb
+2022-03-12 23:13:35,011 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: check_version
+2022-03-12 23:13:35,011 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: check_version
+2022-03-12 23:13:35,043 DEBUG   SenderThread:1192 [sender.py:send():235] send: run
+2022-03-12 23:13:35,172 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: run_start
+2022-03-12 23:13:35,179 DEBUG   HandlerThread:1192 [meta.py:__init__():36] meta init
+2022-03-12 23:13:35,179 DEBUG   HandlerThread:1192 [meta.py:__init__():50] meta init done
+2022-03-12 23:13:35,179 DEBUG   HandlerThread:1192 [meta.py:probe():210] probe
+2022-03-12 23:13:35,183 INFO    SenderThread:1192 [dir_watcher.py:__init__():169] watching files in: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files
+2022-03-12 23:13:35,184 INFO    SenderThread:1192 [sender.py:_start_run_threads():812] run started: 1dsdqaoh with start time 1647155613
+2022-03-12 23:13:35,184 DEBUG   SenderThread:1192 [sender.py:send():235] send: summary
+2022-03-12 23:13:35,185 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-12 23:13:35,193 DEBUG   HandlerThread:1192 [meta.py:_setup_git():200] setup git
+2022-03-12 23:13:35,260 DEBUG   HandlerThread:1192 [meta.py:_setup_git():207] setup git done
+2022-03-12 23:13:35,260 DEBUG   HandlerThread:1192 [meta.py:_save_code():88] save code
+2022-03-12 23:13:35,260 WARNING HandlerThread:1192 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-03-12 23:13:35,260 DEBUG   HandlerThread:1192 [meta.py:_save_patches():126] save patches
+2022-03-12 23:13:35,412 DEBUG   HandlerThread:1192 [meta.py:_save_patches():168] save patches done
+2022-03-12 23:13:35,413 DEBUG   HandlerThread:1192 [meta.py:_save_pip():54] save pip
+2022-03-12 23:13:35,414 DEBUG   HandlerThread:1192 [meta.py:_save_pip():68] save pip done
+2022-03-12 23:13:35,414 DEBUG   HandlerThread:1192 [meta.py:_save_conda():75] save conda
+2022-03-12 23:13:36,186 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/diff.patch
+2022-03-12 23:13:36,186 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/conda-environment.yaml
+2022-03-12 23:13:36,187 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/requirements.txt
+2022-03-12 23:13:36,187 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-summary.json
+2022-03-12 23:13:36,187 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/upstream_diff_2d8166d2977352c989288d192dfa007b78ab9ba9.patch
+2022-03-12 23:13:37,187 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/conda-environment.yaml
+2022-03-12 23:13:37,227 DEBUG   HandlerThread:1192 [meta.py:_save_conda():85] save conda done
+2022-03-12 23:13:37,227 DEBUG   HandlerThread:1192 [meta.py:probe():248] probe done
+2022-03-12 23:13:37,232 DEBUG   SenderThread:1192 [sender.py:send():235] send: files
+2022-03-12 23:13:37,232 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-03-12 23:13:37,233 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-03-12 23:13:37,233 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file upstream_diff_2d8166d2977352c989288d192dfa007b78ab9ba9.patch with policy now
+2022-03-12 23:13:37,243 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: stop_status
+2022-03-12 23:13:37,243 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: stop_status
+2022-03-12 23:13:37,617 INFO    Thread-13 :1192 [upload_job.py:push():137] Uploaded file /tmp/tmpc1wzrce2wandb/y5k7m2jo-upstream_diff_2d8166d2977352c989288d192dfa007b78ab9ba9.patch
+2022-03-12 23:13:37,633 INFO    Thread-12 :1192 [upload_job.py:push():137] Uploaded file /tmp/tmpc1wzrce2wandb/1pie2uw0-diff.patch
+2022-03-12 23:13:37,645 INFO    Thread-11 :1192 [upload_job.py:push():137] Uploaded file /tmp/tmpc1wzrce2wandb/jnajtox1-wandb-metadata.json
+2022-03-12 23:13:38,185 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-metadata.json
+2022-03-12 23:13:38,185 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:40,186 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:42,187 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:42,406 DEBUG   SenderThread:1192 [sender.py:send():235] send: history
+2022-03-12 23:13:42,406 DEBUG   SenderThread:1192 [sender.py:send():235] send: summary
+2022-03-12 23:13:42,407 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-12 23:13:43,188 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-summary.json
+2022-03-12 23:13:44,189 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:45,303 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:45,303 DEBUG   SenderThread:1192 [sender.py:send():235] send: telemetry
+2022-03-12 23:13:45,304 DEBUG   SenderThread:1192 [sender.py:send():235] send: exit
+2022-03-12 23:13:45,304 INFO    SenderThread:1192 [sender.py:send_exit():371] handling exit code: 0
+2022-03-12 23:13:45,305 INFO    SenderThread:1192 [sender.py:send_exit():373] handling runtime: 10
+2022-03-12 23:13:45,306 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-12 23:13:45,306 INFO    SenderThread:1192 [sender.py:send_exit():379] send defer
+2022-03-12 23:13:45,307 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:45,308 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,308 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 0
+2022-03-12 23:13:45,308 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,308 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-03-12 23:13:45,308 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 1
+2022-03-12 23:13:45,309 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,309 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 1
+2022-03-12 23:13:45,425 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:45,426 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,426 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-03-12 23:13:45,426 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 2
+2022-03-12 23:13:45,426 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:45,426 DEBUG   SenderThread:1192 [sender.py:send():235] send: stats
+2022-03-12 23:13:45,431 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,431 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 2
+2022-03-12 23:13:45,432 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,432 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-03-12 23:13:45,432 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 3
+2022-03-12 23:13:45,432 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,432 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 3
+2022-03-12 23:13:45,433 DEBUG   SenderThread:1192 [sender.py:send():235] send: summary
+2022-03-12 23:13:45,434 INFO    SenderThread:1192 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-03-12 23:13:45,434 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,434 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-03-12 23:13:45,434 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 4
+2022-03-12 23:13:45,434 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,435 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 4
+2022-03-12 23:13:45,435 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,435 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-03-12 23:13:45,532 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:45,554 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 5
+2022-03-12 23:13:45,554 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:45,554 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:45,554 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 5
+2022-03-12 23:13:45,555 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:45,556 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-03-12 23:13:45,556 INFO    SenderThread:1192 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-03-12 23:13:45,656 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,190 INFO    Thread-9  :1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/config.yaml
+2022-03-12 23:13:46,192 INFO    SenderThread:1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-summary.json
+2022-03-12 23:13:46,192 INFO    SenderThread:1192 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:46,193 INFO    SenderThread:1192 [dir_watcher.py:finish():313] scan: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files
+2022-03-12 23:13:46,193 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/conda-environment.yaml conda-environment.yaml
+2022-03-12 23:13:46,194 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-metadata.json wandb-metadata.json
+2022-03-12 23:13:46,194 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/config.yaml config.yaml
+2022-03-12 23:13:46,195 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/upstream_diff_2d8166d2977352c989288d192dfa007b78ab9ba9.patch upstream_diff_2d8166d2977352c989288d192dfa007b78ab9ba9.patch
+2022-03-12 23:13:46,195 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/diff.patch diff.patch
+2022-03-12 23:13:46,195 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/requirements.txt requirements.txt
+2022-03-12 23:13:46,195 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-summary.json wandb-summary.json
+2022-03-12 23:13:46,196 INFO    SenderThread:1192 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log output.log
+2022-03-12 23:13:46,196 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 6
+2022-03-12 23:13:46,196 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,197 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:46,197 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 6
+2022-03-12 23:13:46,198 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:46,199 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-03-12 23:13:46,199 INFO    SenderThread:1192 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-12 23:13:46,299 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,299 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,401 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,401 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,503 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,503 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,605 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,606 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,628 INFO    Thread-15 :1192 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/config.yaml
+2022-03-12 23:13:46,650 INFO    Thread-14 :1192 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/conda-environment.yaml
+2022-03-12 23:13:46,660 INFO    Thread-17 :1192 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/wandb-summary.json
+2022-03-12 23:13:46,669 INFO    Thread-16 :1192 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/requirements.txt
+2022-03-12 23:13:46,677 INFO    Thread-18 :1192 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/files/output.log
+2022-03-12 23:13:46,708 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,708 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,810 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:46,811 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:46,877 INFO    Thread-8  :1192 [sender.py:transition_state():392] send defer: 7
+2022-03-12 23:13:46,878 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:46,878 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 7
+2022-03-12 23:13:46,879 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:46,879 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-03-12 23:13:46,913 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:47,135 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 8
+2022-03-12 23:13:47,135 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:47,136 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:47,136 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 8
+2022-03-12 23:13:47,137 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:47,137 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-03-12 23:13:47,138 INFO    SenderThread:1192 [sender.py:transition_state():392] send defer: 9
+2022-03-12 23:13:47,138 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: defer
+2022-03-12 23:13:47,139 INFO    HandlerThread:1192 [handler.py:handle_request_defer():154] handle defer: 9
+2022-03-12 23:13:47,139 DEBUG   SenderThread:1192 [sender.py:send():235] send: final
+2022-03-12 23:13:47,139 DEBUG   SenderThread:1192 [sender.py:send():235] send: footer
+2022-03-12 23:13:47,139 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: defer
+2022-03-12 23:13:47,139 INFO    SenderThread:1192 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-03-12 23:13:47,238 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: poll_exit
+2022-03-12 23:13:47,238 DEBUG   SenderThread:1192 [sender.py:send_request():249] send_request: poll_exit
+2022-03-12 23:13:47,239 INFO    SenderThread:1192 [file_pusher.py:join():182] waiting for file pusher
+2022-03-12 23:13:47,421 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: get_summary
+2022-03-12 23:13:47,423 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: sampled_history
+2022-03-12 23:13:47,424 DEBUG   HandlerThread:1192 [handler.py:handle_request():131] handle_request: shutdown
+2022-03-12 23:13:47,425 INFO    HandlerThread:1192 [handler.py:finish():739] shutting down handler
+2022-03-12 23:13:48,139 INFO    WriterThread:1192 [datastore.py:close():281] close: /central/groups/tensorlab/rgundaka/code/PINO/rishi/bin/Darcy/no_data/wandb/run-20220312_231333-1dsdqaoh/run-1dsdqaoh.wandb
+2022-03-12 23:13:48,426 INFO    SenderThread:1192 [sender.py:finish():1075] shutting down sender
+2022-03-12 23:13:48,426 INFO    SenderThread:1192 [file_pusher.py:finish():177] shutting down file pusher
+2022-03-12 23:13:48,426 INFO    SenderThread:1192 [file_pusher.py:join():182] waiting for file pusher
+2022-03-12 23:13:48,429 INFO    MainThread:1192 [internal.py:handle_exit():79] Internal process exited

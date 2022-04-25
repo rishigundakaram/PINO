@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 from .lowrank2d import LowRank2d
-from .basics import SpectralConv2d
+from .basics import SpectralConv2d, SAWeightDarcy
 
 
 class FNN2d(nn.Module):
@@ -103,7 +103,6 @@ class PINO2d(nn.Module):
         else:
             self.layers = layers
         self.fc0 = nn.Linear(in_dim, layers[0])
-
         self.sp_convs = nn.ModuleList([SpectralConv2d(
             in_size, out_size, mode1_num, mode2_num)
             for in_size, out_size, mode1_num, mode2_num

@@ -135,7 +135,6 @@ class NSLoader(object):
         self.time_scale = t_interval
         data1 = np.load(datapath1)
         data1 = torch.tensor(data1, dtype=torch.float)[..., ::sub_t, ::sub, ::sub]
-
         if datapath2 is not None:
             data2 = np.load(datapath2)
             data2 = torch.tensor(data2, dtype=torch.float)[..., ::sub_t, ::sub, ::sub]
@@ -288,12 +287,18 @@ class DarcyFlow(Dataset):
                  offset=0,
                  num=1):
         self.S = int(nx // sub) + 1
-        data = scipy.io.loadmat(datapath)
-        a = data['coeff']
-        u = data['sol']
+        self.data = scipy.io.loadmat(datapath)
+        a = self.data['coeff']
+        u = self.data['sol']
         self.a = torch.tensor(a[offset: offset + num, ::sub, ::sub], dtype=torch.float)
         self.u = torch.tensor(u[offset: offset + num, ::sub, ::sub], dtype=torch.float)
         self.mesh = torch2dgrid(self.S, self.S)
+        self.num = num
+        self.sub = sub
+
+    def resample(self, offset): 
+        self.a = torch.tensor(self.data['coeff'][offset: offset + self.num, ::self.sub, ::self.sub], dtype=torch.float)
+        self.u = torch.tensor(self.data['sol'][offset: offset + self.num, ::self.sub, ::self.sub], dtype=torch.float)
 
     def __len__(self):
         return self.a.shape[0]
@@ -301,6 +306,4 @@ class DarcyFlow(Dataset):
     def __getitem__(self, item):
         fa = self.a[item]
         return torch.cat([fa.unsqueeze(2), self.mesh], dim=2), self.u[item]
-
-
 

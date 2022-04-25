@@ -1,0 +1,15 @@
+  0%|                                                                                                                                                                                                                                                                                                                                               | 0/4000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 118, in <module>
+    run_instance(loader, config, data_config)
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 73, in run_instance
+    profile=True)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_3d.py", line 190, in train_sa
+    v, t_interval)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/models/basics.py", line 230, in forward
+    loss_ic_w = self.loss.rel_weighted(u_in, u0, self.init_param)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/losses.py", line 228, in rel_weighted
+    terms = w.view(-1)*(x.view(num_examples,-1) - y.view(num_examples,-1))
+RuntimeError: The size of tensor a (16384) must match the size of tensor b (4096) at non-singleton dimension 1

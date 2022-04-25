@@ -1,0 +1,48 @@
+data:
+  datapath: /groups/tensorlab/rgundaka/code/data/piececonst_r421_N1024_smooth2.mat
+  n_sample: 1
+  name: Darcy
+  nx: 421
+  offset: 500
+  sub: 7
+  total_num: 1024
+model:
+  activation: gelu
+  fc_dim: 128
+  layers:
+  - 64
+  - 64
+  - 64
+  - 64
+  - 64
+  modes1:
+  - 20
+  - 20
+  - 20
+  - 20
+  modes2:
+  - 20
+  - 20
+  - 20
+  - 20
+  self_adaptive: true
+others:
+  entity: rishigundakaram
+  group: darcy-finetune-test-time
+  project: sa-pino
+train:
+  base_lr: 0.0025
+  batchsize: 1
+  ckpt: /groups/tensorlab/rgundaka/scripts/checkpoints/darcy-FDM/darcy-pino-sa-lr-10-nd.pt
+  epochs: 500
+  f_loss: 1.0
+  milestones:
+  - 100
+  - 200
+  - 300
+  - 400
+  sa_lr: 0.001
+  save_dir: darcy-FDM-finetune
+  save_name: darcy-finetune-pino.pt
+  scheduler_gamma: 0.5
+  xy_loss: 0.0

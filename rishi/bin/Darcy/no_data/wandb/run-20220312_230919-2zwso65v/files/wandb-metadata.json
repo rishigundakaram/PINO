@@ -1,0 +1,27 @@
+{
+    "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.6.13",
+    "heartbeatAt": "2022-03-13T07:09:21.406992",
+    "startedAt": "2022-03-13T07:09:19.834053",
+    "docker": null,
+    "gpu": "NVIDIA Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [
+        "--log",
+        "--config_path",
+        "/groups/tensorlab/rgundaka/code/PINO/rishi/configs/Darcy/test/Darcy-test-lr-1.yaml"
+    ],
+    "state": "running",
+    "program": "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py",
+    "git": {
+        "remote": "https://github.com/devzhk/PINO.git",
+        "commit": "bd5050691b57c09a30a13ffec971707f687ea6ab"
+    },
+    "email": null,
+    "root": "/central/groups/tensorlab/rgundaka/code/PINO",
+    "host": "hpc-22-38.cm.cluster",
+    "username": "rgundaka",
+    "executable": "/home/rgundaka/miniconda3/envs/rishig/bin/python"
+}

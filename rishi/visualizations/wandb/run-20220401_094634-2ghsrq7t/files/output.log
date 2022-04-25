@@ -1,0 +1,22 @@
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+0.0
+  0%|                                                                                                                                                                                                                                                                                                                                                                                                                     | 0/4000 [00:00<?, ?it/s][W Copy.cpp:244] Warning: Casting complex values to real discards the imaginary part (function operator())
+Train f error: 1.01957; Train ic l2 error: 0.79903. Train loss: 5.01473; Test l2 error: 0.86881:   0%|▏                                                                                                                                                                                                                                                                                                           | 3/4000 [00:00<11:40,  5.70it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 120, in <module>
+    run_instance(loader, config, data_config)
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 75, in run_instance
+    profile=True)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_3d.py", line 197, in train_sa
+    total_loss.backward()
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/_tensor.py", line 307, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/autograd/__init__.py", line 156, in backward
+    allow_unreachable=True, accumulate_grad=True)  # allow_unreachable flag
+KeyboardInterrupt

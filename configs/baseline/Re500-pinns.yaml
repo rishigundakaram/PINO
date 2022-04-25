@@ -12,7 +12,7 @@ data:
   shuffle: True
 
 train:
-  batchsize: 1
+  batchsize: 10
   epochs: 5000
   base_lr: 0.001
   num_domain: 5000

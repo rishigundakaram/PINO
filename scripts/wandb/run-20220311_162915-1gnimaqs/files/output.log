@@ -1,0 +1,16 @@
+
+  0%|                                                                                                                                                                                                                                                                                                                                               | 0/4000 [00:00<?, ?it/s][W Copy.cpp:244] Warning: Casting complex values to real discards the imaginary part (function operator())
+
+
+
+Train f error: 0.96123; Train ic l2 error: 0.29870. Train loss: 212.00391; Test l2 error: 0.64160:   0%|▌                                                                                                                                                                                                                                | 10/4000 [00:11<1:16:12,  1.15s/it]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 117, in <module>
+    run_instance(loader, config, data_config)
+  File "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py", line 72, in run_instance
+    profile=True)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_3d.py", line 206, in train_sa
+    torch.cuda.synchronize()
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/cuda/__init__.py", line 493, in synchronize
+    return torch._C._cuda_synchronize()
+KeyboardInterrupt

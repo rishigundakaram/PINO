@@ -1,0 +1,31 @@
+{
+    "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.6.13",
+    "heartbeatAt": "2022-03-11T03:09:05.062331",
+    "startedAt": "2022-03-11T03:09:03.300460",
+    "docker": null,
+    "gpu": "NVIDIA Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [
+        "--log",
+        "--config_path",
+        "/groups/tensorlab/rgundaka/code/PINO/rishi/configs/NS/finetune/Re500-finetune-1s.yaml",
+        "--start",
+        "0",
+        "--stop",
+        "20"
+    ],
+    "state": "running",
+    "program": "/groups/tensorlab/rgundaka/code/PINO/run_pino3d_sa.py",
+    "git": {
+        "remote": "https://github.com/devzhk/PINO.git",
+        "commit": "bd5050691b57c09a30a13ffec971707f687ea6ab"
+    },
+    "email": null,
+    "root": "/central/groups/tensorlab/rgundaka/code/PINO",
+    "host": "hpc-23-28.cm.cluster",
+    "username": "rgundaka",
+    "executable": "/home/rgundaka/miniconda3/envs/rishig/bin/python"
+}

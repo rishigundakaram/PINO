@@ -17,7 +17,7 @@ model:
   modes2: [8, 8, 8, 8]
   modes3: [8, 8, 8, 8]
   fc_dim: 128
-  self_adaptive: True
+  self_adaptive: False
 
 train:
   batchsize: 1

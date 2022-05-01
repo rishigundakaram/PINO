@@ -47,7 +47,6 @@ def train(model,
     model.train()
     myloss = LpLoss(size_average=True)
     pbar = range(config['train']['epochs'])
-    use_tqdm = False
     if use_tqdm:
         pbar = tqdm(pbar, dynamic_ncols=True, smoothing=0.05)
     zero = torch.zeros(1).to(rank)
@@ -80,9 +79,6 @@ def train(model,
 
             total_loss = loss_l2 * xy_weight + loss_f * f_weight + loss_ic * ic_weight
             total_loss.backward()
-            # for p in model.parameters():
-            #     print(p.grad)
-            exit(1)
 
             optimizer.step()
             loss_dict['train_ic'] += loss_ic

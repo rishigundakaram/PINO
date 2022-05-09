@@ -302,5 +302,21 @@ class DarcyFlow(Dataset):
         fa = self.a[item]
         return torch.cat([fa.unsqueeze(2), self.mesh], dim=2), self.u[item]
 
+class Poisson(Dataset): 
+    def __init__(self, datapath, nx, sub): 
+        self.S = int(nx // sub) + 1
+        data = np.load(datapath)
+        a = data['initial_conditions']
+        u = data['sol']
+        self.a = torch.tensor(a[:, ::sub, ::sub], dtype=torch.float)
+        self.u = torch.tensor(u[:, ::sub, ::sub], dtype=torch.float)
+        self.mesh = torch2dgrid(self.S, self.S)
+    
+    def __len__(self): 
+        return self.a.shape[0]
+    
+    def __getitem__(self, item): 
+        fa = self.a[item]
+        return torch.cat([fa.unsqueeze(2), self.mesh], dim=2), self.u[item]
 
 

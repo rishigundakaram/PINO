@@ -68,11 +68,16 @@ class SpectralConv2d(nn.Module):
         self.modes1 = modes1
         self.modes2 = modes2
 
-        self.scale = (1 / (in_channels * out_channels))
+        self.scale = (1 / (in_channels * out_channels)) 
         self.weights1 = nn.Parameter(
-            self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, dtype=torch.cfloat))
+            self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, 2, dtype=torch.float))
         self.weights2 = nn.Parameter(
-            self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, dtype=torch.cfloat))
+            self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, 2, dtype=torch.float))
+
+        # self.weights1 = nn.Parameter(
+        #     self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, dtype=torch.cfloat))
+        # self.weights2 = nn.Parameter(
+        #     self.scale * torch.rand(in_channels, out_channels, self.modes1, self.modes2, dtype=torch.cfloat))
 
     def forward(self, x, gridy=None):
         batchsize = x.shape[0]
@@ -86,15 +91,15 @@ class SpectralConv2d(nn.Module):
             out_ft = torch.zeros(batchsize, self.out_channels, x.size(-2), x.size(-1) // 2 + 1, device=x.device,
                                  dtype=torch.cfloat)
             out_ft[:, :, :self.modes1, :self.modes2] = \
-                compl_mul2d(x_ft[:, :, :self.modes1, :self.modes2], self.weights1)
+                compl_mul2d(x_ft[:, :, :self.modes1, :self.modes2], torch.view_as_complex(self.weights1))
             out_ft[:, :, -self.modes1:, :self.modes2] = \
-                compl_mul2d(x_ft[:, :, -self.modes1:, :self.modes2], self.weights2)
+                compl_mul2d(x_ft[:, :, -self.modes1:, :self.modes2], torch.view_as_complex(self.weights2))
 
             # Return to physical space
             x = torch.fft.irfftn(out_ft, s=(x.size(-2), x.size(-1)), dim=[2, 3])
         else:
-            factor1 = compl_mul2d(x_ft[:, :, :self.modes1, :self.modes2], self.weights1)
-            factor2 = compl_mul2d(x_ft[:, :, -self.modes1:, :self.modes2], self.weights2)
+            factor1 = compl_mul2d(x_ft[:, :, :self.modes1, :self.modes2], torch.view_as_complex(self.weights1))
+            factor2 = compl_mul2d(x_ft[:, :, -self.modes1:, :self.modes2], torch.view_as_complex(self.weights2))
             x = self.ifft2d(gridy, factor1, factor2, self.modes1, self.modes2) / (size1 * size2)
         return x
 

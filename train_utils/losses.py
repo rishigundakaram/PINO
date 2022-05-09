@@ -35,6 +35,21 @@ def FDM_Darcy(u, a, D=1):
     Du = - (auxx + auyy)
     return Du
 
+def weighted_darcy_loss(u, a, w): 
+    batchsize = u.size(0)
+    size = u.size(1)
+    u = u.reshape(batchsize, size, size)
+    a = a.reshape(batchsize, size, size)
+    lploss = LpLoss(size_average=True, p=1)
+
+    Du = FDM_Darcy(u, a)
+
+    f = torch.ones(Du.shape, device=u.device)
+    loss_f_uw = lploss.rel(Du, f)
+    loss_f_w = lploss.rel_weighted(Du, f, w)
+    
+    return loss_f_w, loss_f_uw
+    
 
 def darcy_loss(u, a):
     batchsize = u.size(0)
@@ -51,8 +66,7 @@ def darcy_loss(u, a):
     # boundary_u = u[:, index_x, index_y]
     # truth_u = torch.zeros(boundary_u.shape, device=u.device)
     # loss_u = lploss.abs(boundary_u, truth_u)
-
-    Du = FDM_Darcy(u, a)
+    Du = FDM_Darcy(u, a) 
     f = torch.ones(Du.shape, device=u.device)
     loss_f = lploss.rel(Du, f)
 
@@ -179,6 +193,22 @@ class LpLoss(object):
                 return torch.sum(all_norms)
 
         return all_norms
+    
+    def abs_weighted(self, x, y, w): 
+        num_examples = x.size()[0]
+
+        #Assume uniform mesh
+        h = 1.0 / (x.size()[1] - 1.0)
+        terms = w.view(-1)*(x.view(num_examples,-1) - y.view(num_examples,-1))
+        all_norms = (h**(self.d/self.p))*torch.norm(terms, self.p, 1)
+
+        if self.reduction:
+            if self.size_average:
+                return torch.mean(all_norms)
+            else:
+                return torch.sum(all_norms)
+
+        return all_norms
 
     def rel(self, x, y):
         num_examples = x.size()[0]
@@ -194,6 +224,21 @@ class LpLoss(object):
 
         return diff_norms/y_norms
 
+    def rel_weighted(self, x, y, w):
+        num_examples = x.size()[0]
+        terms = (w*(x - y)).view(num_examples, -1)    
+        diff_norms = torch.norm(terms, self.p, 1)
+        y_norms = torch.norm(y.view(num_examples,-1), self.p, 1)
+
+    
+        if self.reduction:
+            if self.size_average:
+                return torch.mean(diff_norms/y_norms)
+            else:
+                return torch.sum(diff_norms/y_norms)
+    
+        return diff_norms/y_norms
+    
     def __call__(self, x, y):
         return self.rel(x, y)
 

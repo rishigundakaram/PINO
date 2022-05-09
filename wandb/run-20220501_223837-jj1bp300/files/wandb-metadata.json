@@ -1,0 +1,27 @@
+{
+    "os": "Linux-3.10.0-1160.25.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core",
+    "python": "3.6.13",
+    "heartbeatAt": "2022-05-02T05:38:38.916013",
+    "startedAt": "2022-05-02T05:38:37.108777",
+    "docker": null,
+    "gpu": "NVIDIA Tesla P100-PCIE-16GB",
+    "gpu_count": 1,
+    "cpu_count": 28,
+    "cuda": null,
+    "args": [
+        "--log",
+        "--config_path",
+        "/groups/tensorlab/rgundaka/code/CGD-PINO/CGD_PINO/configs/Darcy-pretrain.yaml"
+    ],
+    "state": "running",
+    "program": "/groups/tensorlab/rgundaka/code/CGD-PINO/train_operator.py",
+    "git": {
+        "remote": "https://github.com/rishigundakaram/SA-PINO.git",
+        "commit": "97654eba0e3244322079d85d39fe673ceceade11"
+    },
+    "email": null,
+    "root": "/central/groups/tensorlab/rgundaka/code/CGD-PINO",
+    "host": "hpc-22-30.cm.cluster",
+    "username": "rgundaka",
+    "executable": "/home/rgundaka/miniconda3/envs/rishig/bin/python"
+}

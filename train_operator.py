@@ -3,7 +3,7 @@ from argparse import ArgumentParser
 import math
 import torch
 from torch.utils.data import DataLoader
-from CGDs import BCGD
+from CGDs import BCGD, ACGD
 
 from solver.random_fields import GaussianRF
 from train_utils import Adam
@@ -119,6 +119,10 @@ def train_2d(args, config):
                   layers=config['model']['layers'],
                   activation=config['model']['activation'],
                   in_dim=4).to(device)
+        # optimizer = ACGD(max_params=Discriminator.parameters(), 
+        #                 min_params=Regressor.parameters(), 
+        #                 lr_min=config['train']['lr_min'], 
+        #                 lr_max=config['train']['lr_max'], backward_mode=True)
         optimizer = BCGD(max_params=Discriminator.parameters(), 
                         min_params=Regressor.parameters(), 
                         lr_min=config['train']['lr_min'], 

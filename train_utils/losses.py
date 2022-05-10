@@ -40,13 +40,12 @@ def weighted_darcy_loss(u, a, w):
     size = u.size(1)
     u = u.reshape(batchsize, size, size)
     a = a.reshape(batchsize, size, size)
-    lploss = LpLoss(size_average=True, p=1)
 
     Du = FDM_Darcy(u, a)
-
     f = torch.ones(Du.shape, device=u.device)
+    loss_f_w = torch.mean(w*(Du - f))
+    lploss = LpLoss(size_average=True)
     loss_f_uw = lploss.rel(Du, f)
-    loss_f_w = lploss.rel_weighted(Du, f, w)
     
     return loss_f_w, loss_f_uw
     

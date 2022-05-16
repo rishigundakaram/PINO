@@ -165,7 +165,6 @@ def train_2d_operator_cgd(regressor,
     mesh = train_loader.dataset.mesh
     mollifier = torch.sin(np.pi * mesh[..., 0]) * torch.sin(np.pi * mesh[..., 1]) * 0.001
     mollifier = mollifier.to(rank)
-    normalize = config['model']['normalize']
     for e in pbar:
         loss_dict = {'train_loss': 0.0,
                      'data_loss': 0.0,
@@ -188,8 +187,6 @@ def train_2d_operator_cgd(regressor,
 
             x_w = torch.cat((x_w,pred_w), dim=3)
             w = torch.squeeze(discriminator(x_w), dim=-1)
-            if normalize: 
-                w = torch.numel(w) / torch.sum(w) * w
             f_loss_w, f_loss_uw = weighted_darcy_loss(pred, a, w)
 
             loss = data_weight * data_loss + f_weight * f_loss_w
@@ -221,7 +218,7 @@ def train_2d_operator_cgd(regressor,
                 {
                     'train loss': train_loss_val,
                     'f loss': f_loss_val_uw,
-                    'f loss weighted': f_loss_val_uw,
+                    'f loss weighted': f_loss_val_w,
                     'data loss': data_loss_val
                 }
             )

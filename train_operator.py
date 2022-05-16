@@ -119,15 +119,13 @@ def train_2d(args, config):
                   layers=config['model']['layers'],
                   activation=config['model']['activation'],
                   in_dim=4).to(device)
-        # optimizer = ACGD(max_params=Discriminator.parameters(), 
+        optimizer = ACGD(max_params=Discriminator.parameters(), 
+                        min_params=Regressor.parameters())
+        # optimizer = BCGD(max_params=Discriminator.parameters(), 
         #                 min_params=Regressor.parameters(), 
         #                 lr_min=config['train']['lr_min'], 
-        #                 lr_max=config['train']['lr_max'], backward_mode=True)
-        optimizer = BCGD(max_params=Discriminator.parameters(), 
-                        min_params=Regressor.parameters(), 
-                        lr_min=config['train']['lr_min'], 
-                        lr_max=config['train']['lr_max'],
-                        momentum=config['train']['momentum'])
+        #                 lr_max=config['train']['lr_max'],
+        #                 momentum=config['train']['momentum'])
         train_2d_operator_cgd(Regressor, Discriminator, optimizer, train_loader,
                       config, rank=0, log=args.log, entity=config['others']['entity'])
 

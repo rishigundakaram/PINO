@@ -1,0 +1,54 @@
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run cerulean-flower-28
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/3j2mw9ni
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_204114-3j2mw9ni
+wandb: Run `wandb offline` to turn off syncing.
+
+  0% 0/1 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 105
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/1 [00:41<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 124, in step
+    lr_x=lr_min, lr_y=lr_max)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 188, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 114, in Hvp_vec
+    raise ValueError('hvp Nan')
+ValueError: hvp Nan
+wandb: Waiting for W&B process to finish, PID 9635... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced cerulean-flower-28: https://wandb.ai/rishigundakaram/CPINO/runs/3j2mw9ni
+wandb: Find logs at: ./wandb/run-20220525_204114-3j2mw9ni/logs/debug.log
+wandb: 
+
+srun: error: hpc-25-14: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/checkpoints/darcy-cpino-0.pt'

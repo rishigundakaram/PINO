@@ -1,0 +1,63 @@
+#!/bin/bash
+#SBATCH --time=6:00:00  # walltime
+#SBATCH --ntasks=25   # number of processor cores (i.e. tasks)
+#SBATCH --nodes=6   # number of nodes
+#SBATCH --mem=64G   # memory per CPU core
+#SBATCH --gres gpu:1
+#SBATCH -J "CPINO 2D LR search"  # job name
+#SBATCH --mail-user=rgundaka@caltech.edu   # email address
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-0.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-1.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-2.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-3.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-4.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-5.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-6.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-7.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-8.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-9.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-10.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-11.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-12.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-13.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-14.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-15.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-16.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-17.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-18.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-19.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-20.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-21.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-22.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-23.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/train_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/train/Darcy-train-24.yaml &
+wait
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-0.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-1.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-2.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-3.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-4.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-5.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-6.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-7.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-8.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-9.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-10.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-11.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-12.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-13.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-14.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-15.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-16.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-17.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-18.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-19.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-20.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-21.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-22.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-23.yaml &
+srun -n 1 --nodes=1 python /groups/tensorlab/rgundaka/code/PINO/eval_operator.py --log --config_path /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/configs/test/Darcy-test-24.yaml &
+wait

@@ -1,0 +1,975 @@
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 91, in train_2d
+    activation=config['model']['activation']).to(device)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 899, in to
+    return self._apply(convert)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 570, in _apply
+    module._apply(fn)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 593, in _apply
+    param_applied = fn(param)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 897, in convert
+    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
+RuntimeError: CUDA error: all CUDA-capable devices are busy or unavailable
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+srun: error: hpc-90-36: task 0: Exited with exit code 1
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run rich-dew-39
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/pazbdigq
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231646-pazbdigq
+wandb: Run `wandb offline` to turn off syncing.
+loading data
+loaded data
+
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run giddy-butterfly-40
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/jixdq3lk
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231645-jixdq3lk
+wandb: Run `wandb offline` to turn off syncing.
+loading data
+loaded data
+
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run devoted-eon-41
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/3lkh02ro
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231646-3lkh02ro
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.16 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run blooming-donkey-49
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/e2g6au9d
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-e2g6au9d
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run hopeful-oath-48
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1u3ffi7e
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-1u3ffi7e
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run grateful-lion-47
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/3cz6lnsq
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231649-3cz6lnsq
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run clear-brook-50
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/wtb58b3j
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-wtb58b3j
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run firm-shape-56
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/32l70pzn
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231651-32l70pzn
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run stoic-sky-53
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1dqgewkw
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231651-1dqgewkw
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run chocolate-spaceship-46
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1zi0ice8
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231649-1zi0ice8
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run twilight-plant-42
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/tarpy17n
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231649-tarpy17n
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run amber-fire-52
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1wk1qv8o
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-1wk1qv8o
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run fresh-vortex-44
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/41mhgytg
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231649-41mhgytg
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run celestial-energy-59
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/4bzltarx
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231651-4bzltarx
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run dazzling-smoke-57
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2els70rf
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231651-2els70rf
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run confused-glitter-61
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/mti20u1i
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231651-mti20u1i
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run fearless-star-60
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2erm87s9
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231652-2erm87s9
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run wandering-gorge-62
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/21iedz25
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-21iedz25
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run giddy-wind-63
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1w734c6p
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-1w734c6p
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run deft-forest-65
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/28aaurr4
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231653-28aaurr4
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run quiet-brook-64
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/3i77gj2s
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231653-3i77gj2s
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run confused-wave-66
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/222t5pzr
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231652-222t5pzr
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run stilted-terrain-69
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2gugm95z
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231652-2gugm95z
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run dazzling-aardvark-68
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2jyyn15z
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr_search/wandb/run-20220525_231650-2jyyn15z
+wandb: Run `wandb offline` to turn off syncing.
+
+  0% 0/25 [00:00<?, ?it/s]  0% 0/25 [00:34<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 124, in step
+    lr_x=lr_min, lr_y=lr_max)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 183, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_y)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 102, in Hvp_vec
+    raise ValueError('vector nan')
+ValueError: vector nan
+wandb: Waiting for W&B process to finish, PID 20164... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced hopeful-oath-48: https://wandb.ai/rishigundakaram/CPINO/runs/1u3ffi7e
+wandb: Find logs at: ./wandb/run-20220525_231650-1u3ffi7e/logs/debug.log
+wandb: 
+
+srun: error: hpc-93-37: task 0: Exited with exit code 1
+  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 123
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [00:47<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 183, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_y)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 102, in Hvp_vec
+    raise ValueError('vector nan')
+ValueError: vector nan
+wandb: Waiting for W&B process to finish, PID 22338... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced grateful-lion-47: https://wandb.ai/rishigundakaram/CPINO/runs/3cz6lnsq
+wandb: Find logs at: ./wandb/run-20220525_231649-3cz6lnsq/logs/debug.log
+wandb: 
+
+srun: error: hpc-93-36: task 0: Exited with exit code 1
+  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 4.20271, f_loss_w: 10567.60920, f_loss_uw: 4.20271, data loss: 0.69950:   0% 0/25 [01:01<?, ?it/s]Epoch: 0, train loss: 4.20271, f_loss_w: 10567.60920, f_loss_uw: 4.20271, data loss: 0.69950:   4% 1/25 [01:01<24:36, 61.53s/it]Epoch: 1, train loss: 5.69875, f_loss_w: 2326.07265, f_loss_uw: 5.69875, data loss: 0.30477:   4% 1/25 [02:05<24:36, 61.53s/it] Epoch: 1, train loss: 5.69875, f_loss_w: 2326.07265, f_loss_uw: 5.69875, data loss: 0.30477:   8% 2/25 [02:05<24:01, 62.66s/it]Epoch: 2, train loss: 4.39161, f_loss_w: 1035.06164, f_loss_uw: 4.39161, data loss: 0.23104:   8% 2/25 [03:11<24:01, 62.66s/it]Epoch: 2, train loss: 4.39161, f_loss_w: 1035.06164, f_loss_uw: 4.39161, data loss: 0.23104:  12% 3/25 [03:11<23:25, 63.90s/it]Epoch: 3, train loss: 4.73247, f_loss_w: -21.26576, f_loss_uw: 4.73247, data loss: 0.39542:  12% 3/25 [04:17<23:25, 63.90s/it] Epoch: 3, train loss: 4.73247, f_loss_w: -21.26576, f_loss_uw: 4.73247, data loss: 0.39542:  16% 4/25 [04  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 3.59832, f_loss_w: 919973198.22630, f_loss_uw: 3.59832, data loss: 0.52689:   0% 0/25 [01:22<?, ?it/s]Epoch: 0, train loss: 3.59832, f_loss_w: 919973198.22630, f_loss_uw: 3.59832, data loss: 0.52689:   4% 1/25 [01:22<33:04, 82.69s/it]Epoch: 1, train loss: 3.56408, f_loss_w: 1263639648.00000, f_loss_uw: 3.56408, data loss: 0.31999:   4% 1/25 [02:38<33:04, 82.69s/it]Epoch: 1, train loss: 3.56408, f_loss_w: 1263639648.00000, f_loss_uw: 3.56408, data loss: 0.31999:   8% 2/25 [02:38<30:20, 79.14s/it]Epoch: 2, train loss: 3.44472, f_loss_w: 16766996267.52000, f_loss_uw: 3.44472, data loss: 0.28841:   8% 2/25 [04:31<30:20, 79.14s/it]Epoch: 2, train loss: 3.44472, f_loss_w: 16766996267.52000, f_loss_uw: 3.44472, data loss: 0.28841:  12% 3/25 [04:31<33:34, 91.58s/it]Epoch: 3, train loss: 4.12195, f_loss_w: 15941657080.00000, f_loss_uw: 4.12195, data loss: 0.23700:  12% 3/25 [06:10<33:34, 91.58s/it]Epoch: 3, train loss: 4.12195, f_loss_w: 15941657080.00000, f_los  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 7.20577, f_loss_w: 0.00461, f_loss_uw: 7.20577, data loss: 1.01285:   0% 0/25 [01:07<?, ?it/s]Epoch: 0, train loss: 7.20577, f_loss_w: 0.00461, f_loss_uw: 7.20577, data loss: 1.01285:   4% 1/25 [01:07<27:05, 67.73s/it]Epoch: 1, train loss: 3.51957, f_loss_w: 0.00056, f_loss_uw: 3.51957, data loss: 0.40434:   4% 1/25 [02:26<27:05, 67.73s/it]Epoch: 1, train loss: 3.51957, f_loss_w: 0.00056, f_loss_uw: 3.51957, data loss: 0.40434:   8% 2/25 [02:27<28:17, 73.80s/it]Epoch: 2, train loss: 3.02032, f_loss_w: 0.00202, f_loss_uw: 3.02032, data loss: 0.29425:   8% 2/25 [03:59<28:17, 73.80s/it]Epoch: 2, train loss: 3.02032, f_loss_w: 0.00202, f_loss_uw: 3.02032, data loss: 0.29425:  12% 3/25 [03:59<29:32, 80.56s/it]Epoch: 3, train loss: 9.10599, f_loss_w: -0.00264, f_loss_uw: 9.10599, data loss: 1.96422:  12% 3/25 [06:16<29:32, 80.56s/it]Epoch: 3, train loss: 9.10599, f_loss_w: -0.00264, f_loss_uw: 9.10599, data loss: 1.96422:  16% 4/25 [06:16<34:00, 97.19s/it]Ep  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 4.40842, f_loss_w: 0.00053, f_loss_uw: 4.40842, data loss: 0.58025:   0% 0/25 [01:40<?, ?it/s]Epoch: 0, train loss: 4.40842, f_loss_w: 0.00053, f_loss_uw: 4.40842, data loss: 0.58025:   4% 1/25 [01:40<40:17, 100.74s/it]Epoch: 1, train loss: 6.17623, f_loss_w: -0.00029, f_loss_uw: 6.17623, data loss: 1.21819:   4% 1/25 [04:12<40:17, 100.74s/it]Epoch: 1, train loss: 6.17623, f_loss_w: -0.00029, f_loss_uw: 6.17623, data loss: 1.21819:   8% 2/25 [04:12<48:56, 127.67s/it]Epoch: 2, train loss: 4.13039, f_loss_w: -0.00006, f_loss_uw: 4.13039, data loss: 0.32267:   8% 2/25 [06:33<48:56, 127.67s/it]Epoch: 2, train loss: 4.13039, f_loss_w: -0.00006, f_loss_uw: 4.13039, data loss: 0.32267:  12% 3/25 [06:33<48:35, 132.53s/it]Epoch: 3, train loss: 2.73923, f_loss_w: 0.00001, f_loss_uw: 2.73923, data loss: 0.18687:  12% 3/25 [08:52<48:35, 132.53s/it] Epoch: 3, train loss: 2.73923, f_loss_w: 0.00001, f_loss_uw: 2.73923, data loss: 0.18687:  16% 4/25 [08:52<47:03, 134.:17<22:33, 64.45s/it]Epoch: 4, train loss: 3.63397, f_loss_w: 281.39944, f_loss_uw: 3.63397, data loss: 0.28951:  16% 4/25 [05:22<22:33, 64.45s/it]Epoch: 4, train loss: 3.63397, f_loss_w: 281.39944, f_loss_uw: 3.63397, data loss: 0.28951:  20% 5/25 [05:22<21:36, 64.81s/it]Epoch: 5, train loss: 3.95516, f_loss_w: 250.25941, f_loss_uw: 3.95516, data loss: 0.32222:  20% 5/25 [06:31<21:36, 64.81s/it]Epoch: 5, train loss: 3.95516, f_loss_w: 250.25941, f_loss_uw: 3.95516, data loss: 0.32222:  24% 6/25 [06:31<20:48, 65.69s/it]Epoch: 6, train loss: 3.94142, f_loss_w: 403.55324, f_loss_uw: 3.94142, data loss: 0.27878:  24% 6/25 [07:50<20:48, 65.69s/it]Epoch: 6, train loss: 3.94142, f_loss_w: 403.55324, f_loss_uw: 3.94142, data loss: 0.27878:  28% 7/25 [07:50<20:26, 68.12s/it]Epoch: 7, train loss: 3.42924, f_loss_w: 714.58069, f_loss_uw: 3.42924, data loss: 0.27352:  28% 7/25 [09:14<20:26, 68.12s/it]Epoch: 7, train loss: 3.42924, f_loss_w: 714.58069, f_loss_uw: 3.42924, data loss: 0.27352:  32% 8/25 [09:14<20:0  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 3.16763, f_loss_w: 0.00260, f_loss_uw: 3.16763, data loss: 0.47305:   0% 0/25 [02:26<?, ?it/s]Epoch: 0, train loss: 3.16763, f_loss_w: 0.00260, f_loss_uw: 3.16763, data loss: 0.47305:   4% 1/25 [02:26<58:26, 146.12s/it]Epoch: 1, train loss: 2.47466, f_loss_w: 0.00015, f_loss_uw: 2.47466, data loss: 0.17804:   4% 1/25 [05:11<58:26, 146.12s/it]Epoch: 1, train loss: 2.47466, f_loss_w: 0.00015, f_loss_uw: 2.47466, data loss: 0.17804:   8% 2/25 [05:11<59:58, 156.45s/it]Epoch: 2, train loss: 2.42926, f_loss_w: 0.00004, f_loss_uw: 2.42926, data loss: 0.15970:   8% 2/25 [08:17<59:58, 156.45s/it]Epoch: 2, train loss: 2.42926, f_loss_w: 0.00004, f_loss_uw: 2.42926, data loss: 0.15970:  12% 3/25 [08:17<1:01:16, 167.11s/it]Epoch: 3, train loss: 2.37336, f_loss_w: 0.00015, f_loss_uw: 2.37336, data loss: 0.16048:  12% 3/25 [11:20<1:01:16, 167.11s/it]Epoch: 3, train loss: 2.37336, f_loss_w: 0.00015, f_loss_uw: 2.37336, data loss: 0.16048:  16% 4/25 [11:20<1:00:05, 171  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 3.01451, f_loss_w: 0.00235, f_loss_uw: 3.01451, data loss: 0.32780:   0% 0/25 [03:38<?, ?it/s]Epoch: 0, train loss: 3.01451, f_loss_w: 0.00235, f_loss_uw: 3.01451, data loss: 0.32780:   4% 1/25 [03:38<1:27:21, 218.38s/it]Epoch: 1, train loss: 7.11916, f_loss_w: -0.00002, f_loss_uw: 7.11916, data loss: 0.57106:   4% 1/25 [07:11<1:27:21, 218.38s/it]Epoch: 1, train loss: 7.11916, f_loss_w: -0.00002, f_loss_uw: 7.11916, data loss: 0.57106:   8% 2/25 [07:11<1:22:38, 215.60s/it]Epoch: 2, train loss: 3.51943, f_loss_w: 0.00001, f_loss_uw: 3.51943, data loss: 0.19543:   8% 2/25 [09:45<1:22:38, 215.60s/it] Epoch: 2, train loss: 3.51943, f_loss_w: 0.00001, f_loss_uw: 3.51943, data loss: 0.19543:  12% 3/25 [09:45<1:10:41, 192.78s/it]Epoch: 3, train loss: 2.72485, f_loss_w: 0.00001, f_loss_uw: 2.72485, data loss: 0.17684:  12% 3/25 [11:35<1:10:41, 192.78s/it]Epoch: 3, train loss: 2.72485, f_loss_w: 0.00001, f_loss_uw: 2.72485, data loss: 0.17684:  16% 4/25 [11:35<5  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 141
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 105
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 107
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 8.05360, f_loss_w: -0.00226, f_loss_uw: 8.05360, data loss: 1.41980:   0% 0/25 [02:47<?, ?it/s]Epoch: 0, train loss: 8.05360, f_loss_w: -0.00226, f_loss_uw: 8.05360, data loss: 1.41980:   4% 1/25 [02:47<1:07:00, 167.50s/it]Epoch: 1, train loss: 8.14496, f_loss_w: -0.00014, f_loss_uw: 8.14496, data loss: 0.85540:   4% 1/25 [06:26<1:07:00, 167.50s/it]Epoch: 1, train loss: 8.14496, f_loss_w: -0.00014, f_loss_uw: 8.14496, data loss: 0.85540:   8% 2/25 [06:26<1:14:39, 194.75s/it]Epoch: 2, train loss: 4.84550, f_loss_w: -0.00003, f_loss_uw: 4.84550, data loss: 0.61392:   8% 2/25 [09:59<1:14:39, 194.75s/it]Epoch: 2, train loss: 4.84550, f_loss_w: -0.00003, f_loss_uw: 4.84550, data loss: 0.61392:  12% 3/25 [09:59<1:13:51, 201.44s/it]Epoch: 3, train loss: 2.72662, f_loss_w: -0.00000, f_loss_uw: 2.72662, data loss: 0.20703:  12% 3/25 [14:00<1:13:51, 201.44s/it]Epoch: 3, train loss: 2.72662, f_loss_w: -0.00000, f_loss_uw: 2.72662, data loss: 0.20703:  16% 4/25 [14s_uw: 4.12195, data loss: 0.23700:  16% 4/25 [06:10<32:47, 93.70s/it]Epoch: 4, train loss: 3.65825, f_loss_w: 24879444152.32000, f_loss_uw: 3.65825, data loss: 0.23216:  16% 4/25 [07:57<32:47, 93.70s/it]Epoch: 4, train loss: 3.65825, f_loss_w: 24879444152.32000, f_loss_uw: 3.65825, data loss: 0.23216:  20% 5/25 [07:57<32:20, 97.00s/it]Epoch: 5, train loss: 3.00174, f_loss_w: 61847275028.48000, f_loss_uw: 3.00174, data loss: 0.18324:  20% 5/25 [10:10<32:20, 97.00s/it]Epoch: 5, train loss: 3.00174, f_loss_w: 61847275028.48000, f_loss_uw: 3.00174, data loss: 0.18324:  24% 6/25 [10:10<33:07, 104.60s/it]Epoch: 6, train loss: 2.89086, f_loss_w: 50220353623.04000, f_loss_uw: 2.89086, data loss: 0.18259:  24% 6/25 [12:15<33:07, 104.60s/it]Epoch: 6, train loss: 2.89086, f_loss_w: 50220353623.04000, f_loss_uw: 2.89086, data loss: 0.18259:  28% 7/25 [12:15<32:35, 108.62s/it]Epoch: 7, train loss: 2.84774, f_loss_w: 24701176883.20000, f_loss_uw: 2.84774, data loss: 0.19233:  28% 7/25 [14:11<32:35, 108.62s/it]Epochoch: 4, train loss: 4.34824, f_loss_w: 0.00042, f_loss_uw: 4.34824, data loss: 0.57111:  16% 4/25 [07:57<34:00, 97.19s/it] Epoch: 4, train loss: 4.34824, f_loss_w: 0.00042, f_loss_uw: 4.34824, data loss: 0.57111:  20% 5/25 [07:57<32:42, 98.11s/it]Epoch: 5, train loss: 3.81405, f_loss_w: -0.00024, f_loss_uw: 3.81405, data loss: 0.25653:  20% 5/25 [09:27<32:42, 98.11s/it]Epoch: 5, train loss: 3.81405, f_loss_w: -0.00024, f_loss_uw: 3.81405, data loss: 0.25653:  24% 6/25 [09:27<30:29, 96.27s/it]Epoch: 6, train loss: 3.35301, f_loss_w: -0.00007, f_loss_uw: 3.35301, data loss: 0.25420:  24% 6/25 [11:01<30:29, 96.27s/it]Epoch: 6, train loss: 3.35301, f_loss_w: -0.00007, f_loss_uw: 3.35301, data loss: 0.25420:  28% 7/25 [11:01<28:46, 95.89s/it]Epoch: 7, train loss: 3.53836, f_loss_w: -0.00001, f_loss_uw: 3.53836, data loss: 0.21810:  28% 7/25 [12:44<28:46, 95.89s/it]Epoch: 7, train loss: 3.53836, f_loss_w: -0.00001, f_loss_uw: 3.53836, data loss: 0.21810:  32% 8/25 [12:44<27:30, 97.11s/it]Epoch: 8, train los6, 70.97s/it]Epoch: 8, train loss: 3.50285, f_loss_w: 921.65946, f_loss_uw: 3.50285, data loss: 0.27941:  32% 8/25 [10:47<20:06, 70.97s/it]Epoch: 8, train loss: 3.50285, f_loss_w: 921.65946, f_loss_uw: 3.50285, data loss: 0.27941:  36% 9/25 [10:47<19:53, 74.58s/it]Epoch: 9, train loss: 3.31509, f_loss_w: 1639.49403, f_loss_uw: 3.31509, data loss: 0.26850:  36% 9/25 [12:25<19:53, 74.58s/it]Epoch: 9, train loss: 3.31509, f_loss_w: 1639.49403, f_loss_uw: 3.31509, data loss: 0.26850:  40% 10/25 [12:25<19:31, 78.11s/it]Epoch: 10, train loss: 3.32812, f_loss_w: 2775.75200, f_loss_uw: 3.32812, data loss: 0.23783:  40% 10/25 [14:20<19:31, 78.11s/it]Epoch: 10, train loss: 3.32812, f_loss_w: 2775.75200, f_loss_uw: 3.32812, data loss: 0.23783:  44% 11/25 [14:20<19:28, 83.49s/it]Epoch: 11, train loss: 3.49126, f_loss_w: 1262.29458, f_loss_uw: 3.49126, data loss: 0.23781:  44% 11/25 [16:15<19:28, 83.49s/it]Epoch: 11, train loss: 3.49126, f_loss_w: 1262.29458, f_loss_uw: 3.49126, data loss: 0.23781:  48% 12/25 [16:  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 218
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 170
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 157
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 118
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 126
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 135
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 114
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 107
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 106
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 124
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 111
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 280
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 624
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 145
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 551
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 116
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 150
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 123
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 122
+  warnings.warn('CG iter num: %d' % (i + 1))
+9:01, 168.65s/it]  Epoch: 4, train loss: 2.45573, f_loss_w: 0.00001, f_loss_uw: 2.45573, data loss: 0.17020:  16% 4/25 [12:59<59:01, 168.65s/it]Epoch: 4, train loss: 2.45573, f_loss_w: 0.00001, f_loss_uw: 2.45573, data loss: 0.17020:  20% 5/25 [12:59<49:21, 148.07s/it]Epoch: 5, train loss: 2.27971, f_loss_w: 0.00000, f_loss_uw: 2.27971, data loss: 0.16558:  20% 5/25 [14:17<49:21, 148.07s/it]Epoch: 5, train loss: 2.27971, f_loss_w: 0.00000, f_loss_uw: 2.27971, data loss: 0.16558:  24% 6/25 [14:17<42:09, 133.14s/it]Epoch: 6, train loss: 2.19593, f_loss_w: 0.00000, f_loss_uw: 2.19593, data loss: 0.16745:  24% 6/25 [15:25<42:09, 133.14s/it]Epoch: 6, train loss: 2.19593, f_loss_w: 0.00000, f_loss_uw: 2.19593, data loss: 0.16745:  28% 7/25 [15:25<36:12, 120.67s/it]Epoch: 7, train loss: 8.96890, f_loss_w: 0.00125, f_loss_uw: 8.96890, data loss: 0.72524:  28% 7/25 [18:49<36:12, 120.67s/it]Epoch: 7, train loss: 8.96890, f_loss_w: 0.00125, f_loss_uw: 8.96890, data loss: 0.72524:  32% 8/25 [18:49<38:19, 135.29s/  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 4.55307, f_loss_w: -0.00635, f_loss_uw: 4.55307, data loss: 0.80008:   0% 0/25 [04:29<?, ?it/s]Epoch: 0, train loss: 4.55307, f_loss_w: -0.00635, f_loss_uw: 4.55307, data loss: 0.80008:   4% 1/25 [04:29<1:47:43, 269.29s/it]Epoch: 1, train loss: 2.18319, f_loss_w: 0.00000, f_loss_uw: 2.18319, data loss: 0.16750:   4% 1/25 [08:48<1:47:43, 269.29s/it] Epoch: 1, train loss: 2.18319, f_loss_w: 0.00000, f_loss_uw: 2.18319, data loss: 0.16750:   8% 2/25 [08:48<1:41:09, 263.88s/it]Epoch: 2, train loss: 1.90154, f_loss_w: 0.00003, f_loss_uw: 1.90154, data loss: 0.14981:   8% 2/25 [13:37<1:41:09, 263.88s/it]Epoch: 2, train loss: 1.90154, f_loss_w: 0.00003, f_loss_uw: 1.90154, data loss: 0.14981:  12% 3/25 [13:37<1:40:11, 273.27s/it]Epoch: 3, train loss: 2.26822, f_loss_w: 0.00004, f_loss_uw: 2.26822, data loss: 0.17185:  12% 3/25 [18:42<1:40:11, 273.27s/it]Epoch: 3, train loss: 2.26822, f_loss_w: 0.00004, f_loss_uw: 2.26822, data loss: 0.17185:  16% 4/25 [18:42<1  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 334
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 1085
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 501
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 179
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 114
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 106
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 102
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 116
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 134
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 103
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [19:40<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 188, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 114, in Hvp_vec
+    raise ValueError('hvp Nan')
+ValueError: hvp Nan
+wandb: Waiting for W&B process to finish, PID 3088... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced celestial-energy-59: https://wandb.ai/rishigundakaram/CPINO/runs/4bzltarx
+wandb: Find logs at: ./wandb/run-20220525_231651-4bzltarx/logs/debug.log
+wandb: 
+
+srun: error: hpc-26-17: task 0: Exited with exit code 1
+46s/it]Epoch: 4, train loss: 2.31221, f_loss_w: 0.00001, f_loss_uw: 2.31221, data loss: 0.16412:  16% 4/25 [11:16<47:03, 134.46s/it]Epoch: 4, train loss: 2.31221, f_loss_w: 0.00001, f_loss_uw: 2.31221, data loss: 0.16412:  20% 5/25 [11:16<45:36, 136.84s/it]Epoch: 5, train loss: 2.47987, f_loss_w: -0.00000, f_loss_uw: 2.47987, data loss: 0.15290:  20% 5/25 [13:36<45:36, 136.84s/it]Epoch: 5, train loss: 2.47987, f_loss_w: -0.00000, f_loss_uw: 2.47987, data loss: 0.15290:  24% 6/25 [13:36<43:29, 137.34s/it]Epoch: 6, train loss: 2.13217, f_loss_w: 0.00002, f_loss_uw: 2.13217, data loss: 0.14525:  24% 6/25 [16:10<43:29, 137.34s/it] Epoch: 6, train loss: 2.13217, f_loss_w: 0.00002, f_loss_uw: 2.13217, data loss: 0.14525:  28% 7/25 [16:10<42:12, 140.70s/it]Epoch: 7, train loss: 1.99883, f_loss_w: 0.00002, f_loss_uw: 1.99883, data loss: 0.14631:  28% 7/25 [18:41<42:12, 140.70s/it]Epoch: 7, train loss: 1.99883, f_loss_w: 0.00002, f_loss_uw: 1.99883, data loss: 0.14631:  32% 8/25 [18:41<40:20, 142.41s/it]Epochs: 4.11912, f_loss_w: 0.00005, f_loss_uw: 4.11912, data loss: 0.22259:  32% 8/25 [14:32<27:30, 97.11s/it] Epoch: 8, train loss: 4.11912, f_loss_w: 0.00005, f_loss_uw: 4.11912, data loss: 0.22259:  36% 9/25 [14:32<26:23, 98.97s/it]Epoch: 9, train loss: 2.69247, f_loss_w: 0.00012, f_loss_uw: 2.69247, data loss: 0.19629:  36% 9/25 [16:23<26:23, 98.97s/it]Epoch: 9, train loss: 2.69247, f_loss_w: 0.00012, f_loss_uw: 2.69247, data loss: 0.19629:  40% 10/25 [16:23<25:12, 100.80s/it]Epoch: 10, train loss: 2.49082, f_loss_w: 0.00004, f_loss_uw: 2.49082, data loss: 0.19963:  40% 10/25 [18:22<25:12, 100.80s/it]Epoch: 10, train loss: 2.49082, f_loss_w: 0.00004, f_loss_uw: 2.49082, data loss: 0.19963:  44% 11/25 [18:22<24:06, 103.33s/it]Epoch: 11, train loss: 2.52790, f_loss_w: 0.00010, f_loss_uw: 2.52790, data loss: 0.18668:  44% 11/25 [20:20<24:06, 103.33s/it]Epoch: 11, train loss: 2.52790, f_loss_w: 0.00010, f_loss_uw: 2.52790, data loss: 0.18668:  48% 12/25 [20:20<22:51, 105.50s/it]Epoch: 12, train loss: 2.382  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 5.49914, f_loss_w: 0.02780, f_loss_uw: 5.49914, data loss: 0.21521:   0% 0/25 [06:52<?, ?it/s]Epoch: 0, train loss: 5.49914, f_loss_w: 0.02780, f_loss_uw: 5.49914, data loss: 0.21521:   4% 1/25 [06:52<2:45:00, 412.54s/it]Epoch: 1, train loss: 9.27800, f_loss_w: -0.00526, f_loss_uw: 9.27800, data loss: 0.28262:   4% 1/25 [12:55<2:45:00, 412.54s/it]Epoch: 1, train loss: 9.27800, f_loss_w: -0.00526, f_loss_uw: 9.27800, data loss: 0.28262:   8% 2/25 [12:55<2:28:03, 386.25s/it]Epoch: 2, train loss: 2.30675, f_loss_w: 0.00195, f_loss_uw: 2.30675, data loss: 0.15528:   8% 2/25 [18:17<2:28:03, 386.25s/it] Epoch: 2, train loss: 2.30675, f_loss_w: 0.00195, f_loss_uw: 2.30675, data loss: 0.15528:  12% 3/25 [18:17<2:12:56, 362.57s/it]Epoch: 3, train loss: 2.74398, f_loss_w: 0.00039, f_loss_uw: 2.74398, data loss: 0.14486:  12% 3/25 [22:54<2:12:56, 362.57s/it]Epoch: 3, train loss: 2.74398, f_loss_w: 0.00039, f_loss_uw: 2.74398, data loss: 0.14486:  16% 4/25 [22:54<115<19:02, 87.87s/it]Epoch: 12, train loss: 3.41895, f_loss_w: 284.25596, f_loss_uw: 3.41895, data loss: 0.27667:  48% 12/25 [17:58<19:02, 87.87s/it] Epoch: 12, train loss: 3.41895, f_loss_w: 284.25596, f_loss_uw: 3.41895, data loss: 0.27667:  52% 13/25 [17:58<17:59, 89.96s/it]Epoch: 13, train loss: 3.22286, f_loss_w: -0.02583, f_loss_uw: 3.22286, data loss: 0.20887:  52% 13/25 [19:36<17:59, 89.96s/it] Epoch: 13, train loss: 3.22286, f_loss_w: -0.02583, f_loss_uw: 3.22286, data loss: 0.20887:  56% 14/25 [19:36<16:40, 90.96s/it]Epoch: 14, train loss: 3.17176, f_loss_w: 109.84534, f_loss_uw: 3.17176, data loss: 0.20617:  56% 14/25 [21:15<16:40, 90.96s/it]Epoch: 14, train loss: 3.17176, f_loss_w: 109.84534, f_loss_uw: 3.17176, data loss: 0.20617:  60% 15/25 [21:15<15:20, 92.04s/it]Epoch: 15, train loss: 3.03412, f_loss_w: 198.60462, f_loss_uw: 3.03412, data loss: 0.20760:  60% 15/25 [23:01<15:20, 92.04s/it]Epoch: 15, train loss: 3.03412, f_loss_w: 198.60462, f_loss_uw: 3.03412, data loss: 0.20760:  64% 16  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 3.57266, f_loss_w: 0.37398, f_loss_uw: 3.57266, data loss: 0.38990:   0% 0/25 [02:38<?, ?it/s]Epoch: 0, train loss: 3.57266, f_loss_w: 0.37398, f_loss_uw: 3.57266, data loss: 0.38990:   4% 1/25 [02:38<1:03:26, 158.60s/it]Epoch: 1, train loss: 2.50306, f_loss_w: 0.17286, f_loss_uw: 2.50306, data loss: 0.17880:   4% 1/25 [08:13<1:03:26, 158.60s/it]Epoch: 1, train loss: 2.50306, f_loss_w: 0.17286, f_loss_uw: 2.50306, data loss: 0.17880:   8% 2/25 [08:13<1:36:22, 251.43s/it]Epoch: 2, train loss: 2.40356, f_loss_w: 0.27842, f_loss_uw: 2.40356, data loss: 0.13900:   8% 2/25 [15:58<1:36:22, 251.43s/it]Epoch: 2, train loss: 2.40356, f_loss_w: 0.27842, f_loss_uw: 2.40356, data loss: 0.13900:  12% 3/25 [15:58<2:01:02, 330.11s/it]Epoch: 3, train loss: 2.14095, f_loss_w: 0.17337, f_loss_uw: 2.14095, data loss: 0.11671:  12% 3/25 [23:29<2:01:02, 330.11s/it]Epoch: 3, train loss: 2.14095, f_loss_w: 0.17337, f_loss_uw: 2.14095, data loss: 0.11671:  16% 4/25 [23:29<2:07.71s/it]Epoch: 4, train loss: 2.69412, f_loss_w: 0.00048, f_loss_uw: 2.69412, data loss: 0.15614:  16% 4/25 [16:20<1:00:05, 171.71s/it]Epoch: 4, train loss: 2.69412, f_loss_w: 0.00048, f_loss_uw: 2.69412, data loss: 0.15614:  20% 5/25 [16:20<1:07:40, 203.01s/it]Epoch: 5, train loss: 4.45587, f_loss_w: 0.00009, f_loss_uw: 4.45587, data loss: 0.16820:  20% 5/25 [19:51<1:07:40, 203.01s/it]Epoch: 5, train loss: 4.45587, f_loss_w: 0.00009, f_loss_uw: 4.45587, data loss: 0.16820:  24% 6/25 [19:51<1:04:53, 204.92s/it]Epoch: 6, train loss: 4.14272, f_loss_w: 0.00001, f_loss_uw: 4.14272, data loss: 0.15108:  24% 6/25 [22:04<1:04:53, 204.92s/it]Epoch: 6, train loss: 4.14272, f_loss_w: 0.00001, f_loss_uw: 4.14272, data loss: 0.15108:  28% 7/25 [22:04<57:19, 191.10s/it]  Epoch: 7, train loss: 3.36556, f_loss_w: 0.00002, f_loss_uw: 3.36556, data loss: 0.14475:  28% 7/25 [23:50<57:19, 191.10s/it]Epoch: 7, train loss: 3.36556, f_loss_w: 0.00002, f_loss_uw: 3.36556, data loss: 0.14475:  32% 8/25 [23:50<49:52, 176.05s: 7, train loss: 2.84774, f_loss_w: 24701176883.20000, f_loss_uw: 2.84774, data loss: 0.19233:  32% 8/25 [14:11<31:07, 109.87s/it]Epoch: 8, train loss: 2.79098, f_loss_w: 29605412003.84000, f_loss_uw: 2.79098, data loss: 0.18798:  32% 8/25 [16:12<31:07, 109.87s/it]Epoch: 8, train loss: 2.79098, f_loss_w: 29605412003.84000, f_loss_uw: 2.79098, data loss: 0.18798:  36% 9/25 [16:12<29:47, 111.69s/it]Epoch: 9, train loss: 2.55322, f_loss_w: 47380452638.72000, f_loss_uw: 2.55322, data loss: 0.17667:  36% 9/25 [18:26<29:47, 111.69s/it]Epoch: 9, train loss: 2.55322, f_loss_w: 47380452638.72000, f_loss_uw: 2.55322, data loss: 0.17667:  40% 10/25 [18:26<28:45, 115.05s/it]Epoch: 10, train loss: 2.37089, f_loss_w: 107263019253.75999, f_loss_uw: 2.37089, data loss: 0.17017:  40% 10/25 [21:14<28:45, 115.05s/it]Epoch: 10, train loss: 2.37089, f_loss_w: 107263019253.75999, f_loss_uw: 2.37089, data loss: 0.17017:  44% 11/25 [21:14<28:38, 122.77s/it]Epoch: 11, train loss: 2.20202, f_loss_w: 247744725975.04001, f_loss_u  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 2.86535, f_loss_w: 208.41569, f_loss_uw: 2.86535, data loss: 0.25506:   0% 0/25 [05:35<?, ?it/s]Epoch: 0, train loss: 2.86535, f_loss_w: 208.41569, f_loss_uw: 2.86535, data loss: 0.25506:   4% 1/25 [05:35<2:14:14, 335.62s/it]Epoch: 1, train loss: 2.09863, f_loss_w: 194.24397, f_loss_uw: 2.09863, data loss: 0.14094:   4% 1/25 [12:24<2:14:14, 335.62s/it]Epoch: 1, train loss: 2.09863, f_loss_w: 194.24397, f_loss_uw: 2.09863, data loss: 0.14094:   8% 2/25 [12:24<2:23:32, 374.44s/it]Epoch: 2, train loss: 1.85964, f_loss_w: 82.46394, f_loss_uw: 1.85964, data loss: 0.10782:   8% 2/25 [19:00<2:23:32, 374.44s/it] Epoch: 2, train loss: 1.85964, f_loss_w: 82.46394, f_loss_uw: 1.85964, data loss: 0.10782:  12% 3/25 [19:00<2:20:11, 382.35s/it]Epoch: 3, train loss: 1.79261, f_loss_w: 18.00991, f_loss_uw: 1.79261, data loss: 0.07938:  12% 3/25 [24:33<2:20:11, 382.35s/it]Epoch: 3, train loss: 1.79261, f_loss_w: 18.00991, f_loss_uw: 1.79261, data loss: 0.07938:  16% 4/2  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 2.31230, f_loss_w: -0.00097, f_loss_uw: 2.31230, data loss: 0.22897:   0% 0/25 [09:26<?, ?it/s]Epoch: 0, train loss: 2.31230, f_loss_w: -0.00097, f_loss_uw: 2.31230, data loss: 0.22897:   4% 1/25 [09:26<3:46:44, 566.84s/it]Epoch: 1, train loss: 1.93586, f_loss_w: 0.00308, f_loss_uw: 1.93586, data loss: 0.08139:   4% 1/25 [16:33<3:46:44, 566.84s/it] Epoch: 1, train loss: 1.93586, f_loss_w: 0.00308, f_loss_uw: 1.93586, data loss: 0.08139:   8% 2/25 [16:33<3:09:00, 493.07s/it]Epoch: 2, train loss: 2.18041, f_loss_w: 0.00201, f_loss_uw: 2.18041, data loss: 0.11838:   8% 2/25 [19:50<3:09:00, 493.07s/it]Epoch: 2, train loss: 2.18041, f_loss_w: 0.00201, f_loss_uw: 2.18041, data loss: 0.11838:  12% 3/25 [19:50<2:20:40, 383.67s/it]Epoch: 3, train loss: 2.12179, f_loss_w: 0.00646, f_loss_uw: 2.12179, data loss: 0.09723:  12% 3/25 [25:15<2:20:40, 383.67s/it]Epoch: 3, train loss: 2.12179, f_loss_w: 0.00646, f_loss_uw: 2.12179, data loss: 0.09723:  16% 4/25 [25:15<2it]Epoch: 8, train loss: 2.91891, f_loss_w: -0.00000, f_loss_uw: 2.91891, data loss: 0.15957:  32% 8/25 [21:11<38:19, 135.29s/it]Epoch: 8, train loss: 2.91891, f_loss_w: -0.00000, f_loss_uw: 2.91891, data loss: 0.15957:  36% 9/25 [21:11<36:22, 136.38s/it]Epoch: 9, train loss: 2.46239, f_loss_w: 0.00000, f_loss_uw: 2.46239, data loss: 0.15826:  36% 9/25 [23:12<36:22, 136.38s/it] Epoch: 9, train loss: 2.46239, f_loss_w: 0.00000, f_loss_uw: 2.46239, data loss: 0.15826:  40% 10/25 [23:12<33:30, 134.02s/it]Epoch: 10, train loss: 2.21330, f_loss_w: 0.00000, f_loss_uw: 2.21330, data loss: 0.15093:  40% 10/25 [25:00<33:30, 134.02s/it]Epoch: 10, train loss: 2.21330, f_loss_w: 0.00000, f_loss_uw: 2.21330, data loss: 0.15093:  44% 11/25 [25:00<30:23, 130.28s/it]Epoch: 11, train loss: 2.20420, f_loss_w: 0.00000, f_loss_uw: 2.20420, data loss: 0.15463:  44% 11/25 [26:40<30:23, 130.28s/it]Epoch: 11, train loss: 2.20420, f_loss_w: 0.00000, f_loss_uw: 2.20420, data loss: 0.15463:  48% 12/25 [26:40<27:18, 126.07s/it]Epoch: 0, train loss: 3056066.26741, f_loss_w: 16824.64600, f_loss_uw: 3056066.26741, data loss: 37518.63656:   0% 0/25 [18:42<?, ?it/s]Epoch: 0, train loss: 3056066.26741, f_loss_w: 16824.64600, f_loss_uw: 3056066.26741, data loss: 37518.63656:   4% 1/25 [18:42<7:28:58, 1122.42s/it]Epoch: 0, train loss: 3056066.26741, f_loss_w: 16824.64600, f_loss_uw: 3056066.26741, data loss: 37518.63656:   4% 1/25 [28:50<11:32:11, 1730.48s/it]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 124, in step
+    lr_x=lr_min, lr_y=lr_max)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 183, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_y)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 102, in Hvp_vec
+    raise ValueError('vector nan')
+ValueError: vector nan
+wandb: Waiting for W&B process to finish, PID 29975... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▁
+wandb:            f loss ▁
+wandb:   f loss weighted ▁
+wandb:        train loss ▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 37518.63656
+wandb:            f loss 3056066.26741
+wandb:   f loss weighted 16824.646
+wandb:        train loss 3056066.26741
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced firm-shape-56: https://wandb.ai/rishigundakaram/CPINO/runs/32l70pzn
+wandb: Find logs at: ./wandb/run-20220525_231651-32l70pzn/logs/debug.log
+wandb: 
+
+srun: error: hpc-22-32: task 0: Exited with exit code 1
+:00<1:14:28, 212.79s/it]Epoch: 4, train loss: 2.11063, f_loss_w: 0.00000, f_loss_uw: 2.11063, data loss: 0.14966:  16% 4/25 [17:59<1:14:28, 212.79s/it] Epoch: 4, train loss: 2.11063, f_loss_w: 0.00000, f_loss_uw: 2.11063, data loss: 0.14966:  20% 5/25 [17:59<1:13:04, 219.22s/it]Epoch: 5, train loss: 2.10761, f_loss_w: 0.00001, f_loss_uw: 2.10761, data loss: 0.13856:  20% 5/25 [22:12<1:13:04, 219.22s/it]Epoch: 5, train loss: 2.10761, f_loss_w: 0.00001, f_loss_uw: 2.10761, data loss: 0.13856:  24% 6/25 [22:12<1:11:43, 226.50s/it]Epoch: 6, train loss: 2.25358, f_loss_w: 0.00000, f_loss_uw: 2.25358, data loss: 0.13883:  24% 6/25 [26:43<1:11:43, 226.50s/it]Epoch: 6, train loss: 2.25358, f_loss_w: 0.00000, f_loss_uw: 2.25358, data loss: 0.13883:  28% 7/25 [26:43<1:10:29, 234.97s/it]Epoch: 7, train loss: 2.36842, f_loss_w: 0.00000, f_loss_uw: 2.36842, data loss: 0.14751:  28% 7/25 [30:57<1:10:29, 234.97s/it]Epoch: 7, train loss: 2.36842, f_loss_w: 0.00000, f_loss_uw: 2.36842, data loss: 0.14751:  32% 8/25 [3/it]Epoch: 8, train loss: 2.64801, f_loss_w: 0.00003, f_loss_uw: 2.64801, data loss: 0.15706:  32% 8/25 [25:26<49:52, 176.05s/it]Epoch: 8, train loss: 2.64801, f_loss_w: 0.00003, f_loss_uw: 2.64801, data loss: 0.15706:  36% 9/25 [25:26<43:27, 162.98s/it]Epoch: 9, train loss: 3.10563, f_loss_w: 0.00002, f_loss_uw: 3.10563, data loss: 0.16533:  36% 9/25 [26:53<43:27, 162.98s/it]Epoch: 9, train loss: 3.10563, f_loss_w: 0.00002, f_loss_uw: 3.10563, data loss: 0.16533:  40% 10/25 [26:53<37:51, 151.43s/it]Epoch: 10, train loss: 3.33638, f_loss_w: 0.00002, f_loss_uw: 3.33638, data loss: 0.16115:  40% 10/25 [28:25<37:51, 151.43s/it]Epoch: 10, train loss: 3.33638, f_loss_w: 0.00002, f_loss_uw: 3.33638, data loss: 0.16115:  44% 11/25 [28:25<33:17, 142.65s/it]Epoch: 11, train loss: 3.11706, f_loss_w: 0.00001, f_loss_uw: 3.11706, data loss: 0.14596:  44% 11/25 [29:47<33:17, 142.65s/it]Epoch: 11, train loss: 3.11706, f_loss_w: 0.00001, f_loss_uw: 3.11706, data loss: 0.14596:  48% 12/25 [29:47<29:04, 134.21s/it]Ep/25 [23:01<14:03, 93.68s/it]Epoch: 16, train loss: 2.98500, f_loss_w: 191.09727, f_loss_uw: 2.98500, data loss: 0.20133:  64% 16/25 [24:55<14:03, 93.68s/it]Epoch: 16, train loss: 2.98500, f_loss_w: 191.09727, f_loss_uw: 2.98500, data loss: 0.20133:  68% 17/25 [24:55<12:49, 96.18s/it]Epoch: 17, train loss: 2.88915, f_loss_w: 176.43449, f_loss_uw: 2.88915, data loss: 0.20223:  68% 17/25 [26:59<12:49, 96.18s/it]Epoch: 17, train loss: 2.88915, f_loss_w: 176.43449, f_loss_uw: 2.88915, data loss: 0.20223:  72% 18/25 [26:59<11:35, 99.38s/it]Epoch: 18, train loss: 2.80709, f_loss_w: 194.97940, f_loss_uw: 2.80709, data loss: 0.19346:  72% 18/25 [29:10<11:35, 99.38s/it]Epoch: 18, train loss: 2.80709, f_loss_w: 194.97940, f_loss_uw: 2.80709, data loss: 0.19346:  76% 19/25 [29:10<10:18, 103.02s/it]Epoch: 19, train loss: 2.66318, f_loss_w: 148.44142, f_loss_uw: 2.66318, data loss: 0.17988:  76% 19/25 [31:21<10:18, 103.02s/it]Epoch: 19, train loss: 2.66318, f_loss_w: 148.44142, f_loss_uw: 2.66318, data loss: 0.179868, f_loss_w: 0.00005, f_loss_uw: 2.38268, data loss: 0.15670:  48% 12/25 [22:26<22:51, 105.50s/it]Epoch: 12, train loss: 2.38268, f_loss_w: 0.00005, f_loss_uw: 2.38268, data loss: 0.15670:  52% 13/25 [22:26<21:37, 108.13s/it]Epoch: 13, train loss: 2.70361, f_loss_w: 0.00003, f_loss_uw: 2.70361, data loss: 0.14367:  52% 13/25 [24:39<21:37, 108.13s/it]Epoch: 13, train loss: 2.70361, f_loss_w: 0.00003, f_loss_uw: 2.70361, data loss: 0.14367:  56% 14/25 [24:39<20:25, 111.42s/it]Epoch: 14, train loss: 3.03420, f_loss_w: 0.00003, f_loss_uw: 3.03420, data loss: 0.14665:  56% 14/25 [26:54<20:25, 111.42s/it]Epoch: 14, train loss: 3.03420, f_loss_w: 0.00003, f_loss_uw: 3.03420, data loss: 0.14665:  60% 15/25 [26:54<19:04, 114.40s/it]Epoch: 15, train loss: 2.99973, f_loss_w: 0.00009, f_loss_uw: 2.99973, data loss: 0.14364:  60% 15/25 [29:20<19:04, 114.40s/it]Epoch: 15, train loss: 2.99973, f_loss_w: 0.00009, f_loss_uw: 2.99973, data loss: 0.14364:  64% 16/25 [29:20<17:44, 118.23s/it]Epoch: 16, train loss: 2.374: 8, train loss: 2.05785, f_loss_w: 0.00002, f_loss_uw: 2.05785, data loss: 0.14625:  32% 8/25 [21:19<40:20, 142.41s/it]Epoch: 8, train loss: 2.05785, f_loss_w: 0.00002, f_loss_uw: 2.05785, data loss: 0.14625:  36% 9/25 [21:19<38:39, 144.95s/it]Epoch: 9, train loss: 2.04136, f_loss_w: 0.00003, f_loss_uw: 2.04136, data loss: 0.14177:  36% 9/25 [24:05<38:39, 144.95s/it]Epoch: 9, train loss: 2.04136, f_loss_w: 0.00003, f_loss_uw: 2.04136, data loss: 0.14177:  40% 10/25 [24:05<37:03, 148.24s/it]Epoch: 10, train loss: 2.05306, f_loss_w: 0.00003, f_loss_uw: 2.05306, data loss: 0.13890:  40% 10/25 [26:50<37:03, 148.24s/it]Epoch: 10, train loss: 2.05306, f_loss_w: 0.00003, f_loss_uw: 2.05306, data loss: 0.13890:  44% 11/25 [26:50<35:08, 150.59s/it]Epoch: 11, train loss: 2.08683, f_loss_w: 0.00003, f_loss_uw: 2.08683, data loss: 0.14598:  44% 11/25 [29:32<35:08, 150.59s/it]Epoch: 11, train loss: 2.08683, f_loss_w: 0.00003, f_loss_uw: 2.08683, data loss: 0.14598:  48% 12/25 [29:32<32:59, 152.25s/it]Epoch: 12, tw: 2.20202, data loss: 0.16353:  44% 11/25 [24:21<28:38, 122.77s/it]Epoch: 11, train loss: 2.20202, f_loss_w: 247744725975.04001, f_loss_uw: 2.20202, data loss: 0.16353:  48% 12/25 [24:21<28:33, 131.80s/it]Epoch: 12, train loss: 2.13716, f_loss_w: 518494057267.20001, f_loss_uw: 2.13716, data loss: 0.14848:  48% 12/25 [27:34<28:33, 131.80s/it]Epoch: 12, train loss: 2.13716, f_loss_w: 518494057267.20001, f_loss_uw: 2.13716, data loss: 0.14848:  52% 13/25 [27:34<27:59, 139.95s/it]Epoch: 13, train loss: 2.19428, f_loss_w: 699943393689.59998, f_loss_uw: 2.19428, data loss: 0.13629:  52% 13/25 [30:38<27:59, 139.95s/it]Epoch: 13, train loss: 2.19428, f_loss_w: 699943393689.59998, f_loss_uw: 2.19428, data loss: 0.13629:  56% 14/25 [30:38<26:42, 145.66s/it]Epoch: 14, train loss: 2.32195, f_loss_w: 660711899791.35999, f_loss_uw: 2.32195, data loss: 0.12246:  56% 14/25 [33:25<26:42, 145.66s/it]Epoch: 14, train loss: 2.32195, f_loss_w: 660711899791.35999, f_loss_uw: 2.32195, data loss: 0.12246:  60% 15/25 [33:25<2  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 844
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 6660
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 225
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [34:37<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 188, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 114, in Hvp_vec
+    raise ValueError('hvp Nan')
+ValueError: hvp Nan
+wandb: Waiting for W&B process to finish, PID 8676... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced dazzling-smoke-57: https://wandb.ai/rishigundakaram/CPINO/runs/2els70rf
+wandb: Find logs at: ./wandb/run-20220525_231651-2els70rf/logs/debug.log
+wandb: 
+
+srun: error: hpc-89-37: task 0: Exited with exit code 1
+:38:52, 282.51s/it]Epoch: 4, train loss: 2.58748, f_loss_w: 0.00003, f_loss_uw: 2.58748, data loss: 0.17257:  16% 4/25 [23:35<1:38:52, 282.51s/it]Epoch: 4, train loss: 2.58748, f_loss_w: 0.00003, f_loss_uw: 2.58748, data loss: 0.17257:  20% 5/25 [23:35<1:34:59, 284.98s/it]Epoch: 5, train loss: 2.92707, f_loss_w: -0.00001, f_loss_uw: 2.92707, data loss: 0.15998:  20% 5/25 [28:11<1:34:59, 284.98s/it]Epoch: 5, train loss: 2.92707, f_loss_w: -0.00001, f_loss_uw: 2.92707, data loss: 0.15998:  24% 6/25 [28:11<1:29:37, 283.01s/it]Epoch: 6, train loss: 2.81653, f_loss_w: -0.00001, f_loss_uw: 2.81653, data loss: 0.13317:  24% 6/25 [32:20<1:29:37, 283.01s/it]Epoch: 6, train loss: 2.81653, f_loss_w: -0.00001, f_loss_uw: 2.81653, data loss: 0.13317:  28% 7/25 [32:20<1:22:58, 276.56s/it]Epoch: 7, train loss: 2.70249, f_loss_w: -0.00000, f_loss_uw: 2.70249, data loss: 0.13010:  28% 7/25 [35:55<1:22:58, 276.56s/it]Epoch: 7, train loss: 2.70249, f_loss_w: -0.00000, f_loss_uw: 2.70249, data loss: 0.13010:  32% 8/25 [3Epoch: 12, train loss: 2.99984, f_loss_w: 0.00001, f_loss_uw: 2.99984, data loss: 0.22514:  48% 12/25 [28:22<27:18, 126.07s/it]Epoch: 12, train loss: 2.99984, f_loss_w: 0.00001, f_loss_uw: 2.99984, data loss: 0.22514:  52% 13/25 [28:22<24:34, 122.84s/it]Epoch: 13, train loss: 5.33299, f_loss_w: 0.00049, f_loss_uw: 5.33299, data loss: 0.38585:  52% 13/25 [30:42<24:34, 122.84s/it]Epoch: 13, train loss: 5.33299, f_loss_w: 0.00049, f_loss_uw: 5.33299, data loss: 0.38585:  56% 14/25 [30:42<22:55, 125.02s/it]Epoch: 14, train loss: 3.04474, f_loss_w: 0.00001, f_loss_uw: 3.04474, data loss: 0.16280:  56% 14/25 [32:13<22:55, 125.02s/it]Epoch: 14, train loss: 3.04474, f_loss_w: 0.00001, f_loss_uw: 3.04474, data loss: 0.16280:  60% 15/25 [32:13<20:07, 120.76s/it]Epoch: 15, train loss: 2.84018, f_loss_w: 0.00003, f_loss_uw: 2.84018, data loss: 0.20819:  60% 15/25 [33:38<20:07, 120.76s/it]Epoch: 15, train loss: 2.84018, f_loss_w: 0.00003, f_loss_uw: 2.84018, data loss: 0.20819:  64% 16/25 [33:38<17:26, 116.31s/it]och: 12, train loss: 3.09162, f_loss_w: 0.00001, f_loss_uw: 3.09162, data loss: 0.13430:  48% 12/25 [31:06<29:04, 134.21s/it]Epoch: 12, train loss: 3.09162, f_loss_w: 0.00001, f_loss_uw: 3.09162, data loss: 0.13430:  52% 13/25 [31:06<25:22, 126.90s/it]Epoch: 13, train loss: 2.58515, f_loss_w: 0.00002, f_loss_uw: 2.58515, data loss: 0.14414:  52% 13/25 [32:31<25:22, 126.90s/it]Epoch: 13, train loss: 2.58515, f_loss_w: 0.00002, f_loss_uw: 2.58515, data loss: 0.14414:  56% 14/25 [32:31<22:15, 121.41s/it]Epoch: 14, train loss: 3.23168, f_loss_w: 0.00002, f_loss_uw: 3.23168, data loss: 0.13354:  56% 14/25 [33:55<22:15, 121.41s/it]Epoch: 14, train loss: 3.23168, f_loss_w: 0.00002, f_loss_uw: 3.23168, data loss: 0.13354:  60% 15/25 [33:55<19:27, 116.72s/it]Epoch: 15, train loss: 2.67030, f_loss_w: 0.00002, f_loss_uw: 2.67030, data loss: 0.15054:  60% 15/25 [35:20<19:27, 116.72s/it]Epoch: 15, train loss: 2.67030, f_loss_w: 0.00002, f_loss_uw: 2.67030, data loss: 0.15054:  64% 16/25 [35:20<16:54, 112.77s/it]Ep:58:14, 337.82s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 2788
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 3, train loss: 2.74398, f_loss_w: 0.00039, f_loss_uw: 2.74398, data loss: 0.14486:  16% 4/25 [37:22<3:16:11, 560.56s/it]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 183, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_y)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 102, in Hvp_vec
+    raise ValueError('vector nan')
+ValueError: vector nan
+wandb: Waiting for W&B process to finish, PID 30536... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▅█▂▁
+wandb:            f loss ▄█▁▁
+wandb:   f loss weighted █▁▃▂
+wandb:        train loss ▄█▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.14486
+wandb:            f loss 2.74398
+wandb:   f loss weighted 0.00039
+wandb:        train loss 2.74398
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced fresh-vortex-44: https://wandb.ai/rishigundakaram/CPINO/runs/41mhgytg
+wandb: Find logs at: ./wandb/run-20220525_231649-41mhgytg/logs/debug.log
+wandb: 
+
+srun: error: hpc-22-30: task 0: Exited with exit code 1
+8:  80% 20/25 [31:21<08:51, 106.23s/it]Epoch: 20, train loss: 2.57084, f_loss_w: 107.82935, f_loss_uw: 2.57084, data loss: 0.17869:  80% 20/25 [33:29<08:51, 106.23s/it]Epoch: 20, train loss: 2.57084, f_loss_w: 107.82935, f_loss_uw: 2.57084, data loss: 0.17869:  84% 21/25 [33:29<07:14, 108.68s/it]Epoch: 21, train loss: 2.49596, f_loss_w: 109.54280, f_loss_uw: 2.49596, data loss: 0.17937:  84% 21/25 [35:37<07:14, 108.68s/it]Epoch: 21, train loss: 2.49596, f_loss_w: 109.54280, f_loss_uw: 2.49596, data loss: 0.17937:  88% 22/25 [35:37<05:32, 110.88s/it]Epoch: 22, train loss: 2.43230, f_loss_w: 161.78975, f_loss_uw: 2.43230, data loss: 0.17288:  88% 22/25 [37:51<05:32, 110.88s/it]Epoch: 22, train loss: 2.43230, f_loss_w: 161.78975, f_loss_uw: 2.43230, data loss: 0.17288:  92% 23/25 [37:51<03:46, 113.43s/it]Epoch: 23, train loss: 2.35797, f_loss_w: 215.92854, f_loss_uw: 2.35797, data loss: 0.17385:  92% 23/25 [40:09<03:46, 113.43s/it]Epoch: 23, train loss: 2.35797, f_loss_w: 215.92854, f_loss_uw: 2.35797, d:08:23, 366.84s/it]Epoch: 4, train loss: 2.03203, f_loss_w: 0.00231, f_loss_uw: 2.03203, data loss: 0.07521:  16% 4/25 [30:31<2:08:23, 366.84s/it]Epoch: 4, train loss: 2.03203, f_loss_w: 0.00231, f_loss_uw: 2.03203, data loss: 0.07521:  20% 5/25 [30:31<1:58:07, 354.36s/it]Epoch: 5, train loss: 1.99671, f_loss_w: 0.00148, f_loss_uw: 1.99671, data loss: 0.07136:  20% 5/25 [35:01<1:58:07, 354.36s/it]Epoch: 5, train loss: 1.99671, f_loss_w: 0.00148, f_loss_uw: 1.99671, data loss: 0.07136:  24% 6/25 [35:01<1:46:30, 336.32s/it]Epoch: 6, train loss: 2.10015, f_loss_w: 0.00144, f_loss_uw: 2.10015, data loss: 0.08870:  24% 6/25 [38:35<1:46:30, 336.32s/it]Epoch: 6, train loss: 2.10015, f_loss_w: 0.00144, f_loss_uw: 2.10015, data loss: 0.08870:  28% 7/25 [38:35<1:33:52, 312.92s/it]Epoch: 7, train loss: 1.94446, f_loss_w: 0.00088, f_loss_uw: 1.94446, data loss: 0.07597:  28% 7/25 [41:53<1:33:52, 312.92s/it]Epoch: 7, train loss: 1.94446, f_loss_w: 0.00088, f_loss_uw: 1.94446, data loss: 0.07597:  32% 8/25 [41:53<1och: 16, train loss: 3.38158, f_loss_w: 0.00001, f_loss_uw: 3.38158, data loss: 0.15672:  64% 16/25 [36:49<16:54, 112.77s/it]Epoch: 16, train loss: 3.38158, f_loss_w: 0.00001, f_loss_uw: 3.38158, data loss: 0.15672:  68% 17/25 [36:49<14:40, 110.01s/it]Epoch: 17, train loss: 2.72081, f_loss_w: 0.00001, f_loss_uw: 2.72081, data loss: 0.12308:  68% 17/25 [38:12<14:40, 110.01s/it]Epoch: 17, train loss: 2.72081, f_loss_w: 0.00001, f_loss_uw: 2.72081, data loss: 0.12308:  72% 18/25 [38:12<12:27, 106.72s/it]Epoch: 18, train loss: 3.09898, f_loss_w: 0.00001, f_loss_uw: 3.09898, data loss: 0.11680:  72% 18/25 [39:38<12:27, 106.72s/it]Epoch: 18, train loss: 3.09898, f_loss_w: 0.00001, f_loss_uw: 3.09898, data loss: 0.11680:  76% 19/25 [39:38<10:26, 104.44s/it]Epoch: 19, train loss: 2.94687, f_loss_w: 0.00001, f_loss_uw: 2.94687, data loss: 0.12319:  76% 19/25 [41:01<10:26, 104.44s/it]Epoch: 19, train loss: 2.94687, f_loss_w: 0.00001, f_loss_uw: 2.94687, data loss: 0.12319:  80% 20/25 [41:01<08:29, 101.96s/it]EpCheckpoint is saved at checkpoints//darcy-cpino-23.pt
+Checkpoint is saved at checkpoints//darcy-cpino-23-weights.pt
+ata loss: 0.17385:  96% 24/25 [40:09<01:56, 116.01s/it]Epoch: 24, train loss: 2.33434, f_loss_w: 240.47814, f_loss_uw: 2.33434, data loss: 0.16512:  96% 24/25 [42:29<01:56, 116.01s/it]Epoch: 24, train loss: 2.33434, f_loss_w: 240.47814, f_loss_uw: 2.33434, data loss: 0.16512: 100% 25/25 [42:29<00:00, 118.59s/it]Epoch: 24, train loss: 2.33434, f_loss_w: 240.47814, f_loss_uw: 2.33434, data loss: 0.16512: 100% 25/25 [42:29<00:00, 101.96s/it]
+wandb: Waiting for W&B process to finish, PID 5794... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▃▂▄▃▃▂▂▂▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb:            f loss ▅█▅▆▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▁▁▁▁▁
+wandb:   f loss weighted █▃▂▁▁▁▁▁▂▂▃▂▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train loss ▅█▅▆▄▄▄▃▃▃▃▃▃▃▃▂▂▂▂▂▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.16512
+wandb:            f loss 2.33434
+wandb:   f loss weighted 240.47814
+wandb:        train loss 2.33434
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced stoic-sky-53: https://wandb.ai/rishigundakaram/CPINO/runs/1dqgewkw
+wandb: Find logs at: ./wandb/run-20220525_231651-1dqgewkw/logs/debug.log
+wandb: 
+
+Done!
+5 [24:33<2:08:48, 368.01s/it]Epoch: 4, train loss: 1.74157, f_loss_w: 5.16830, f_loss_uw: 1.74157, data loss: 0.08709:  16% 4/25 [29:05<2:08:48, 368.01s/it] Epoch: 4, train loss: 1.74157, f_loss_w: 5.16830, f_loss_uw: 1.74157, data loss: 0.08709:  20% 5/25 [29:05<1:54:51, 344.58s/it]Epoch: 5, train loss: 1.61371, f_loss_w: 5.60061, f_loss_uw: 1.61371, data loss: 0.07824:  20% 5/25 [33:34<1:54:51, 344.58s/it]Epoch: 5, train loss: 1.61371, f_loss_w: 5.60061, f_loss_uw: 1.61371, data loss: 0.07824:  24% 6/25 [33:34<1:43:59, 328.40s/it]Epoch: 6, train loss: 1.49974, f_loss_w: 6.19583, f_loss_uw: 1.49974, data loss: 0.06534:  24% 6/25 [37:58<1:43:59, 328.40s/it]Epoch: 6, train loss: 1.49974, f_loss_w: 6.19583, f_loss_uw: 1.49974, data loss: 0.06534:  28% 7/25 [37:58<1:34:48, 316.05s/it]Epoch: 7, train loss: 1.41339, f_loss_w: 5.37952, f_loss_uw: 1.41339, data loss: 0.05366:  28% 7/25 [42:41<1:34:48, 316.05s/it]Epoch: 7, train loss: 1.41339, f_loss_w: 5.37952, f_loss_uw: 1.41339, data loss: 0.05366:  32% 8/4:43, 148.37s/it]Epoch: 15, train loss: 2.42445, f_loss_w: 580715422679.04004, f_loss_uw: 2.42445, data loss: 0.11352:  60% 15/25 [36:00<24:43, 148.37s/it]Epoch: 15, train loss: 2.42445, f_loss_w: 580715422679.04004, f_loss_uw: 2.42445, data loss: 0.11352:  64% 16/25 [36:00<22:22, 149.22s/it]Epoch: 16, train loss: 2.43835, f_loss_w: 568750899527.68005, f_loss_uw: 2.43835, data loss: 0.10721:  64% 16/25 [38:28<22:22, 149.22s/it]Epoch: 16, train loss: 2.43835, f_loss_w: 568750899527.68005, f_loss_uw: 2.43835, data loss: 0.10721:  68% 17/25 [38:28<19:52, 149.05s/it]Epoch: 17, train loss: 2.38719, f_loss_w: 574892244992.00000, f_loss_uw: 2.38719, data loss: 0.10096:  68% 17/25 [40:51<19:52, 149.05s/it]Epoch: 17, train loss: 2.38719, f_loss_w: 574892244992.00000, f_loss_uw: 2.38719, data loss: 0.10096:  72% 18/25 [40:51<17:18, 148.39s/it]Epoch: 18, train loss: 2.33934, f_loss_w: 568752744693.76001, f_loss_uw: 2.33934, data loss: 0.09821:  72% 18/25 [43:14<17:18, 148.39s/it]Epoch: 18, train loss: 2.33934, fEpoch: 16, train loss: 17.89102, f_loss_w: -0.00699, f_loss_uw: 17.89102, data loss: 1.36599:  64% 16/25 [36:53<17:26, 116.31s/it]Epoch: 16, train loss: 17.89102, f_loss_w: -0.00699, f_loss_uw: 17.89102, data loss: 1.36599:  68% 17/25 [36:53<16:46, 125.81s/it]Epoch: 17, train loss: 3.10413, f_loss_w: 0.00001, f_loss_uw: 3.10413, data loss: 0.17460:  68% 17/25 [39:13<16:46, 125.81s/it]   Epoch: 17, train loss: 3.10413, f_loss_w: 0.00001, f_loss_uw: 3.10413, data loss: 0.17460:  72% 18/25 [39:13<14:52, 127.47s/it]Epoch: 18, train loss: 2.97047, f_loss_w: 0.00000, f_loss_uw: 2.97047, data loss: 0.16912:  72% 18/25 [41:19<14:52, 127.47s/it]Epoch: 18, train loss: 2.97047, f_loss_w: 0.00000, f_loss_uw: 2.97047, data loss: 0.16912:  76% 19/25 [41:19<12:43, 127.30s/it]Epoch: 19, train loss: 2.65527, f_loss_w: 0.00000, f_loss_uw: 2.65527, data loss: 0.16322:  76% 19/25 [43:17<12:43, 127.30s/it]Epoch: 19, train loss: 2.65527, f_loss_w: 0.00000, f_loss_uw: 2.65527, data loss: 0.16322:  80% 20/25 [43:17<10:31, 126rain loss: 2.13358, f_loss_w: 0.00004, f_loss_uw: 2.13358, data loss: 0.15057:  48% 12/25 [32:19<32:59, 152.25s/it]Epoch: 12, train loss: 2.13358, f_loss_w: 0.00004, f_loss_uw: 2.13358, data loss: 0.15057:  52% 13/25 [32:19<30:50, 154.21s/it]Epoch: 13, train loss: 2.17681, f_loss_w: 0.00004, f_loss_uw: 2.17681, data loss: 0.15792:  52% 13/25 [35:08<30:50, 154.21s/it]Epoch: 13, train loss: 2.17681, f_loss_w: 0.00004, f_loss_uw: 2.17681, data loss: 0.15792:  56% 14/25 [35:08<28:37, 156.13s/it]Epoch: 14, train loss: 2.19666, f_loss_w: 0.00006, f_loss_uw: 2.19666, data loss: 0.15805:  56% 14/25 [37:52<28:37, 156.13s/it]Epoch: 14, train loss: 2.19666, f_loss_w: 0.00006, f_loss_uw: 2.19666, data loss: 0.15805:  60% 15/25 [37:52<26:11, 157.11s/it]Epoch: 15, train loss: 2.41841, f_loss_w: 0.00005, f_loss_uw: 2.41841, data loss: 0.16890:  60% 15/25 [40:40<26:11, 157.11s/it]Epoch: 15, train loss: 2.41841, f_loss_w: 0.00005, f_loss_uw: 2.41841, data loss: 0.16890:  64% 16/25 [40:40<23:46, 158.47s/it]Epoch: 16, t22, f_loss_w: 0.00014, f_loss_uw: 2.37422, data loss: 0.14427:  64% 16/25 [31:54<17:44, 118.23s/it]Epoch: 16, train loss: 2.37422, f_loss_w: 0.00014, f_loss_uw: 2.37422, data loss: 0.14427:  68% 17/25 [31:54<16:20, 122.60s/it]Epoch: 17, train loss: 2.26823, f_loss_w: 0.00017, f_loss_uw: 2.26823, data loss: 0.14712:  68% 17/25 [34:35<16:20, 122.60s/it]Epoch: 17, train loss: 2.26823, f_loss_w: 0.00017, f_loss_uw: 2.26823, data loss: 0.14712:  72% 18/25 [34:35<14:49, 127.04s/it]Epoch: 18, train loss: 2.28265, f_loss_w: 0.00026, f_loss_uw: 2.28265, data loss: 0.14876:  72% 18/25 [37:35<14:49, 127.04s/it]Epoch: 18, train loss: 2.28265, f_loss_w: 0.00026, f_loss_uw: 2.28265, data loss: 0.14876:  76% 19/25 [37:35<13:18, 133.16s/it]Epoch: 19, train loss: 2.42356, f_loss_w: 0.00044, f_loss_uw: 2.42356, data loss: 0.14875:  76% 19/25 [40:51<13:18, 133.16s/it]Epoch: 19, train loss: 2.42356, f_loss_w: 0.00044, f_loss_uw: 2.42356, data loss: 0.14875:  80% 20/25 [40:51<11:41, 140.31s/it]Epoch: 20, train loss: 2.5305:55<1:15:16, 265.70s/it]Epoch: 8, train loss: 2.57947, f_loss_w: 0.00001, f_loss_uw: 2.57947, data loss: 0.12905:  32% 8/25 [38:55<1:15:16, 265.70s/it] Epoch: 8, train loss: 2.57947, f_loss_w: 0.00001, f_loss_uw: 2.57947, data loss: 0.12905:  36% 9/25 [38:55<1:07:07, 251.70s/it]Epoch: 9, train loss: 3.79906, f_loss_w: 0.00003, f_loss_uw: 3.79906, data loss: 0.35745:  36% 9/25 [41:00<1:07:07, 251.70s/it]Epoch: 9, train loss: 3.79906, f_loss_w: 0.00003, f_loss_uw: 3.79906, data loss: 0.35745:  40% 10/25 [41:00<58:04, 232.33s/it] Epoch: 10, train loss: 4.65660, f_loss_w: 0.00004, f_loss_uw: 4.65660, data loss: 0.46087:  40% 10/25 [42:58<58:04, 232.33s/it]Epoch: 10, train loss: 4.65660, f_loss_w: 0.00004, f_loss_uw: 4.65660, data loss: 0.46087:  44% 11/25 [42:58<50:18, 215.60s/it]Epoch: 11, train loss: 3.70741, f_loss_w: 0.00001, f_loss_uw: 3.70741, data loss: 0.24667:  44% 11/25 [44:33<50:18, 215.60s/it]Epoch: 11, train loss: 3.70741, f_loss_w: 0.00001, f_loss_uw: 3.70741, data loss: 0.24667:  48% 12/25Epoch: 0, train loss: 3.38061, f_loss_w: 6308243.01725, f_loss_uw: 3.38061, data loss: 0.18831:   0% 0/25 [18:15<?, ?it/s]Epoch: 0, train loss: 3.38061, f_loss_w: 6308243.01725, f_loss_uw: 3.38061, data loss: 0.18831:   4% 1/25 [18:15<7:18:09, 1095.39s/it]Epoch: 1, train loss: 2.85221, f_loss_w: 26033092.84000, f_loss_uw: 2.85221, data loss: 0.09323:   4% 1/25 [27:07<7:18:09, 1095.39s/it]Epoch: 1, train loss: 2.85221, f_loss_w: 26033092.84000, f_loss_uw: 2.85221, data loss: 0.09323:   8% 2/25 [27:07<5:06:17, 799.02s/it] Epoch: 2, train loss: 2.27163, f_loss_w: 23614104.12000, f_loss_uw: 2.27163, data loss: 0.07430:   8% 2/25 [36:01<5:06:17, 799.02s/it]Epoch: 2, train loss: 2.27163, f_loss_w: 23614104.12000, f_loss_uw: 2.27163, data loss: 0.07430:  12% 3/25 [36:01<4:17:07, 701.24s/it]Epoch: 3, train loss: 2.07653, f_loss_w: 28663364.80000, f_loss_uw: 2.07653, data loss: 0.06484:  12% 3/25 [45:16<4:17:07, 701.24s/it]Epoch: 3, train loss: 2.07653, f_loss_w: 28663364.80000, f_loss_uw: 2.07653, data loss: :52, 365.35s/it]Epoch: 4, train loss: 2.25694, f_loss_w: 0.06549, f_loss_uw: 2.25694, data loss: 0.08451:  16% 4/25 [31:00<2:07:52, 365.35s/it]Epoch: 4, train loss: 2.25694, f_loss_w: 0.06549, f_loss_uw: 2.25694, data loss: 0.08451:  20% 5/25 [31:00<2:08:43, 386.16s/it]Epoch: 5, train loss: 2.56166, f_loss_w: 0.00841, f_loss_uw: 2.56166, data loss: 0.08493:  20% 5/25 [36:29<2:08:43, 386.16s/it]Epoch: 5, train loss: 2.56166, f_loss_w: 0.00841, f_loss_uw: 2.56166, data loss: 0.08493:  24% 6/25 [36:29<1:58:25, 373.97s/it]Epoch: 6, train loss: 2.53593, f_loss_w: 0.00551, f_loss_uw: 2.53593, data loss: 0.08727:  24% 6/25 [40:56<1:58:25, 373.97s/it]Epoch: 6, train loss: 2.53593, f_loss_w: 0.00551, f_loss_uw: 2.53593, data loss: 0.08727:  28% 7/25 [40:56<1:46:04, 353.56s/it]Epoch: 7, train loss: 2.26577, f_loss_w: 0.00652, f_loss_uw: 2.26577, data loss: 0.06863:  28% 7/25 [45:44<1:46:04, 353.56s/it]Epoch: 7, train loss: 2.26577, f_loss_w: 0.00652, f_loss_uw: 2.26577, data loss: 0.06863:  32% 8/25 [45:44<1:36och: 20, train loss: 2.60265, f_loss_w: 0.00001, f_loss_uw: 2.60265, data loss: 0.12815:  80% 20/25 [42:23<08:29, 101.96s/it]Epoch: 20, train loss: 2.60265, f_loss_w: 0.00001, f_loss_uw: 2.60265, data loss: 0.12815:  84% 21/25 [42:23<06:38, 99.70s/it] Epoch: 21, train loss: 2.75810, f_loss_w: 0.00001, f_loss_uw: 2.75810, data loss: 0.12086:  84% 21/25 [43:42<06:38, 99.70s/it]Epoch: 21, train loss: 2.75810, f_loss_w: 0.00001, f_loss_uw: 2.75810, data loss: 0.12086:  88% 22/25 [43:42<04:52, 97.36s/it]Epoch: 22, train loss: 2.77634, f_loss_w: 0.00001, f_loss_uw: 2.77634, data loss: 0.11135:  88% 22/25 [45:02<04:52, 97.36s/it]Epoch: 22, train loss: 2.77634, f_loss_w: 0.00001, f_loss_uw: 2.77634, data loss: 0.11135:  92% 23/25 [45:02<03:10, 95.47s/it]Epoch: 23, train loss: 2.78578, f_loss_w: 0.00001, f_loss_uw: 2.78578, data loss: 0.11380:  92% 23/25 [46:23<03:10, 95.47s/it]Epoch: 23, train loss: 2.78578, f_loss_w: 0.00001, f_loss_uw: 2.78578, data loss: 0.11380:  96% 24/25 [46:23<01:33, 93.92s/it]Epoch: 2Checkpoint is saved at checkpoints//darcy-cpino-13.pt
+Checkpoint is saved at checkpoints//darcy-cpino-13-weights.pt
+4, train loss: 2.82132, f_loss_w: 0.00001, f_loss_uw: 2.82132, data loss: 0.10930:  96% 24/25 [47:45<01:33, 93.92s/it]Epoch: 24, train loss: 2.82132, f_loss_w: 0.00001, f_loss_uw: 2.82132, data loss: 0.10930: 100% 25/25 [47:45<00:00, 92.70s/it]Epoch: 24, train loss: 2.82132, f_loss_w: 0.00001, f_loss_uw: 2.82132, data loss: 0.10930: 100% 25/25 [47:45<00:00, 114.64s/it]
+wandb: Waiting for W&B process to finish, PID 8543... (success).
+  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 197
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 227
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 684
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 9479
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/25 [47:56<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 183, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_y)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 102, in Hvp_vec
+    raise ValueError('vector nan')
+ValueError: vector nan
+wandb: Waiting for W&B process to finish, PID 6302... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (wandb: Run history:
+wandb:         data loss █▂▂▂▂▂▂▂▂▂▂▂▁▂▁▂▂▁▁▁▁▁▁▁▁
+wandb:            f loss ▄▁▁▁▂█▇▄▂▃▄▃▃▂▄▂▄▂▃▃▂▂▂▂▃
+wandb:   f loss weighted █▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train loss ▄▁▁▁▂█▇▄▂▃▄▃▃▂▄▂▄▂▃▃▂▂▂▂▃
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.1093
+wandb:            f loss 2.82132
+wandb:   f loss weighted 1e-05
+wandb:        train loss 2.82132
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced stilted-terrain-69: https://wandb.ai/rishigundakaram/CPINO/runs/2gugm95z
+wandb: Find logs at: ./wandb/run-20220525_231652-2gugm95z/logs/debug.log
+wandb: 
+
+Done!
+0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced blooming-donkey-49: https://wandb.ai/rishigundakaram/CPINO/runs/e2g6au9d
+wandb: Find logs at: ./wandb/run-20220525_231650-e2g6au9d/logs/debug.log
+wandb: 
+
+srun: error: hpc-26-18: task 0: Exited with exit code 1
+Epoch: 0, train loss: 2.08515, f_loss_w: 0.74113, f_loss_uw: 2.08515, data loss: 0.14234:   0% 0/25 [12:13<?, ?it/s]Epoch: 0, train loss: 2.08515, f_loss_w: 0.74113, f_loss_uw: 2.08515, data loss: 0.14234:   4% 1/25 [12:13<4:53:15, 733.14s/it]Epoch: 1, train loss: 1.42194, f_loss_w: 0.19479, f_loss_uw: 1.42194, data loss: 0.05957:   4% 1/25 [21:24<4:53:15, 733.14s/it]Epoch: 1, train loss: 1.42194, f_loss_w: 0.19479, f_loss_uw: 1.42194, data loss: 0.05957:   8% 2/25 [21:24<4:04:27, 637.70s/it]Epoch: 2, train loss: 1.32538, f_loss_w: 0.06338, f_loss_uw: 1.32538, data loss: 0.04765:   8% 2/25 [30:00<4:04:27, 637.70s/it]Epoch: 2, train loss: 1.32538, f_loss_w: 0.06338, f_loss_uw: 1.32538, data loss: 0.04765:  12% 3/25 [30:00<3:37:17, 592.63s/it]Epoch: 3, train loss: 1.26755, f_loss_w: 0.04475, f_loss_uw: 1.26755, data loss: 0.04275:  12% 3/25 [38:54<3:37:17, 592.63s/it]Epoch: 3, train loss: 1.26755, f_loss_w: 0.04475, f_loss_uw: 1.26755, data loss: 0.04275:  16% 4/25 [38:54<3:21:25, 575.49s/it]Epoch: 4, 0:57<1:07:30, 238.28s/it]Epoch: 8, train loss: 2.25935, f_loss_w: 0.00000, f_loss_uw: 2.25935, data loss: 0.14151:  32% 8/25 [35:19<1:07:30, 238.28s/it]Epoch: 8, train loss: 2.25935, f_loss_w: 0.00000, f_loss_uw: 2.25935, data loss: 0.14151:  36% 9/25 [35:19<1:04:36, 242.26s/it]Epoch: 9, train loss: 2.47792, f_loss_w: 0.00000, f_loss_uw: 2.47792, data loss: 0.14719:  36% 9/25 [39:49<1:04:36, 242.26s/it]Epoch: 9, train loss: 2.47792, f_loss_w: 0.00000, f_loss_uw: 2.47792, data loss: 0.14719:  40% 10/25 [39:49<1:01:37, 246.48s/it]Epoch: 10, train loss: 2.52635, f_loss_w: -0.00000, f_loss_uw: 2.52635, data loss: 0.14516:  40% 10/25 [44:25<1:01:37, 246.48s/it]Epoch: 10, train loss: 2.52635, f_loss_w: -0.00000, f_loss_uw: 2.52635, data loss: 0.14516:  44% 11/25 [44:25<58:30, 250.76s/it]  Epoch: 11, train loss: 2.53863, f_loss_w: -0.00000, f_loss_uw: 2.53863, data loss: 0.13413:  44% 11/25 [48:23<58:30, 250.76s/it]Epoch: 11, train loss: 2.53863, f_loss_w: -0.00000, f_loss_uw: 2.53863, data loss: 0.13413:  4 [44:33<43:04, 198.79s/it]Epoch: 12, train loss: 3.46152, f_loss_w: 0.00000, f_loss_uw: 3.46152, data loss: 0.23015:  48% 12/25 [45:42<43:04, 198.79s/it]Epoch: 12, train loss: 3.46152, f_loss_w: 0.00000, f_loss_uw: 3.46152, data loss: 0.23015:  52% 13/25 [45:42<36:17, 181.48s/it]Epoch: 13, train loss: 3.27440, f_loss_w: 0.00000, f_loss_uw: 3.27440, data loss: 0.18991:  52% 13/25 [46:54<36:17, 181.48s/it]Epoch: 13, train loss: 3.27440, f_loss_w: 0.00000, f_loss_uw: 3.27440, data loss: 0.18991:  56% 14/25 [46:54<30:39, 167.20s/it]Epoch: 14, train loss: 3.99662, f_loss_w: 0.00001, f_loss_uw: 3.99662, data loss: 0.22035:  56% 14/25 [48:06<30:39, 167.20s/it]Epoch: 14, train loss: 3.99662, f_loss_w: 0.00001, f_loss_uw: 3.99662, data loss: 0.22035:  60% 15/25 [48:06<25:51, 155.20s/it]Epoch: 15, train loss: 2.70197, f_loss_w: 0.00001, f_loss_uw: 2.70197, data loss: 0.18184:  60% 15/25 [49:16<25:51, 155.20s/it]Epoch: 15, train loss: 2.70197, f_loss_w: 0.00001, f_loss_uw: 2.70197, data loss: 0.18184:  64% 16/25.27s/it]Epoch: 20, train loss: 2.58022, f_loss_w: 0.00000, f_loss_uw: 2.58022, data loss: 0.16789:  80% 20/25 [45:07<10:31, 126.27s/it]Epoch: 20, train loss: 2.58022, f_loss_w: 0.00000, f_loss_uw: 2.58022, data loss: 0.16789:  84% 21/25 [45:07<08:17, 124.38s/it]Epoch: 21, train loss: 2.66202, f_loss_w: 0.00001, f_loss_uw: 2.66202, data loss: 0.17543:  84% 21/25 [46:40<08:17, 124.38s/it]Epoch: 21, train loss: 2.66202, f_loss_w: 0.00001, f_loss_uw: 2.66202, data loss: 0.17543:  88% 22/25 [46:40<06:02, 120.90s/it]Epoch: 22, train loss: 2.35924, f_loss_w: 0.00001, f_loss_uw: 2.35924, data loss: 0.16453:  88% 22/25 [48:16<06:02, 120.90s/it]Epoch: 22, train loss: 2.35924, f_loss_w: 0.00001, f_loss_uw: 2.35924, data loss: 0.16453:  92% 23/25 [48:16<03:56, 118.21s/it]Epoch: 23, train loss: 18.14661, f_loss_w: -0.00420, f_loss_uw: 18.14661, data loss: 0.87837:  92% 23/25 [51:11<03:56, 118.21s/it]Epoch: 23, train loss: 18.14661, f_loss_w: -0.00420, f_loss_uw: 18.14661, data loss: 0.87837:  96% 24/25 [51:11<02:0Checkpoint is saved at checkpoints//darcy-cpino-7.pt
+Checkpoint is saved at checkpoints//darcy-cpino-7-weights.pt
+_loss_w: 568752744693.76001, f_loss_uw: 2.33934, data loss: 0.09821:  76% 19/25 [43:14<14:46, 147.70s/it]Epoch: 19, train loss: 2.29240, f_loss_w: 603354966261.76001, f_loss_uw: 2.29240, data loss: 0.09570:  76% 19/25 [45:38<14:46, 147.70s/it]Epoch: 19, train loss: 2.29240, f_loss_w: 603354966261.76001, f_loss_uw: 2.29240, data loss: 0.09570:  80% 20/25 [45:38<12:16, 147.34s/it]Epoch: 20, train loss: 2.21001, f_loss_w: 647383685529.59998, f_loss_uw: 2.21001, data loss: 0.09194:  80% 20/25 [48:06<12:16, 147.34s/it]Epoch: 20, train loss: 2.21001, f_loss_w: 647383685529.59998, f_loss_uw: 2.21001, data loss: 0.09194:  84% 21/25 [48:06<09:49, 147.35s/it]Epoch: 21, train loss: 2.13919, f_loss_w: 706636503449.59998, f_loss_uw: 2.13919, data loss: 0.08901:  84% 21/25 [50:41<09:49, 147.35s/it]Epoch: 21, train loss: 2.13919, f_loss_w: 706636503449.59998, f_loss_uw: 2.13919, data loss: 0.08901:  88% 22/25 [50:41<07:24, 148.17s/it]Epoch: 22, train loss: 2.08668, f_loss_w: 768775440302.07996, f_loss_uw: 2.08668, da4, 124.34s/it]Epoch: 24, train loss: 5.45939, f_loss_w: 0.00001, f_loss_uw: 5.45939, data loss: 0.23387:  96% 24/25 [53:20<02:04, 124.34s/it]   Epoch: 24, train loss: 5.45939, f_loss_w: 0.00001, f_loss_uw: 5.45939, data loss: 0.23387: 100% 25/25 [53:20<00:00, 124.90s/it]Epoch: 24, train loss: 5.45939, f_loss_w: 0.00001, f_loss_uw: 5.45939, data loss: 0.23387: 100% 25/25 [53:20<00:00, 128.03s/it]
+wandb: Waiting for W&B process to finish, PID 29135... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▂▃▁▁▁▁▁▄▁▁▁▁▁▂▁▁█▁▁▁▁▁▁▅▁
+wandb:            f loss ▁▃▂▁▁▁▁▄▁▁▁▁▁▂▁▁█▁▁▁▁▁▁█▂
+wandb:   f loss weighted █▆▆▆▆▆▆▇▆▆▆▆▆▇▆▆▁▆▆▆▆▆▆▃▆
+wandb:        train loss ▁▃▂▁▁▁▁▄▁▁▁▁▁▂▁▁█▁▁▁▁▁▁█▂
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.23387
+wandb:            f loss 5.45939
+wandb:   f loss weighted 1e-05
+wandb:        train loss 5.45939
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced rich-dew-39: https://wandb.ai/rishigundakaram/CPINO/runs/pazbdigq
+wandb: Find logs at: ./wandb/run-20220525_231646-pazbdigq/logs/debug.log
+wandb: 
+
+Done!
+ [49:16<21:42, 144.75s/it]Epoch: 16, train loss: 2.88232, f_loss_w: 0.00001, f_loss_uw: 2.88232, data loss: 0.18181:  64% 16/25 [50:26<21:42, 144.75s/it]Epoch: 16, train loss: 2.88232, f_loss_w: 0.00001, f_loss_uw: 2.88232, data loss: 0.18181:  68% 17/25 [50:26<18:06, 135.79s/it]Epoch: 17, train loss: 2.78989, f_loss_w: 0.00001, f_loss_uw: 2.78989, data loss: 0.18709:  68% 17/25 [51:37<18:06, 135.79s/it]Epoch: 17, train loss: 2.78989, f_loss_w: 0.00001, f_loss_uw: 2.78989, data loss: 0.18709:  72% 18/25 [51:37<14:57, 128.18s/it]Epoch: 18, train loss: 5.62964, f_loss_w: 0.00027, f_loss_uw: 5.62964, data loss: 0.58912:  72% 18/25 [53:06<14:57, 128.18s/it]Epoch: 18, train loss: 5.62964, f_loss_w: 0.00027, f_loss_uw: 5.62964, data loss: 0.58912:  76% 19/25 [53:06<12:22, 123.69s/it]Epoch: 19, train loss: 3.70224, f_loss_w: 0.00000, f_loss_uw: 3.70224, data loss: 0.26127:  76% 19/25 [54:38<12:22, 123.69s/it]Epoch: 19, train loss: 3.70224, f_loss_w: 0.00000, f_loss_uw: 3.70224, data loss: 0.26127:  80% 20/25:22:56, 292.71s/it]Epoch: 8, train loss: 1.79179, f_loss_w: 0.00117, f_loss_uw: 1.79179, data loss: 0.06758:  32% 8/25 [45:37<1:22:56, 292.71s/it]Epoch: 8, train loss: 1.79179, f_loss_w: 0.00117, f_loss_uw: 1.79179, data loss: 0.06758:  36% 9/25 [45:37<1:15:03, 281.47s/it]Epoch: 9, train loss: 1.82449, f_loss_w: 0.00113, f_loss_uw: 1.82449, data loss: 0.07509:  36% 9/25 [49:31<1:15:03, 281.47s/it]Epoch: 9, train loss: 1.82449, f_loss_w: 0.00113, f_loss_uw: 1.82449, data loss: 0.07509:  40% 10/25 [49:31<1:08:33, 274.22s/it]Epoch: 10, train loss: 1.70971, f_loss_w: 0.00076, f_loss_uw: 1.70971, data loss: 0.06236:  40% 10/25 [53:02<1:08:33, 274.22s/it]Epoch: 10, train loss: 1.70971, f_loss_w: 0.00076, f_loss_uw: 1.70971, data loss: 0.06236:  44% 11/25 [53:02<1:01:50, 265.02s/it]Epoch: 11, train loss: 1.65581, f_loss_w: 0.00093, f_loss_uw: 1.65581, data loss: 0.06096:  44% 11/25 [56:41<1:01:50, 265.02s/it]Epoch: 11, train loss: 1.65581, f_loss_w: 0.00093, f_loss_uw: 1.65581, data loss: 0.06096:  48% 12/25rain loss: 2.58821, f_loss_w: 0.00005, f_loss_uw: 2.58821, data loss: 0.17970:  64% 16/25 [43:38<23:46, 158.47s/it]Epoch: 16, train loss: 2.58821, f_loss_w: 0.00005, f_loss_uw: 2.58821, data loss: 0.17970:  68% 17/25 [43:38<21:26, 160.83s/it]Epoch: 17, train loss: 3.64045, f_loss_w: 0.00001, f_loss_uw: 3.64045, data loss: 0.18956:  68% 17/25 [47:01<21:26, 160.83s/it]Epoch: 17, train loss: 3.64045, f_loss_w: 0.00001, f_loss_uw: 3.64045, data loss: 0.18956:  72% 18/25 [47:01<19:20, 165.79s/it]Epoch: 18, train loss: 6.73048, f_loss_w: -0.00012, f_loss_uw: 6.73048, data loss: 0.26446:  72% 18/25 [51:12<19:20, 165.79s/it]Epoch: 18, train loss: 6.73048, f_loss_w: -0.00012, f_loss_uw: 6.73048, data loss: 0.26446:  76% 19/25 [51:12<17:33, 175.61s/it]Epoch: 19, train loss: 8.54056, f_loss_w: -0.00011, f_loss_uw: 8.54056, data loss: 0.32591:  76% 19/25 [54:54<17:33, 175.61s/it]Epoch: 19, train loss: 8.54056, f_loss_w: -0.00011, f_loss_uw: 8.54056, data loss: 0.32591:  80% 20/25 [54:54<15:04, 180.87s/it]Epoch: 2Checkpoint is saved at checkpoints//darcy-cpino-22.pt
+Checkpoint is saved at checkpoints//darcy-cpino-22-weights.pt
+ta loss: 0.08634:  88% 22/25 [53:22<07:24, 148.17s/it]Epoch: 22, train loss: 2.08668, f_loss_w: 768775440302.07996, f_loss_uw: 2.08668, data loss: 0.08634:  92% 23/25 [53:22<04:59, 149.66s/it]Epoch: 23, train loss: 2.06363, f_loss_w: 797305185894.40002, f_loss_uw: 2.06363, data loss: 0.08337:  92% 23/25 [56:08<04:59, 149.66s/it]Epoch: 23, train loss: 2.06363, f_loss_w: 797305185894.40002, f_loss_uw: 2.06363, data loss: 0.08337:  96% 24/25 [56:08<02:31, 151.45s/it]Epoch: 24, train loss: 1.99946, f_loss_w: 855111145881.59998, f_loss_uw: 1.99946, data loss: 0.07942:  96% 24/25 [58:59<02:31, 151.45s/it]Epoch: 24, train loss: 1.99946, f_loss_w: 855111145881.59998, f_loss_uw: 1.99946, data loss: 0.07942: 100% 25/25 [58:59<00:00, 153.50s/it]Epoch: 24, train loss: 1.99946, f_loss_w: 855111145881.59998, f_loss_uw: 1.99946, data loss: 0.07942: 100% 25/25 [58:59<00:00, 141.58s/it]
+wandb: Waiting for W&B process to finish, PID 14158... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▅▄▃▃▃▃▃▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁
+wandb:            f loss ▆▆▆█▆▄▄▄▄▃▂▂▁▂▂▂▂▂▂▂▂▁▁▁▁
+wandb:   f loss weighted ▁▁▁▁▁▁▁▁▁▁▂▃▅▇▆▆▆▆▆▆▆▇▇██
+wandb:        train loss ▆▆▆█▆▄▄▄▄▃▂▂▁▂▂▂▂▂▂▂▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.07942
+wandb:            f loss 1.99946
+wandb:   f loss weighted 855111145881.6
+wandb:        train loss 1.99946
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced giddy-butterfly-40: https://wandb.ai/rishigundakaram/CPINO/runs/jixdq3lk
+wandb: Find logs at: ./wandb/run-20220525_231645-jixdq3lk/logs/debug.log
+wandb: 
+
+Done!
+ [54:38<10:00, 120.09s/it]Epoch: 20, train loss: 4.29583, f_loss_w: 0.00000, f_loss_uw: 4.29583, data loss: 0.19656:  80% 20/25 [56:01<10:00, 120.09s/it]Epoch: 20, train loss: 4.29583, f_loss_w: 0.00000, f_loss_uw: 4.29583, data loss: 0.19656:  84% 21/25 [56:01<07:43, 115.89s/it]Epoch: 21, train loss: 3.63307, f_loss_w: 0.00000, f_loss_uw: 3.63307, data loss: 0.19356:  84% 21/25 [57:18<07:43, 115.89s/it]Epoch: 21, train loss: 3.63307, f_loss_w: 0.00000, f_loss_uw: 3.63307, data loss: 0.19356:  88% 22/25 [57:18<05:34, 111.58s/it]Epoch: 22, train loss: 3.40092, f_loss_w: 0.00000, f_loss_uw: 3.40092, data loss: 0.19182:  88% 22/25 [58:39<05:34, 111.58s/it]Epoch: 22, train loss: 3.40092, f_loss_w: 0.00000, f_loss_uw: 3.40092, data loss: 0.19182:  92% 23/25 [58:39<03:36, 108.21s/it]Epoch: 23, train loss: 3.53993, f_loss_w: 0.00000, f_loss_uw: 3.53993, data loss: 0.19126:  92% 23/25 [1:00:04<03:36, 108.21s/it]Epoch: 23, train loss: 3.53993, f_loss_w: 0.00000, f_loss_uw: 3.53993, data loss: 0.19126:  96% 24/74, f_loss_w: 0.00077, f_loss_uw: 2.53074, data loss: 0.14437:  80% 20/25 [44:22<11:41, 140.31s/it]Epoch: 20, train loss: 2.53074, f_loss_w: 0.00077, f_loss_uw: 2.53074, data loss: 0.14437:  84% 21/25 [44:22<09:53, 148.29s/it]Epoch: 21, train loss: 2.64941, f_loss_w: 0.00127, f_loss_uw: 2.64941, data loss: 0.14192:  84% 21/25 [48:19<09:53, 148.29s/it]Epoch: 21, train loss: 2.64941, f_loss_w: 0.00127, f_loss_uw: 2.64941, data loss: 0.14192:  88% 22/25 [48:19<07:54, 158.13s/it]Epoch: 22, train loss: 3.78764, f_loss_w: 0.00090, f_loss_uw: 3.78764, data loss: 0.15619:  88% 22/25 [52:44<07:54, 158.13s/it]Epoch: 22, train loss: 3.78764, f_loss_w: 0.00090, f_loss_uw: 3.78764, data loss: 0.15619:  92% 23/25 [52:44<05:39, 169.86s/it]Epoch: 23, train loss: 8.76138, f_loss_w: -0.00136, f_loss_uw: 8.76138, data loss: 0.26068:  92% 23/25 [57:33<05:39, 169.86s/it]Epoch: 23, train loss: 8.76138, f_loss_w: -0.00136, f_loss_uw: 8.76138, data loss: 0.26068:  96% 24/25 [57:33<03:02, 182.81s/it]Epoch: 24, train loss: 13.Checkpoint is saved at checkpoints//darcy-cpino-19.pt
+Checkpoint is saved at checkpoints//darcy-cpino-19-weights.pt
+08369, f_loss_w: -0.00081, f_loss_uw: 13.08369, data loss: 0.35772:  96% 24/25 [1:01:09<03:02, 182.81s/it]Epoch: 24, train loss: 13.08369, f_loss_w: -0.00081, f_loss_uw: 13.08369, data loss: 0.35772: 100% 25/25 [1:01:09<00:00, 186.41s/it]Epoch: 24, train loss: 13.08369, f_loss_w: -0.00081, f_loss_uw: 13.08369, data loss: 0.35772: 100% 25/25 [1:01:09<00:00, 146.79s/it]
+wandb: Waiting for W&B process to finish, PID 25689... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▄▂▂█▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂
+wandb:            f loss ▄▂▁▅▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▅█
+wandb:   f loss weighted █▄▆▁▄▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▄▂▃
+wandb:        train loss ▄▂▁▅▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▂▅█
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.35772
+wandb:            f loss 13.08369
+wandb:   f loss weighted -0.00081
+wandb:        train loss 13.08369
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced fearless-star-60: https://wandb.ai/rishigundakaram/CPINO/runs/2erm87s9
+wandb: Find logs at: ./wandb/run-20220525_231652-2erm87s9/logs/debug.log
+wandb: 
+
+Done!
+Checkpoint is saved at checkpoints//darcy-cpino-8.pt
+Checkpoint is saved at checkpoints//darcy-cpino-8-weights.pt
+25 [1:00:04<01:45, 105.76s/it]Epoch: 24, train loss: 4.03153, f_loss_w: 0.00001, f_loss_uw: 4.03153, data loss: 0.21353:  96% 24/25 [1:01:18<01:45, 105.76s/it]Epoch: 24, train loss: 4.03153, f_loss_w: 0.00001, f_loss_uw: 4.03153, data loss: 0.21353: 100% 25/25 [1:01:18<00:00, 102.32s/it]Epoch: 24, train loss: 4.03153, f_loss_w: 0.00001, f_loss_uw: 4.03153, data loss: 0.21353: 100% 25/25 [1:01:18<00:00, 147.15s/it]
+wandb: Waiting for W&B process to finish, PID 16543... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▁▁▁▁▁▁▁▁▃▄▂▂▂▂▂▂▂▆▂▂▂▂▂▂
+wandb:            f loss ▆▂▁▂▂▃▃▃▂▅▆▄▄▄▅▃▃▃█▄▅▄▄▄▅
+wandb:   f loss weighted ▁████████████████████████
+wandb:        train loss ▆▂▁▂▂▃▃▃▂▅▆▄▄▄▅▃▃▃█▄▅▄▄▄▅
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.21353
+wandb:            f loss 4.03153
+wandb:   f loss weighted 1e-05
+wandb:        train loss 4.03153
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced dazzling-aardvark-68: https://wandb.ai/rishigundakaram/CPINO/runs/2jyyn15z
+wandb: Find logs at: ./wandb/run-20220525_231650-2jyyn15z/logs/debug.log
+wandb: 
+
+Done!
+8% 12/25 [48:23<53:56, 248.98s/it]Epoch: 12, train loss: 2.54180, f_loss_w: -0.00001, f_loss_uw: 2.54180, data loss: 0.12575:  48% 12/25 [52:03<53:56, 248.98s/it]Epoch: 12, train loss: 2.54180, f_loss_w: -0.00001, f_loss_uw: 2.54180, data loss: 0.12575:  52% 13/25 [52:03<49:02, 245.18s/it]Epoch: 13, train loss: 2.48359, f_loss_w: -0.00001, f_loss_uw: 2.48359, data loss: 0.11812:  52% 13/25 [55:51<49:02, 245.18s/it]Epoch: 13, train loss: 2.48359, f_loss_w: -0.00001, f_loss_uw: 2.48359, data loss: 0.11812:  56% 14/25 [55:51<44:31, 242.89s/it]Epoch: 14, train loss: 2.45525, f_loss_w: -0.00001, f_loss_uw: 2.45525, data loss: 0.10943:  56% 14/25 [59:40<44:31, 242.89s/it]Epoch: 14, train loss: 2.45525, f_loss_w: -0.00001, f_loss_uw: 2.45525, data loss: 0.10943:  60% 15/25 [59:40<40:11, 241.16s/it]Epoch: 15, train loss: 2.44933, f_loss_w: -0.00001, f_loss_uw: 2.44933, data loss: 0.10865:  60% 15/25 [1:03:08<40:11, 241.16s/it]Epoch: 15, train loss: 2.44933, f_loss_w: -0.00001, f_loss_uw: 2.44933, data loss: 025 [42:41<1:27:54, 310.24s/it]Epoch: 8, train loss: 1.33969, f_loss_w: 4.02672, f_loss_uw: 1.33969, data loss: 0.04959:  32% 8/25 [47:27<1:27:54, 310.24s/it]Epoch: 8, train loss: 1.33969, f_loss_w: 4.02672, f_loss_uw: 1.33969, data loss: 0.04959:  36% 9/25 [47:27<1:21:40, 306.28s/it]Epoch: 9, train loss: 1.27298, f_loss_w: 3.24496, f_loss_uw: 1.27298, data loss: 0.04430:  36% 9/25 [52:36<1:21:40, 306.28s/it]Epoch: 9, train loss: 1.27298, f_loss_w: 3.24496, f_loss_uw: 1.27298, data loss: 0.04430:  40% 10/25 [52:36<1:16:38, 306.60s/it]Epoch: 10, train loss: 1.21766, f_loss_w: 2.72832, f_loss_uw: 1.21766, data loss: 0.04191:  40% 10/25 [58:02<1:16:38, 306.60s/it]Epoch: 10, train loss: 1.21766, f_loss_w: 2.72832, f_loss_uw: 1.21766, data loss: 0.04191:  44% 11/25 [58:02<1:12:13, 309.53s/it]Epoch: 11, train loss: 1.16117, f_loss_w: 2.36529, f_loss_uw: 1.16117, data loss: 0.03955:  44% 11/25 [1:03:25<1:12:13, 309.53s/it]Epoch: 11, train loss: 1.16117, f_loss_w: 2.36529, f_loss_uw: 1.16117, data loss: 0.03950, train loss: 6.97472, f_loss_w: -0.00005, f_loss_uw: 6.97472, data loss: 0.24685:  80% 20/25 [58:08<15:04, 180.87s/it]Epoch: 20, train loss: 6.97472, f_loss_w: -0.00005, f_loss_uw: 6.97472, data loss: 0.24685:  84% 21/25 [58:08<12:09, 182.40s/it]Epoch: 21, train loss: 5.89556, f_loss_w: -0.00003, f_loss_uw: 5.89556, data loss: 0.20275:  84% 21/25 [1:01:18<12:09, 182.40s/it]Epoch: 21, train loss: 5.89556, f_loss_w: -0.00003, f_loss_uw: 5.89556, data loss: 0.20275:  88% 22/25 [1:01:18<09:09, 183.25s/it]Epoch: 22, train loss: 4.46965, f_loss_w: -0.00001, f_loss_uw: 4.46965, data loss: 0.16774:  88% 22/25 [1:04:09<09:09, 183.25s/it]Epoch: 22, train loss: 4.46965, f_loss_w: -0.00001, f_loss_uw: 4.46965, data loss: 0.16774:  92% 23/25 [1:04:09<06:03, 181.87s/it]Epoch: 23, train loss: 3.66364, f_loss_w: -0.00001, f_loss_uw: 3.66364, data loss: 0.15111:  92% 23/25 [1:06:54<06:03, 181.87s/it]Epoch: 23, train loss: 3.66364, f_loss_w: -0.00001, f_loss_uw: 3.66364, data loss: 0.15111:  96% 24/25 [1:06:54<03:00, Checkpoint is saved at checkpoints//darcy-cpino-14.pt
+Checkpoint is saved at checkpoints//darcy-cpino-14-weights.pt
+180.01s/it]Epoch: 24, train loss: 3.32014, f_loss_w: -0.00000, f_loss_uw: 3.32014, data loss: 0.13614:  96% 24/25 [1:09:38<03:00, 180.01s/it]Epoch: 24, train loss: 3.32014, f_loss_w: -0.00000, f_loss_uw: 3.32014, data loss: 0.13614: 100% 25/25 [1:09:38<00:00, 178.34s/it]Epoch: 24, train loss: 3.32014, f_loss_w: -0.00000, f_loss_uw: 3.32014, data loss: 0.13614: 100% 25/25 [1:09:38<00:00, 167.15s/it]
+wandb: Waiting for W&B process to finish, PID 30895... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▄█▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▂▁▁▁▁
+wandb:            f loss ▄▅▃▂▁▂▁▁▁▁▁▁▁▁▁▁▂▃▆█▆▅▄▃▂
+wandb:   f loss weighted █▁▃▄▄▃▄▄▄▄▄▄▄▄▄▄▄▄▂▃▃▃▃▃▃
+wandb:        train loss ▄▅▃▂▁▂▁▁▁▁▁▁▁▁▁▁▂▃▆█▆▅▄▃▂
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.13614
+wandb:            f loss 3.32014
+wandb:   f loss weighted -0.0
+wandb:        train loss 3.32014
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced twilight-plant-42: https://wandb.ai/rishigundakaram/CPINO/runs/tarpy17n
+wandb: Find logs at: ./wandb/run-20220525_231649-tarpy17n/logs/debug.log
+wandb: 
+
+Done!
+:55, 342.07s/it]Epoch: 8, train loss: 2.10788, f_loss_w: 0.00596, f_loss_uw: 2.10788, data loss: 0.06229:  32% 8/25 [51:15<1:36:55, 342.07s/it]Epoch: 8, train loss: 2.10788, f_loss_w: 0.00596, f_loss_uw: 2.10788, data loss: 0.06229:  36% 9/25 [51:15<1:30:42, 340.18s/it]Epoch: 9, train loss: 2.01181, f_loss_w: 0.00507, f_loss_uw: 2.01181, data loss: 0.06056:  36% 9/25 [56:54<1:30:42, 340.18s/it]Epoch: 9, train loss: 2.01181, f_loss_w: 0.00507, f_loss_uw: 2.01181, data loss: 0.06056:  40% 10/25 [56:54<1:25:01, 340.08s/it]Epoch: 10, train loss: 1.92836, f_loss_w: 0.00438, f_loss_uw: 1.92836, data loss: 0.05705:  40% 10/25 [1:03:15<1:25:01, 340.08s/it]Epoch: 10, train loss: 1.92836, f_loss_w: 0.00438, f_loss_uw: 1.92836, data loss: 0.05705:  44% 11/25 [1:03:15<1:20:44, 346.02s/it]Epoch: 11, train loss: 1.86320, f_loss_w: 0.00360, f_loss_uw: 1.86320, data loss: 0.05533:  44% 11/25 [1:10:00<1:20:44, 346.02s/it]Epoch: 11, train loss: 1.86320, f_loss_w: 0.00360, f_loss_uw: 1.86320, data loss: 0.05533:  48% 12 [56:41<56:01, 258.55s/it]  Epoch: 12, train loss: 1.58464, f_loss_w: 0.00089, f_loss_uw: 1.58464, data loss: 0.05974:  48% 12/25 [1:00:46<56:01, 258.55s/it]Epoch: 12, train loss: 1.58464, f_loss_w: 0.00089, f_loss_uw: 1.58464, data loss: 0.05974:  52% 13/25 [1:00:46<51:21, 256.76s/it]Epoch: 13, train loss: 1.82157, f_loss_w: 0.00061, f_loss_uw: 1.82157, data loss: 0.07860:  52% 13/25 [1:03:49<51:21, 256.76s/it]Epoch: 13, train loss: 1.82157, f_loss_w: 0.00061, f_loss_uw: 1.82157, data loss: 0.07860:  56% 14/25 [1:03:49<45:19, 247.24s/it]Epoch: 14, train loss: 1.58579, f_loss_w: 0.00074, f_loss_uw: 1.58579, data loss: 0.06111:  56% 14/25 [1:07:50<45:19, 247.24s/it]Epoch: 14, train loss: 1.58579, f_loss_w: 0.00074, f_loss_uw: 1.58579, data loss: 0.06111:  60% 15/25 [1:07:50<41:03, 246.38s/it]Epoch: 15, train loss: 1.50150, f_loss_w: 0.00060, f_loss_uw: 1.50150, data loss: 0.05559:  60% 15/25 [1:11:42<41:03, 246.38s/it]Epoch: 15, train loss: 1.50150, f_loss_w: 0.00060, f_loss_uw: 1.50150, data loss: 0.0.10865:  64% 16/25 [1:03:08<35:34, 237.12s/it]Epoch: 16, train loss: 2.24892, f_loss_w: -0.00000, f_loss_uw: 2.24892, data loss: 0.09158:  64% 16/25 [1:06:53<35:34, 237.12s/it]Epoch: 16, train loss: 2.24892, f_loss_w: -0.00000, f_loss_uw: 2.24892, data loss: 0.09158:  68% 17/25 [1:06:53<31:25, 235.64s/it]Epoch: 17, train loss: 2.27311, f_loss_w: -0.00000, f_loss_uw: 2.27311, data loss: 0.09782:  68% 17/25 [1:10:15<31:25, 235.64s/it]Epoch: 17, train loss: 2.27311, f_loss_w: -0.00000, f_loss_uw: 2.27311, data loss: 0.09782:  72% 18/25 [1:10:15<27:01, 231.71s/it]Epoch: 18, train loss: 2.10133, f_loss_w: -0.00000, f_loss_uw: 2.10133, data loss: 0.08766:  72% 18/25 [1:13:28<27:01, 231.71s/it]Epoch: 18, train loss: 2.10133, f_loss_w: -0.00000, f_loss_uw: 2.10133, data loss: 0.08766:  76% 19/25 [1:13:28<22:42, 227.16s/it]Epoch: 19, train loss: 2.15873, f_loss_w: -0.00000, f_loss_uw: 2.15873, data loss: 0.09653:  76% 19/25 [1:16:45<22:42, 227.16s/it]Epoch: 19, train loss: 2.15873, f_loss_w: -0.00000, f_loss_u0.06484:  16% 4/25 [45:16<3:50:32, 658.70s/it]Epoch: 4, train loss: 1.93846, f_loss_w: 28345770.80000, f_loss_uw: 1.93846, data loss: 0.05540:  16% 4/25 [53:41<3:50:32, 658.70s/it]Epoch: 4, train loss: 1.93846, f_loss_w: 28345770.80000, f_loss_uw: 1.93846, data loss: 0.05540:  20% 5/25 [53:41<3:27:04, 621.23s/it]Epoch: 5, train loss: 1.90941, f_loss_w: 37994229.40000, f_loss_uw: 1.90941, data loss: 0.05005:  20% 5/25 [1:02:51<3:27:04, 621.23s/it]Epoch: 5, train loss: 1.90941, f_loss_w: 37994229.40000, f_loss_uw: 1.90941, data loss: 0.05005:  24% 6/25 [1:02:51<3:11:51, 605.84s/it]Epoch: 6, train loss: 2.03482, f_loss_w: 51125713.28000, f_loss_uw: 2.03482, data loss: 0.04969:  24% 6/25 [1:12:44<3:11:51, 605.84s/it]Epoch: 6, train loss: 2.03482, f_loss_w: 51125713.28000, f_loss_uw: 2.03482, data loss: 0.04969:  28% 7/25 [1:12:44<3:01:03, 603.55s/it]Epoch: 7, train loss: 1.97495, f_loss_w: 75658679.04000, f_loss_uw: 1.97495, data loss: 0.04531:  28% 7/25 [1:23:54<3:01:03, 603.55s/it]Epoch: 7, train loss: train loss: 1.20794, f_loss_w: 0.04556, f_loss_uw: 1.20794, data loss: 0.04088:  16% 4/25 [48:12<3:21:25, 575.49s/it]Epoch: 4, train loss: 1.20794, f_loss_w: 0.04556, f_loss_uw: 1.20794, data loss: 0.04088:  20% 5/25 [48:12<3:10:23, 571.18s/it]Epoch: 5, train loss: 1.13386, f_loss_w: 0.04470, f_loss_uw: 1.13386, data loss: 0.03898:  20% 5/25 [57:05<3:10:23, 571.18s/it]Epoch: 5, train loss: 1.13386, f_loss_w: 0.04470, f_loss_uw: 1.13386, data loss: 0.03898:  24% 6/25 [57:05<2:58:19, 563.11s/it]Epoch: 6, train loss: 1.10810, f_loss_w: 0.05313, f_loss_uw: 1.10810, data loss: 0.03807:  24% 6/25 [1:06:53<2:58:19, 563.11s/it]Epoch: 6, train loss: 1.10810, f_loss_w: 0.05313, f_loss_uw: 1.10810, data loss: 0.03807:  28% 7/25 [1:06:53<2:50:23, 567.98s/it]Epoch: 7, train loss: 1.10048, f_loss_w: 0.04431, f_loss_uw: 1.10048, data loss: 0.03780:  28% 7/25 [1:17:17<2:50:23, 567.98s/it]Epoch: 7, train loss: 1.10048, f_loss_w: 0.04431, f_loss_uw: 1.10048, data loss: 0.03780:  32% 8/25 [1:17:17<2:43:42, 577.77s/it]Ep5:  48% 12/25 [1:03:25<1:07:27, 311.33s/it]Epoch: 12, train loss: 1.11137, f_loss_w: 2.11304, f_loss_uw: 1.11137, data loss: 0.03695:  48% 12/25 [1:08:56<1:07:27, 311.33s/it]Epoch: 12, train loss: 1.11137, f_loss_w: 2.11304, f_loss_uw: 1.11137, data loss: 0.03695:  52% 13/25 [1:08:56<1:02:47, 313.98s/it]Epoch: 13, train loss: 1.06597, f_loss_w: 1.99176, f_loss_uw: 1.06597, data loss: 0.03552:  52% 13/25 [1:15:16<1:02:47, 313.98s/it]Epoch: 13, train loss: 1.06597, f_loss_w: 1.99176, f_loss_uw: 1.06597, data loss: 0.03552:  56% 14/25 [1:15:16<59:08, 322.59s/it]  Epoch: 14, train loss: 1.03510, f_loss_w: 1.95930, f_loss_uw: 1.03510, data loss: 0.03419:  56% 14/25 [1:21:17<59:08, 322.59s/it]Epoch: 14, train loss: 1.03510, f_loss_w: 1.95930, f_loss_uw: 1.03510, data loss: 0.03419:  60% 15/25 [1:21:17<54:34, 327.41s/it]Epoch: 15, train loss: 0.99837, f_loss_w: 1.91128, f_loss_uw: 0.99837, data loss: 0.03274:  60% 15/25 [1:27:29<54:34, 327.41s/it]Epoch: 15, train loss: 0.99837, f_loss_w: 1.91128, f_loss_uw: w: 2.15873, data loss: 0.09653:  80% 20/25 [1:16:45<18:39, 223.80s/it]Epoch: 20, train loss: 2.13222, f_loss_w: 0.00000, f_loss_uw: 2.13222, data loss: 0.12452:  80% 20/25 [1:19:39<18:39, 223.80s/it] Epoch: 20, train loss: 2.13222, f_loss_w: 0.00000, f_loss_uw: 2.13222, data loss: 0.12452:  84% 21/25 [1:19:39<14:32, 218.18s/it]Epoch: 21, train loss: 2.11973, f_loss_w: 0.00000, f_loss_uw: 2.11973, data loss: 0.10799:  84% 21/25 [1:22:29<14:32, 218.18s/it]Epoch: 21, train loss: 2.11973, f_loss_w: 0.00000, f_loss_uw: 2.11973, data loss: 0.10799:  88% 22/25 [1:22:29<10:38, 212.79s/it]Epoch: 22, train loss: 2.18987, f_loss_w: 0.00000, f_loss_uw: 2.18987, data loss: 0.10563:  88% 22/25 [1:25:25<10:38, 212.79s/it]Epoch: 22, train loss: 2.18987, f_loss_w: 0.00000, f_loss_uw: 2.18987, data loss: 0.10563:  92% 23/25 [1:25:25<06:57, 208.79s/it]Epoch: 23, train loss: 2.12105, f_loss_w: 0.00000, f_loss_uw: 2.12105, data loss: 0.11080:  92% 23/25 [1:28:08<06:57, 208.79s/it]Epoch: 23, train loss: 2.12105, f_loss_w: 5559:  64% 16/25 [1:11:42<36:41, 244.59s/it]Epoch: 16, train loss: 1.79490, f_loss_w: 0.00077, f_loss_uw: 1.79490, data loss: 0.08860:  64% 16/25 [1:15:37<36:41, 244.59s/it]Epoch: 16, train loss: 1.79490, f_loss_w: 0.00077, f_loss_uw: 1.79490, data loss: 0.08860:  68% 17/25 [1:15:37<32:27, 243.48s/it]Epoch: 17, train loss: 1.58594, f_loss_w: 0.00088, f_loss_uw: 1.58594, data loss: 0.05829:  68% 17/25 [1:19:55<32:27, 243.48s/it]Epoch: 17, train loss: 1.58594, f_loss_w: 0.00088, f_loss_uw: 1.58594, data loss: 0.05829:  72% 18/25 [1:19:55<28:35, 245.14s/it]Epoch: 18, train loss: 1.43866, f_loss_w: 0.00090, f_loss_uw: 1.43866, data loss: 0.05021:  72% 18/25 [1:24:11<28:35, 245.14s/it]Epoch: 18, train loss: 1.43866, f_loss_w: 0.00090, f_loss_uw: 1.43866, data loss: 0.05021:  76% 19/25 [1:24:11<24:38, 246.49s/it]Epoch: 19, train loss: 1.47687, f_loss_w: 0.00083, f_loss_uw: 1.47687, data loss: 0.06092:  76% 19/25 [1:28:51<24:38, 246.49s/it]Epoch: 19, train loss: 1.47687, f_loss_w: 0.00083, f_loss_uw: 1.47687Checkpoint is saved at checkpoints//darcy-cpino-9.pt
+Checkpoint is saved at checkpoints//darcy-cpino-9-weights.pt
+0.00000, f_loss_uw: 2.12105, data loss: 0.11080:  96% 24/25 [1:28:08<03:23, 203.79s/it]Epoch: 24, train loss: 2.29472, f_loss_w: -0.00000, f_loss_uw: 2.29472, data loss: 0.11146:  96% 24/25 [1:30:39<03:23, 203.79s/it]Epoch: 24, train loss: 2.29472, f_loss_w: -0.00000, f_loss_uw: 2.29472, data loss: 0.11146: 100% 25/25 [1:30:39<00:00, 198.16s/it]Epoch: 24, train loss: 2.29472, f_loss_w: -0.00000, f_loss_uw: 2.29472, data loss: 0.11146: 100% 25/25 [1:30:39<00:00, 217.60s/it]
+wandb: Waiting for W&B process to finish, PID 22558... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▅▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            f loss ██▄▂▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:   f loss weighted ▁████████████████████████
+wandb:        train loss ██▄▂▁▁▁▁▁▁▁▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.11146
+wandb:            f loss 2.29472
+wandb:   f loss weighted -0.0
+wandb:        train loss 2.29472
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced wandering-gorge-62: https://wandb.ai/rishigundakaram/CPINO/runs/21iedz25
+wandb: Find logs at: ./wandb/run-20220525_231650-21iedz25/logs/debug.log
+wandb: 
+
+Done!
+/25 [1:10:00<1:16:45, 354.26s/it]Epoch: 12, train loss: 1.81776, f_loss_w: 0.00299, f_loss_uw: 1.81776, data loss: 0.05326:  48% 12/25 [1:16:32<1:16:45, 354.26s/it]Epoch: 12, train loss: 1.81776, f_loss_w: 0.00299, f_loss_uw: 1.81776, data loss: 0.05326:  52% 13/25 [1:16:32<1:11:51, 359.33s/it]Epoch: 13, train loss: 1.78660, f_loss_w: 0.00264, f_loss_uw: 1.78660, data loss: 0.05091:  52% 13/25 [1:23:24<1:11:51, 359.33s/it]Epoch: 13, train loss: 1.78660, f_loss_w: 0.00264, f_loss_uw: 1.78660, data loss: 0.05091:  56% 14/25 [1:23:24<1:07:07, 366.11s/it]Epoch: 14, train loss: 1.75308, f_loss_w: 0.00239, f_loss_uw: 1.75308, data loss: 0.04968:  56% 14/25 [1:29:56<1:07:07, 366.11s/it]Epoch: 14, train loss: 1.75308, f_loss_w: 0.00239, f_loss_uw: 1.75308, data loss: 0.04968:  60% 15/25 [1:29:56<1:01:34, 369.41s/it]Epoch: 15, train loss: 1.72163, f_loss_w: 0.00212, f_loss_uw: 1.72163, data loss: 0.04776:  60% 15/25 [1:37:18<1:01:34, 369.41s/it]Epoch: 15, train loss: 1.72163, f_loss_w: 0.00212, f_loss_uw: 1.72och: 8, train loss: 1.24906, f_loss_w: 0.04030, f_loss_uw: 1.24906, data loss: 0.04390:  32% 8/25 [1:24:39<2:43:42, 577.77s/it]Epoch: 8, train loss: 1.24906, f_loss_w: 0.04030, f_loss_uw: 1.24906, data loss: 0.04390:  36% 9/25 [1:24:39<2:28:09, 555.59s/it]Epoch: 9, train loss: 1.13798, f_loss_w: 0.02980, f_loss_uw: 1.13798, data loss: 0.04085:  36% 9/25 [1:32:19<2:28:09, 555.59s/it]Epoch: 9, train loss: 1.13798, f_loss_w: 0.02980, f_loss_uw: 1.13798, data loss: 0.04085:  40% 10/25 [1:32:19<2:15:12, 540.86s/it]Epoch: 10, train loss: 1.05162, f_loss_w: 0.03523, f_loss_uw: 1.05162, data loss: 0.04121:  40% 10/25 [1:39:21<2:15:12, 540.86s/it]Epoch: 10, train loss: 1.05162, f_loss_w: 0.03523, f_loss_uw: 1.05162, data loss: 0.04121:  44% 11/25 [1:39:21<2:02:11, 523.64s/it]Epoch: 11, train loss: 1.11171, f_loss_w: 0.03427, f_loss_uw: 1.11171, data loss: 0.04406:  44% 11/25 [1:45:48<2:02:11, 523.64s/it]Epoch: 11, train loss: 1.11171, f_loss_w: 0.03427, f_loss_uw: 1.11171, data loss: 0.04406:  48% 12/25 [1:45:4, data loss: 0.06092:  80% 20/25 [1:28:51<20:51, 250.24s/it]Epoch: 20, train loss: 1.40436, f_loss_w: 0.00084, f_loss_uw: 1.40436, data loss: 0.04950:  80% 20/25 [1:34:00<20:51, 250.24s/it]Epoch: 20, train loss: 1.40436, f_loss_w: 0.00084, f_loss_uw: 1.40436, data loss: 0.04950:  84% 21/25 [1:34:00<17:07, 256.87s/it]Epoch: 21, train loss: 1.60722, f_loss_w: 0.00112, f_loss_uw: 1.60722, data loss: 0.06514:  84% 21/25 [1:39:33<17:07, 256.87s/it]Epoch: 21, train loss: 1.60722, f_loss_w: 0.00112, f_loss_uw: 1.60722, data loss: 0.06514:  88% 22/25 [1:39:33<13:15, 265.28s/it]Epoch: 22, train loss: 1.50857, f_loss_w: 0.00067, f_loss_uw: 1.50857, data loss: 0.05465:  88% 22/25 [1:43:44<13:15, 265.28s/it]Epoch: 22, train loss: 1.50857, f_loss_w: 0.00067, f_loss_uw: 1.50857, data loss: 0.05465:  92% 23/25 [1:43:44<08:47, 263.73s/it]Epoch: 23, train loss: 1.35854, f_loss_w: 0.00062, f_loss_uw: 1.35854, data loss: 0.04786:  92% 23/25 [1:48:24<08:47, 263.73s/it]Epoch: 23, train loss: 1.35854, f_loss_w: 0.00062, f_Checkpoint is saved at checkpoints//darcy-cpino-12.pt
+Checkpoint is saved at checkpoints//darcy-cpino-12-weights.pt
+loss_uw: 1.35854, data loss: 0.04786:  96% 24/25 [1:48:24<04:25, 265.54s/it]Epoch: 24, train loss: 1.63886, f_loss_w: 0.00072, f_loss_uw: 1.63886, data loss: 0.08045:  96% 24/25 [1:52:38<04:25, 265.54s/it]Epoch: 24, train loss: 1.63886, f_loss_w: 0.00072, f_loss_uw: 1.63886, data loss: 0.08045: 100% 25/25 [1:52:38<00:00, 264.30s/it]Epoch: 24, train loss: 1.63886, f_loss_w: 0.00072, f_loss_uw: 1.63886, data loss: 0.08045: 100% 25/25 [1:52:38<00:00, 270.35s/it]
+wandb: Waiting for W&B process to finish, PID 4829... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▂▄▃▂▂▃▂▂▂▂▂▁▂▂▁▃▁▁▂▁▂▁▁▂
+wandb:            f loss █▅▇▇▆▆▆▅▄▄▄▃▃▄▃▂▄▃▂▂▁▃▂▁▃
+wandb:   f loss weighted ▁▅▄█▄▃▃▃▃▃▃▃▃▂▃▂▃▃▃▃▃▃▃▂▃
+wandb:        train loss █▅▇▇▆▆▆▅▄▄▄▃▃▄▃▂▄▃▂▂▁▃▂▁▃
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.08045
+wandb:            f loss 1.63886
+wandb:   f loss weighted 0.00072
+wandb:        train loss 1.63886
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced deft-forest-65: https://wandb.ai/rishigundakaram/CPINO/runs/28aaurr4
+wandb: Find logs at: ./wandb/run-20220525_231653-28aaurr4/logs/debug.log
+wandb: 
+
+Done!
+0.99837, data loss: 0.03274:  64% 16/25 [1:27:29<49:56, 332.93s/it]Epoch: 16, train loss: 0.98037, f_loss_w: 2.01366, f_loss_uw: 0.98037, data loss: 0.03199:  64% 16/25 [1:33:52<49:56, 332.93s/it]Epoch: 16, train loss: 0.98037, f_loss_w: 2.01366, f_loss_uw: 0.98037, data loss: 0.03199:  68% 17/25 [1:33:52<45:11, 338.90s/it]Epoch: 17, train loss: 0.95440, f_loss_w: 2.04939, f_loss_uw: 0.95440, data loss: 0.03057:  68% 17/25 [1:40:55<45:11, 338.90s/it]Epoch: 17, train loss: 0.95440, f_loss_w: 2.04939, f_loss_uw: 0.95440, data loss: 0.03057:  72% 18/25 [1:40:55<40:41, 348.75s/it]Epoch: 18, train loss: 0.94409, f_loss_w: 2.02921, f_loss_uw: 0.94409, data loss: 0.03045:  72% 18/25 [1:47:36<40:41, 348.75s/it]Epoch: 18, train loss: 0.94409, f_loss_w: 2.02921, f_loss_uw: 0.94409, data loss: 0.03045:  76% 19/25 [1:47:36<35:29, 354.86s/it]Epoch: 19, train loss: 0.91457, f_loss_w: 1.86347, f_loss_uw: 0.91457, data loss: 0.02937:  76% 19/25 [1:54:39<35:29, 354.86s/it]Epoch: 19, train loss: 0.91457, f_loss_w: 1.86163, data loss: 0.04776:  64% 16/25 [1:37:18<56:44, 378.33s/it]  Epoch: 16, train loss: 1.70741, f_loss_w: 0.00180, f_loss_uw: 1.70741, data loss: 0.04632:  64% 16/25 [1:44:27<56:44, 378.33s/it]Epoch: 16, train loss: 1.70741, f_loss_w: 0.00180, f_loss_uw: 1.70741, data loss: 0.04632:  68% 17/25 [1:44:27<51:15, 384.41s/it]Epoch: 17, train loss: 1.70467, f_loss_w: 0.00164, f_loss_uw: 1.70467, data loss: 0.04550:  68% 17/25 [1:51:00<51:15, 384.41s/it]Epoch: 17, train loss: 1.70467, f_loss_w: 0.00164, f_loss_uw: 1.70467, data loss: 0.04550:  72% 18/25 [1:51:00<44:57, 385.37s/it]Epoch: 18, train loss: 1.72182, f_loss_w: 0.00133, f_loss_uw: 1.72182, data loss: 0.04730:  72% 18/25 [1:56:39<44:57, 385.37s/it]Epoch: 18, train loss: 1.72182, f_loss_w: 0.00133, f_loss_uw: 1.72182, data loss: 0.04730:  76% 19/25 [1:56:39<37:59, 379.98s/it]Epoch: 19, train loss: 1.68386, f_loss_w: 0.00114, f_loss_uw: 1.68386, data loss: 0.04446:  76% 19/25 [2:02:21<37:59, 379.98s/it]Epoch: 19, train loss: 1.68386, f_loss_w: 0.0011  0% 0/25 [00:00<?, ?it/s]Epoch: 0, train loss: 3.98346, f_loss_w: 602285362398474.87500, f_loss_uw: 3.98346, data loss: 0.33638:   0% 0/25 [03:29<?, ?it/s]Epoch: 0, train loss: 3.98346, f_loss_w: 602285362398474.87500, f_loss_uw: 3.98346, data loss: 0.33638:   4% 1/25 [03:29<1:23:43, 209.31s/it]Epoch: 0, train loss: 3.98346, f_loss_w: 602285362398474.87500, f_loss_uw: 3.98346, data loss: 0.33638:   4% 1/25 [2:05:07<50:03:11, 7507.98s/it]
+8<1:49:19, 504.57s/it]Epoch: 12, train loss: 1.55076, f_loss_w: 0.14385, f_loss_uw: 1.55076, data loss: 0.06449:  48% 12/25 [1:52:03<1:49:19, 504.57s/it]Epoch: 12, train loss: 1.55076, f_loss_w: 0.14385, f_loss_uw: 1.55076, data loss: 0.06449:  52% 13/25 [1:52:03<1:37:26, 487.20s/it]Epoch: 13, train loss: 1.25557, f_loss_w: 0.00571, f_loss_uw: 1.25557, data loss: 0.04524:  52% 13/25 [1:56:21<1:37:26, 487.20s/it]Epoch: 13, train loss: 1.25557, f_loss_w: 0.00571, f_loss_uw: 1.25557, data loss: 0.04524:  56% 14/25 [1:56:21<1:23:51, 457.41s/it]Epoch: 14, train loss: 1.19182, f_loss_w: 0.00336, f_loss_uw: 1.19182, data loss: 0.03857:  56% 14/25 [2:00:29<1:23:51, 457.41s/it]Epoch: 14, train loss: 1.19182, f_loss_w: 0.00336, f_loss_uw: 1.19182, data loss: 0.03857:  60% 15/25 [2:00:29<1:11:51, 431.12s/it]Epoch: 15, train loss: 1.15336, f_loss_w: 0.00257, f_loss_uw: 1.15336, data loss: 0.03502:  60% 15/25 [2:05:07<1:11:51, 431.12s/it]Epoch: 15, train loss: 1.15336, f_loss_w: 0.00257, f_loss_uw: 1.15336, data lTraceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 149, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 133, in train_2d
+    config, rank=0, log=args.log, entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 192, in train_2d_operator_cgd
+    optimizer.step(loss)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/acgd.py", line 145, in step
+    lr_x=lr_max, lr_y=lr_min)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 188, in general_conjugate_gradient
+    rebuild=rebuild).mul_(lr_x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py", line 114, in Hvp_vec
+    raise ValueError('hvp Nan')
+ValueError: hvp Nan
+wandb: Waiting for W&B process to finish, PID 29701... (failed 1). Press ctrl-c to abort syncing.
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss ▁
+wandb:            f loss ▁
+wandb:   f loss weighted ▁
+wandb:        train loss ▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.33638
+wandb:            f loss 3.98346
+wandb:   f loss weighted 602285362398474.9
+wandb:        train loss 3.98346
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced clear-brook-50: https://wandb.ai/rishigundakaram/CPINO/runs/wtb58b3j
+wandb: Find logs at: ./wandb/run-20220525_231650-wtb58b3j/logs/debug.log
+wandb: 
+
+srun: error: hpc-89-35: task 0: Exited with exit code 1
+1.97495, f_loss_w: 75658679.04000, f_loss_uw: 1.97495, data loss: 0.04531:  32% 8/25 [1:23:54<2:54:16, 615.07s/it]Epoch: 8, train loss: 1.94439, f_loss_w: 106264625.12000, f_loss_uw: 1.94439, data loss: 0.04604:  32% 8/25 [1:35:29<2:54:16, 615.07s/it]Epoch: 8, train loss: 1.94439, f_loss_w: 106264625.12000, f_loss_uw: 1.94439, data loss: 0.04604:  36% 9/25 [1:35:29<2:47:31, 628.21s/it]Epoch: 9, train loss: 1.83495, f_loss_w: 146077042.72000, f_loss_uw: 1.83495, data loss: 0.04323:  36% 9/25 [1:47:47<2:47:31, 628.21s/it]Epoch: 9, train loss: 1.83495, f_loss_w: 146077042.72000, f_loss_uw: 1.83495, data loss: 0.04323:  40% 10/25 [1:47:47<2:41:14, 644.97s/it]Epoch: 10, train loss: 1.74114, f_loss_w: 196875605.60000, f_loss_uw: 1.74114, data loss: 0.04098:  40% 10/25 [1:59:47<2:41:14, 644.97s/it]Epoch: 10, train loss: 1.74114, f_loss_w: 196875605.60000, f_loss_uw: 1.74114, data loss: 0.04098:  44% 11/25 [1:59:47<2:33:04, 656.01s/it]Epoch: 11, train loss: 2.25257, f_loss_w: 529914368.64000, f_loss_uw: 2.2525347, f_loss_uw: 0.91457, data loss: 0.02937:  80% 20/25 [1:54:39<30:13, 362.63s/it]Epoch: 20, train loss: 0.89730, f_loss_w: 1.64654, f_loss_uw: 0.89730, data loss: 0.02869:  80% 20/25 [2:01:17<30:13, 362.63s/it]Epoch: 20, train loss: 0.89730, f_loss_w: 1.64654, f_loss_uw: 0.89730, data loss: 0.02869:  84% 21/25 [2:01:17<24:26, 366.59s/it]Epoch: 21, train loss: 0.90172, f_loss_w: 1.34712, f_loss_uw: 0.90172, data loss: 0.02872:  84% 21/25 [2:06:49<24:26, 366.59s/it]Epoch: 21, train loss: 0.90172, f_loss_w: 1.34712, f_loss_uw: 0.90172, data loss: 0.02872:  88% 22/25 [2:06:49<18:08, 362.78s/it]Epoch: 22, train loss: 0.87204, f_loss_w: 1.09687, f_loss_uw: 0.87204, data loss: 0.02780:  88% 22/25 [2:12:14<18:08, 362.78s/it]Epoch: 22, train loss: 0.87204, f_loss_w: 1.09687, f_loss_uw: 0.87204, data loss: 0.02780:  92% 23/25 [2:12:14<11:57, 358.53s/it]Epoch: 23, train loss: 0.83369, f_loss_w: 0.97808, f_loss_uw: 0.83369, data loss: 0.02636:  92% 23/25 [2:17:56<11:57, 358.53s/it]Epoch: 23, train loss: 0.833694, f_loss_uw: 1.68386, data loss: 0.04446:  80% 20/25 [2:02:21<31:18, 375.70s/it]Epoch: 20, train loss: 1.66308, f_loss_w: 0.00120, f_loss_uw: 1.66308, data loss: 0.04343:  80% 20/25 [2:08:07<31:18, 375.70s/it]Epoch: 20, train loss: 1.66308, f_loss_w: 0.00120, f_loss_uw: 1.66308, data loss: 0.04343:  84% 21/25 [2:08:07<24:49, 372.32s/it]Epoch: 21, train loss: 1.65899, f_loss_w: 0.00118, f_loss_uw: 1.65899, data loss: 0.04249:  84% 21/25 [2:14:17<24:49, 372.32s/it]Epoch: 21, train loss: 1.65899, f_loss_w: 0.00118, f_loss_uw: 1.65899, data loss: 0.04249:  88% 22/25 [2:14:17<18:36, 372.10s/it]Epoch: 22, train loss: 1.67299, f_loss_w: 0.00053, f_loss_uw: 1.67299, data loss: 0.06289:  88% 22/25 [2:18:03<18:36, 372.10s/it]Epoch: 22, train loss: 1.67299, f_loss_w: 0.00053, f_loss_uw: 1.67299, data loss: 0.06289:  92% 23/25 [2:18:03<11:52, 356.04s/it]Epoch: 23, train loss: 1.61599, f_loss_w: 0.00050, f_loss_uw: 1.61599, data loss: 0.04755:  92% 23/25 [2:21:33<11:52, 356.04s/it]Epoch: 23, train loss: 1.61599, Checkpoint is saved at checkpoints//darcy-cpino-17.pt
+Checkpoint is saved at checkpoints//darcy-cpino-17-weights.pt
+, f_loss_w: 0.97808, f_loss_uw: 0.83369, data loss: 0.02636:  96% 24/25 [2:17:56<05:56, 356.77s/it]Epoch: 24, train loss: 0.82130, f_loss_w: 0.88489, f_loss_uw: 0.82130, data loss: 0.02687:  96% 24/25 [2:23:19<05:56, 356.77s/it]Epoch: 24, train loss: 0.82130, f_loss_w: 0.88489, f_loss_uw: 0.82130, data loss: 0.02687: 100% 25/25 [2:23:19<00:00, 353.09s/it]Epoch: 24, train loss: 0.82130, f_loss_w: 0.88489, f_loss_uw: 0.82130, data loss: 0.02687: 100% 25/25 [2:23:19<00:00, 343.96s/it]
+wandb: Waiting for W&B process to finish, PID 29781... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▅▃▃▃▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            f loss █▅▅▄▄▄▃▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb:   f loss weighted ██▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train loss █▅▅▄▄▄▃▃▃▃▂▂▂▂▂▂▂▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.02687
+wandb:            f loss 0.8213
+wandb:   f loss weighted 0.88489
+wandb:        train loss 0.8213
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced devoted-eon-41: https://wandb.ai/rishigundakaram/CPINO/runs/3lkh02ro
+wandb: Find logs at: ./wandb/run-20220525_231646-3lkh02ro/logs/debug.log
+wandb: 
+
+Done!
+Checkpoint is saved at checkpoints//darcy-cpino-18.pt
+Checkpoint is saved at checkpoints//darcy-cpino-18-weights.pt
+oss: 0.03502:  64% 16/25 [2:05:07<1:01:51, 412.35s/it]Epoch: 16, train loss: 1.07658, f_loss_w: 0.00268, f_loss_uw: 1.07658, data loss: 0.03290:  64% 16/25 [2:09:58<1:01:51, 412.35s/it]Epoch: 16, train loss: 1.07658, f_loss_w: 0.00268, f_loss_uw: 1.07658, data loss: 0.03290:  68% 17/25 [2:09:58<53:02, 397.77s/it]  Epoch: 17, train loss: 1.00890, f_loss_w: 0.00248, f_loss_uw: 1.00890, data loss: 0.03122:  68% 17/25 [2:14:59<53:02, 397.77s/it]Epoch: 17, train loss: 1.00890, f_loss_w: 0.00248, f_loss_uw: 1.00890, data loss: 0.03122:  72% 18/25 [2:14:59<45:04, 386.34s/it]Epoch: 18, train loss: 0.96539, f_loss_w: 0.00408, f_loss_uw: 0.96539, data loss: 0.03097:  72% 18/25 [2:20:39<45:04, 386.34s/it]Epoch: 18, train loss: 0.96539, f_loss_w: 0.00408, f_loss_uw: 0.96539, data loss: 0.03097:  76% 19/25 [2:20:39<38:06, 381.02s/it]Epoch: 19, train loss: 0.90142, f_loss_w: 0.00328, f_loss_uw: 0.90142, data loss: 0.03228:  76% 19/25 [2:25:53<38:06, 381.02s/it]Epoch: 19, train loss: 0.90142, f_loss_w: 0.00328, f_lof_loss_w: 0.00050, f_loss_uw: 1.61599, data loss: 0.04755:  96% 24/25 [2:21:33<05:40, 340.15s/it]Epoch: 24, train loss: 1.59271, f_loss_w: 0.00078, f_loss_uw: 1.59271, data loss: 0.04272:  96% 24/25 [2:25:51<05:40, 340.15s/it]Epoch: 24, train loss: 1.59271, f_loss_w: 0.00078, f_loss_uw: 1.59271, data loss: 0.04272: 100% 25/25 [2:25:51<00:00, 331.34s/it]Epoch: 24, train loss: 1.59271, f_loss_w: 0.00078, f_loss_uw: 1.59271, data loss: 0.04272: 100% 25/25 [2:25:51<00:00, 350.06s/it]
+wandb: Waiting for W&B process to finish, PID 3308... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▄▃▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            f loss █▄▄▃▃▄▄▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁
+wandb:   f loss weighted █▄▆▄▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train loss █▄▄▃▃▄▄▃▃▂▂▂▂▂▂▁▁▁▁▁▁▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.04272
+wandb:            f loss 1.59271
+wandb:   f loss weighted 0.00078
+wandb:        train loss 1.59271
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced chocolate-spaceship-46: https://wandb.ai/rishigundakaram/CPINO/runs/1zi0ice8
+wandb: Find logs at: ./wandb/run-20220525_231649-1zi0ice8/logs/debug.log
+wandb: 
+
+Done!
+ss_uw: 0.90142, data loss: 0.03228:  80% 20/25 [2:25:53<31:06, 373.33s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 126
+  warnings.warn('CG iter num: %d' % (i + 1))
+7, data loss: 0.06060:  44% 11/25 [2:11:54<2:33:04, 656.01s/it]Epoch: 11, train loss: 2.25257, f_loss_w: 529914368.64000, f_loss_uw: 2.25257, data loss: 0.06060:  48% 12/25 [2:11:54<2:24:15, 665.80s/it]Epoch: 12, train loss: 2.39496, f_loss_w: 224063515.04000, f_loss_uw: 2.39496, data loss: 0.05883:  48% 12/25 [2:17:55<2:24:15, 665.80s/it]Epoch: 12, train loss: 2.39496, f_loss_w: 224063515.04000, f_loss_uw: 2.39496, data loss: 0.05883:  52% 13/25 [2:17:55<2:04:59, 624.95s/it]Epoch: 13, train loss: 1.68539, f_loss_w: 319323964.48000, f_loss_uw: 1.68539, data loss: 0.03721:  52% 13/25 [2:25:24<2:04:59, 624.95s/it]Epoch: 13, train loss: 1.68539, f_loss_w: 319323964.48000, f_loss_uw: 1.68539, data loss: 0.03721:  56% 14/25 [2:25:24<1:50:24, 602.23s/it]Epoch: 14, train loss: 1.52763, f_loss_w: 411674951.04000, f_loss_uw: 1.52763, data loss: 0.03486:  56% 14/25 [2:34:28<1:50:24, 602.23s/it]Epoch: 14, train loss: 1.52763, f_loss_w: 411674951.04000, f_loss_uw: 1.52763, data loss: 0.03486:  60% 15/25 [2:34:28<1Epoch: 20, train loss: 1.91888, f_loss_w: -0.00503, f_loss_uw: 1.91888, data loss: 0.08268:  80% 20/25 [2:31:04<31:06, 373.33s/it]Epoch: 20, train loss: 1.91888, f_loss_w: -0.00503, f_loss_uw: 1.91888, data loss: 0.08268:  84% 21/25 [2:31:04<24:25, 366.32s/it]Epoch: 21, train loss: 1.44602, f_loss_w: 0.00222, f_loss_uw: 1.44602, data loss: 0.05574:  84% 21/25 [2:34:52<24:25, 366.32s/it] Epoch: 21, train loss: 1.44602, f_loss_w: 0.00222, f_loss_uw: 1.44602, data loss: 0.05574:  88% 22/25 [2:34:52<17:32, 350.96s/it]Epoch: 22, train loss: 1.43118, f_loss_w: 0.00223, f_loss_uw: 1.43118, data loss: 0.04398:  88% 22/25 [2:38:30<17:32, 350.96s/it]Epoch: 22, train loss: 1.43118, f_loss_w: 0.00223, f_loss_uw: 1.43118, data loss: 0.04398:  92% 23/25 [2:38:30<11:12, 336.42s/it]Epoch: 23, train loss: 1.36883, f_loss_w: 0.00182, f_loss_uw: 1.36883, data loss: 0.03910:  92% 23/25 [2:42:50<11:12, 336.42s/it]Epoch: 23, train loss: 1.36883, f_loss_w: 0.00182, f_loss_uw: 1.36883, data loss: 0.03910:  96% 24/25 [2:42:50Checkpoint is saved at checkpoints//darcy-cpino-11.pt
+Checkpoint is saved at checkpoints//darcy-cpino-11-weights.pt
+<05:28, 328.11s/it]Epoch: 24, train loss: 1.27571, f_loss_w: 0.00137, f_loss_uw: 1.27571, data loss: 0.03630:  96% 24/25 [2:46:40<05:28, 328.11s/it]Epoch: 24, train loss: 1.27571, f_loss_w: 0.00137, f_loss_uw: 1.27571, data loss: 0.03630: 100% 25/25 [2:46:40<00:00, 317.55s/it]Epoch: 24, train loss: 1.27571, f_loss_w: 0.00137, f_loss_uw: 1.27571, data loss: 0.03630: 100% 25/25 [2:46:40<00:00, 400.02s/it]
+wandb: Waiting for W&B process to finish, PID 27347... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▃▂▂▂▂▁▁▂▂▂▂▃▂▁▁▁▁▁▁▄▃▂▂▁
+wandb:            f loss █▄▄▃▃▂▂▂▃▂▂▂▅▃▃▂▂▂▁▁▇▄▄▄▃
+wandb:   f loss weighted █▃▂▁▁▁▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        train loss █▄▄▃▃▂▂▂▃▂▂▂▅▃▃▂▂▂▁▁▇▄▄▄▃
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.0363
+wandb:            f loss 1.27571
+wandb:   f loss weighted 0.00137
+wandb:        train loss 1.27571
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced amber-fire-52: https://wandb.ai/rishigundakaram/CPINO/runs/1wk1qv8o
+wandb: Find logs at: ./wandb/run-20220525_231650-1wk1qv8o/logs/debug.log
+wandb: 
+
+Done!
+:39:08, 594.82s/it]Epoch: 15, train loss: 1.40442, f_loss_w: 553897168.00000, f_loss_uw: 1.40442, data loss: 0.03414:  60% 15/25 [2:45:48<1:39:08, 594.82s/it]Epoch: 15, train loss: 1.40442, f_loss_w: 553897168.00000, f_loss_uw: 1.40442, data loss: 0.03414:  64% 16/25 [2:45:48<1:30:48, 605.37s/it]Epoch: 16, train loss: 1.32837, f_loss_w: 812537658.88000, f_loss_uw: 1.32837, data loss: 0.03373:  64% 16/25 [2:59:13<1:30:48, 605.37s/it]Epoch: 16, train loss: 1.32837, f_loss_w: 812537658.88000, f_loss_uw: 1.32837, data loss: 0.03373:  68% 17/25 [2:59:13<1:23:53, 629.21s/it]Epoch: 17, train loss: 1.27073, f_loss_w: 1178144460.80000, f_loss_uw: 1.27073, data loss: 0.03352:  68% 17/25 [3:12:54<1:23:53, 629.21s/it]Epoch: 17, train loss: 1.27073, f_loss_w: 1178144460.80000, f_loss_uw: 1.27073, data loss: 0.03352:  72% 18/25 [3:12:54<1:16:02, 651.84s/it]Epoch: 18, train loss: 1.19415, f_loss_w: 1875839360.00000, f_loss_uw: 1.19415, data loss: 0.03270:  72% 18/25 [3:27:52<1:16:02, 651.84s/it]Epoch: 18, train loss: 1.19415, f_loss_w: 1875839360.00000, f_loss_uw: 1.19415, data loss: 0.03270:  76% 19/25 [3:27:52<1:08:01, 680.33s/it]Epoch: 19, train loss: 1.23135, f_loss_w: 2865932994.56000, f_loss_uw: 1.23135, data loss: 0.03431:  76% 19/25 [3:42:13<1:08:01, 680.33s/it]Epoch: 19, train loss: 1.23135, f_loss_w: 2865932994.56000, f_loss_uw: 1.23135, data loss: 0.03431:  80% 20/25 [3:42:13<58:24, 700.91s/it]  Epoch: 20, train loss: 1.11580, f_loss_w: 4515660989.44000, f_loss_uw: 1.11580, data loss: 0.03590:  80% 20/25 [3:57:09<58:24, 700.91s/it]Epoch: 20, train loss: 1.11580, f_loss_w: 4515660989.44000, f_loss_uw: 1.11580, data loss: 0.03590:  84% 21/25 [3:57:09<48:11, 722.81s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 125
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 21, train loss: 1.02529, f_loss_w: 7565837639.68000, f_loss_uw: 1.02529, data loss: 0.02986:  84% 21/25 [4:13:36<48:11, 722.81s/it]Epoch: 21, train loss: 1.02529, f_loss_w: 7565837639.68000, f_loss_uw: 1.02529, data loss: 0.02986:  88% 22/25 [4:13:36<37:36, 752.10s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 102
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 22, train loss: 0.96557, f_loss_w: 12994557399.04000, f_loss_uw: 0.96557, data loss: 0.02881:  88% 22/25 [4:30:48<37:36, 752.10s/it]Epoch: 22, train loss: 0.96557, f_loss_w: 12994557399.04000, f_loss_uw: 0.96557, data loss: 0.02881:  92% 23/25 [4:30:48<26:05, 782.75s/it]Epoch: 23, train loss: 0.92218, f_loss_w: 22678609633.28000, f_loss_uw: 0.92218, data loss: 0.02720:  92% 23/25 [4:48:20<26:05, 782.75s/it]Epoch: 23, train loss: 0.92218, f_loss_w: 22678609633.28000, f_loss_uw: 0.92218, data loss: 0.02720:  96% 24/25 [4:48:20<13:32, 812.09s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 105
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 103
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 104
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 109
+  warnings.warn('CG iter num: %d' % (i + 1))
+Checkpoint is saved at checkpoints//darcy-cpino-16.pt
+Checkpoint is saved at checkpoints//darcy-cpino-16-weights.pt
+Epoch: 24, train loss: 0.86783, f_loss_w: 40599572561.92000, f_loss_uw: 0.86783, data loss: 0.02555:  96% 24/25 [5:06:33<13:32, 812.09s/it]Epoch: 24, train loss: 0.86783, f_loss_w: 40599572561.92000, f_loss_uw: 0.86783, data loss: 0.02555: 100% 25/25 [5:06:33<00:00, 842.30s/it]Epoch: 24, train loss: 0.86783, f_loss_w: 40599572561.92000, f_loss_uw: 0.86783, data loss: 0.02555: 100% 25/25 [5:06:33<00:00, 735.74s/it]
+wandb: Waiting for W&B process to finish, PID 31048... (success).
+wandb: - 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: \ 0.01MB of 0.01MB uploaded (0.00MB deduped)wandb: | 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.01MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: / 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: - 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: \ 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb: | 0.02MB of 0.02MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Run history:
+wandb:         data loss █▄▃▃▂▂▂▂▂▂▂▃▂▂▁▁▁▁▁▁▁▁▁▁▁
+wandb:            f loss █▇▅▄▄▄▄▄▄▄▃▅▅▃▃▂▂▂▂▂▂▁▁▁▁
+wandb:   f loss weighted ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▃▅█
+wandb:        train loss █▇▅▄▄▄▄▄▄▄▃▅▅▃▃▂▂▂▂▂▂▁▁▁▁
+wandb: 
+wandb: Run summary:
+wandb:         data loss 0.02555
+wandb:            f loss 0.86783
+wandb:   f loss weighted 40599572561.92
+wandb:        train loss 0.86783
+wandb: 
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced giddy-wind-63: https://wandb.ai/rishigundakaram/CPINO/runs/1w734c6p
+wandb: Find logs at: ./wandb/run-20220525_231650-1w734c6p/logs/debug.log
+wandb: 
+
+Done!
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+  0% 0/25 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25095146.0 ON hpc-22-28 CANCELLED AT 2022-05-26T05:16:26 DUE TO TIME LIMIT ***
+  0% 0/25 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25095146.3 ON hpc-23-32 CANCELLED AT 2022-05-26T05:16:26 DUE TO TIME LIMIT ***
+slurmstepd: error: *** JOB 25095146 ON hpc-22-28 CANCELLED AT 2022-05-26T05:16:26 DUE TO TIME LIMIT ***
+  0% 0/25 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25095146.6 ON hpc-24-34 CANCELLED AT 2022-05-26T05:16:26 DUE TO TIME LIMIT ***

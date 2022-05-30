@@ -45,7 +45,7 @@ def test_3d(config):
             device=device)
 
 
-def test_2d(config):
+def test_2d(config, args):
     device = 0 if torch.cuda.is_available() else 'cpu'
     data_config = config['data']
     dataset = DarcyFlow(data_config['datapath'],
@@ -64,21 +64,21 @@ def test_2d(config):
         ckpt = torch.load(ckpt_path)
         model.load_state_dict(ckpt['model'])
         print('Weights loaded from %s' % ckpt_path)
-    eval_darcy(model, dataloader, config, device)
+    eval_darcy(model, dataloader, config, device, log=args.log, entity=config['others']['entity'])
 
 
 if __name__ == '__main__':
     parser = ArgumentParser(description='Basic paser')
     parser.add_argument('--config_path', type=str, help='Path to the configuration file')
     parser.add_argument('--log', action='store_true', help='Turn on the wandb')
-    options = parser.parse_args()
-    config_file = options.config_path
+    args = parser.parse_args()
+    config_file = args.config_path
     with open(config_file, 'r') as stream:
         config = yaml.load(stream, yaml.FullLoader)
 
     if 'name' in config['data'] and config['data']['name'] == 'Darcy':
-        test_2d(config)
+        test_2d(config, args)
     else:
-        test_3d(config)
+        test_3d(config, args)
 
 

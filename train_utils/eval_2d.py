@@ -15,7 +15,17 @@ def eval_darcy(model,
                dataloader,
                config,
                device,
+               log=False,
+               entity='rishigundakaram', 
+               tags=None,
                use_tqdm=True):
+    if wandb and log: 
+        run = wandb.init(project=config['others']['project'],
+                         entity=entity,
+                         group=config['others']['group'],
+                         config=config,
+                         tags=tags, reinit=True,
+                         settings=wandb.Settings(start_method="fork"))
     model.eval()
     myloss = LpLoss(size_average=True)
     if use_tqdm:
@@ -56,7 +66,15 @@ def eval_darcy(model,
 
     print(f'==Averaged relative L2 error mean: {mean_err}, std error: {std_err}==\n'
           f'==Averaged equation error mean: {mean_f_err}, std error: {std_f_err}==')
-
+    if wandb and log:
+        wandb.log(
+            {
+                'mean f err': mean_f_err,
+                'std f err': std_f_err,
+                'mean L2 err': mean_err,
+                'std data err': std_err
+            }
+        )
 
 def eval_burgers(model,
                  dataloader,

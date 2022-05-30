@@ -1,0 +1,15 @@
+
+
+
+
+
+
+Epoch: 5, train loss: 0.46298, f_loss: 0.46298, data loss: 0.32030:   2%|▉                                           | 6/300 [00:16<13:20,  2.72s/it]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 146, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 109, in train_2d
+    entity=config['others']['entity'])
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_2d.py", line 85, in train_2d_operator
+    loss_dict['train_loss'] += loss.item() * y.shape[0]
+KeyboardInterrupt

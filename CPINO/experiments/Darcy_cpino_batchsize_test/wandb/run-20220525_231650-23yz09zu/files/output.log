@@ -1,0 +1,41 @@
+
+
+Epoch: 0, train loss: 2.46644, f_loss_w: -0.02039, f_loss_uw: 2.46644, data loss: 0.36661:   4% 1/25 [09:23<3:45:27, 563.63s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 104
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 121
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 119
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 1, train loss: 2.53403, f_loss_w: 0.07613, f_loss_uw: 2.53403, data loss: 0.13991:   8% 2/25 [26:23<5:08:07, 803.82s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 110
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 122
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 107
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 102
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 2, train loss: 2.33484, f_loss_w: 0.02062, f_loss_uw: 2.33484, data loss: 0.08298:  12% 3/25 [45:09<5:38:16, 922.58s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 118
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 3, train loss: 2.37977, f_loss_w: 0.01527, f_loss_uw: 2.37977, data loss: 0.07656:  16% 4/25 [59:58<5:19:31, 912.91s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 117
+  warnings.warn('CG iter num: %d' % (i + 1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 24, train loss: 1.57508, f_loss_w: 0.00308, f_loss_uw: 1.57508, data loss: 0.04048: 100% 25/25 [4:39:26<00:00, 670.65s/it]

@@ -1,0 +1,4 @@
+
+  0% 0/1 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 105
+  warnings.warn('CG iter num: %d' % (i + 1))
+  0% 0/1 [00:41<?, ?it/s]

@@ -78,10 +78,12 @@ def train_3d(args, config):
 def train_2d(args, config):
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
     data_config = config['data']
+    print('loading data')
     dataset = DarcyFlow(data_config['datapath'],
                         nx=data_config['nx'], sub=data_config['sub'],
                         offset=data_config['offset'], num=data_config['n_sample'])
     train_loader = DataLoader(dataset, batch_size=config['train']['batchsize'], shuffle=True)
+    print('loaded data')
     model = FNN2d(modes1=config['model']['modes1'],
                   modes2=config['model']['modes2'],
                   fc_dim=config['model']['fc_dim'],
@@ -120,7 +122,8 @@ def train_2d(args, config):
                   activation=config['model']['activation'],
                   in_dim=4).to(device)
         optimizer = ACGD(max_params=Discriminator.parameters(), 
-                        min_params=Regressor.parameters())
+                        min_params=Regressor.parameters(), 
+                        tol=1e-4, lr_max=config['train']['lr_max'], lr_min=config['train']['lr_min'])
         # optimizer = BCGD(max_params=Discriminator.parameters(), 
         #                 min_params=Regressor.parameters(), 
         #                 lr_min=config['train']['lr_min'], 

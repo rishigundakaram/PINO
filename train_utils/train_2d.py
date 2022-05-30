@@ -146,10 +146,9 @@ def train_2d_operator_cgd(regressor,
 
     '''
     if rank == 0 and wandb and log:
-        print('here')
-        run = wandb.init(project=project,
+        run = wandb.init(project=config['others']['project'],
                          entity=entity,
-                         group=group,
+                         group=config['others']['group'],
                          config=config,
                          tags=tags, reinit=True,
                          settings=wandb.Settings(start_method="fork"))

@@ -1,0 +1,140 @@
+
+  0% 0/40 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 134
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 146
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 194
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 117
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 130
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 109
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 137
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 129
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 159
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 144
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 214
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 235
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 271
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 219
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 260
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 246
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 277
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 261
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 199
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 233
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 255
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 218
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 188
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 173
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 202
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 229
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 213
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 224
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 278
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 221
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 283
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 243
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 207
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 217
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 205
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 183
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 257
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 160
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 0, train loss: 2.29333, f_loss_w: 0.32082, f_loss_uw: 2.29333, data loss: 0.20948:   2% 1/40 [43:26<28:14:23, 2606.76s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 215
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 185
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 133
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 151
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 149
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 148
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 141
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 136
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 164
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 122
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 107
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 139
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 104
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 113
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 116
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 131
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 110
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 123
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 125
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 114
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 108
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 111
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 126
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 103
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 165
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 105
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 1, train loss: 2.06213, f_loss_w: 0.09695, f_loss_uw: 2.06213, data loss: 0.06227:   5% 2/40 [1:11:59<22:32:53, 2136.14s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 106
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 118
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 119
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 102
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 2, train loss: 1.98051, f_loss_w: 0.03671, f_loss_uw: 1.98051, data loss: 0.05405:   8% 3/40 [1:34:11<18:54:16, 1839.36s/it]
+Epoch: 1, train loss: 2.06213, f_loss_w: 0.09695, f_loss_uw: 2.06213, data loss: 0.06227:   5% 2/40 [1:11:59<22:32:53, 2136.14s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 106
+Epoch: 1, train loss: 2.06213, f_loss_w: 0.09695, f_loss_uw: 2.06213, data loss: 0.06227:   5% 2/40 [1:11:59<22:32:53, 2136.14s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 106

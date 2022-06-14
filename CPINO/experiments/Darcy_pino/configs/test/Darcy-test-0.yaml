@@ -1,0 +1,51 @@
+data:
+  datapath: /groups/tensorlab/rgundaka/code/data/piececonst_r421_N1024_smooth2.mat
+  n_sample: 500
+  name: Darcy
+  nx: 421
+  offset: 0
+  shuffle: false
+  sub: 7
+  total_num: 1000
+model:
+  activation: gelu
+  competitive: false
+  fc_dim: 128
+  layers:
+  - 64
+  - 64
+  - 64
+  - 64
+  - 64
+  modes1:
+  - 20
+  - 20
+  - 20
+  - 20
+  modes2:
+  - 20
+  - 20
+  - 20
+  - 20
+others:
+  entity: rishigundakaram
+  group: Darcy-test
+  project: CPINO
+test:
+  batchsize: 1
+  ckpt: /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_pino/checkpoints/darcy-cpino-0.pt
+train:
+  base_lr: 0.001
+  batchsize: 20
+  epochs: 300
+  f_loss: 1.0
+  lr_max: 0.01
+  lr_min: 0.01
+  milestones:
+  - 100
+  - 150
+  - 200
+  save_dir: ''
+  save_name: darcy-cpino.pt
+  scheduler_gamma: 0.5
+  xy_loss: 0

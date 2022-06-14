@@ -1,0 +1,1370 @@
+2022-06-12 19:17:56,246 INFO    MainThread:21528 [internal.py:wandb_internal():92] W&B internal server running at pid: 21528, started at: 2022-06-12 19:17:56.244770
+2022-06-12 19:17:56,248 INFO    WriterThread:21528 [datastore.py:open_for_write():77] open: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/run-1s7aztlf.wandb
+2022-06-12 19:17:56,250 DEBUG   SenderThread:21528 [sender.py:send():235] send: header
+2022-06-12 19:17:56,250 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: check_version
+2022-06-12 19:17:56,250 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: check_version
+2022-06-12 19:17:57,269 DEBUG   SenderThread:21528 [sender.py:send():235] send: run
+2022-06-12 19:17:57,583 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: run_start
+2022-06-12 19:17:57,589 DEBUG   HandlerThread:21528 [meta.py:__init__():36] meta init
+2022-06-12 19:17:57,589 DEBUG   HandlerThread:21528 [meta.py:__init__():50] meta init done
+2022-06-12 19:17:57,589 DEBUG   HandlerThread:21528 [meta.py:probe():210] probe
+2022-06-12 19:17:57,594 INFO    SenderThread:21528 [dir_watcher.py:__init__():169] watching files in: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files
+2022-06-12 19:17:57,594 INFO    SenderThread:21528 [sender.py:_start_run_threads():812] run started: 1s7aztlf with start time 1655086675
+2022-06-12 19:17:57,594 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:17:57,595 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:17:57,605 DEBUG   HandlerThread:21528 [meta.py:_setup_git():200] setup git
+2022-06-12 19:17:57,667 DEBUG   HandlerThread:21528 [meta.py:_setup_git():207] setup git done
+2022-06-12 19:17:57,667 DEBUG   HandlerThread:21528 [meta.py:_save_code():88] save code
+2022-06-12 19:17:57,668 WARNING HandlerThread:21528 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-06-12 19:17:57,668 DEBUG   HandlerThread:21528 [meta.py:_save_patches():126] save patches
+2022-06-12 19:17:58,581 DEBUG   HandlerThread:21528 [meta.py:_save_patches():168] save patches done
+2022-06-12 19:17:58,581 DEBUG   HandlerThread:21528 [meta.py:_save_pip():54] save pip
+2022-06-12 19:17:58,582 DEBUG   HandlerThread:21528 [meta.py:_save_pip():68] save pip done
+2022-06-12 19:17:58,583 DEBUG   HandlerThread:21528 [meta.py:_save_conda():75] save conda
+2022-06-12 19:17:58,599 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:17:58,600 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/requirements.txt
+2022-06-12 19:17:58,600 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/diff.patch
+2022-06-12 19:17:58,600 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/conda-environment.yaml
+2022-06-12 19:18:02,602 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:18:05,603 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:18:08,200 DEBUG   HandlerThread:21528 [meta.py:_save_conda():85] save conda done
+2022-06-12 19:18:08,200 DEBUG   HandlerThread:21528 [meta.py:probe():248] probe done
+2022-06-12 19:18:08,217 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:18:08,218 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:18:08,312 DEBUG   SenderThread:21528 [sender.py:send():235] send: files
+2022-06-12 19:18:08,312 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-06-12 19:18:08,312 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-06-12 19:18:08,605 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/conda-environment.yaml
+2022-06-12 19:18:08,605 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-metadata.json
+2022-06-12 19:18:13,705 INFO    Thread-11 :21528 [upload_job.py:push():137] Uploaded file /tmp/tmpntqult1pwandb/3r2csbvg-wandb-metadata.json
+2022-06-12 19:18:14,161 INFO    Thread-12 :21528 [upload_job.py:push():137] Uploaded file /tmp/tmpntqult1pwandb/3g9pu3rc-diff.patch
+2022-06-12 19:18:22,601 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:18:22,602 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:18:26,174 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:18:37,696 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:18:37,697 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:18:52,872 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:18:52,873 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:18:56,660 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:19:07,950 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:19:07,950 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:19:23,040 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:19:23,041 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:19:27,124 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:19:38,134 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:19:38,135 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:19:53,216 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:19:53,216 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:19:57,607 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:20:08,310 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:20:08,310 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:20:23,417 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:20:23,417 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:20:28,092 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:20:38,531 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:20:38,531 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:20:53,621 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:20:53,621 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:20:58,566 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:21:08,708 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:21:08,708 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:21:23,855 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:21:23,856 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:21:29,087 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:21:38,951 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:21:38,951 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:21:54,051 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:21:54,052 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:21:59,631 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:22:09,136 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:22:09,136 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:22:24,234 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:22:24,234 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:22:30,107 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:22:39,334 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:22:39,334 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:22:56,318 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:22:56,318 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:23:00,558 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:23:11,408 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:23:11,408 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:23:26,497 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:23:26,497 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:23:31,069 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:23:41,592 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:23:41,593 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:23:56,684 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:23:56,684 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:24:01,592 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:24:11,767 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:24:11,767 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:24:26,878 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:24:26,878 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:24:32,089 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:24:41,972 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:24:41,973 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:24:57,056 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:24:57,057 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:25:02,501 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:25:12,147 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:25:12,147 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:25:27,232 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:25:27,232 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:25:31,357 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:25:31,358 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:25:31,358 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:25:31,831 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:25:32,968 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:25:33,832 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:25:42,315 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:25:42,315 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:25:57,403 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:25:57,403 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:26:03,468 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:26:12,582 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:26:12,582 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:26:27,682 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:26:27,683 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:26:33,929 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:26:42,767 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:26:42,767 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:26:57,929 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:26:57,929 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:27:04,335 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:27:13,023 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:27:13,023 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:27:28,114 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:27:28,114 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:27:34,815 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:27:43,192 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:27:43,193 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:27:58,271 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:27:58,271 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:28:05,268 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:28:13,360 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:28:13,360 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:28:28,485 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:28:28,485 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:28:35,742 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:28:43,573 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:28:43,573 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:28:58,653 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:28:58,653 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:29:06,180 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:29:13,763 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:29:13,763 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:29:28,842 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:29:28,842 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:29:36,589 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:29:43,942 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:29:43,942 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:29:59,021 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:29:59,022 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:30:07,026 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:30:14,100 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:30:14,101 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:30:29,897 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:30:29,898 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:30:37,475 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:30:45,000 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:30:45,000 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:31:00,083 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:31:00,083 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:31:07,927 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:31:15,160 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:31:15,160 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:31:30,242 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:31:30,243 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:31:38,393 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:31:45,328 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:31:45,329 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:32:00,417 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:32:00,417 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:32:08,871 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:32:15,500 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:32:15,500 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:32:30,589 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:32:30,590 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:32:39,317 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:32:45,683 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:32:45,683 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:33:00,777 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:33:00,777 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:33:09,886 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:33:15,861 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:33:15,861 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:33:29,600 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:33:29,601 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:33:29,601 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:33:30,089 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:33:30,948 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:33:30,948 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:33:32,090 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:33:40,417 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:33:46,034 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:33:46,034 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:34:01,114 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:34:01,114 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:34:10,904 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:34:16,194 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:34:16,195 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:34:31,298 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:34:31,298 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:34:41,450 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:34:46,417 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:34:46,418 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:35:01,497 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:35:01,497 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:35:11,983 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:35:16,601 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:35:16,602 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:35:31,685 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:35:31,686 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:35:42,522 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:35:46,766 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:35:46,766 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:36:01,849 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:36:01,849 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:36:13,022 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:36:16,942 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:36:16,942 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:36:32,030 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:36:32,030 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:36:43,593 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:36:47,118 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:36:47,118 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:37:02,221 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:37:02,221 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:37:14,180 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:37:17,315 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:37:17,315 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:37:32,410 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:37:32,410 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:37:44,715 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:37:47,497 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:37:47,498 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:37:50,013 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:37:50,014 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:37:50,014 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:37:50,236 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:37:52,237 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:38:02,588 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:38:02,588 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:38:15,177 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:38:17,700 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:38:17,700 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:38:32,789 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:38:32,790 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:38:45,700 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:38:47,877 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:38:47,877 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:39:03,026 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:39:03,027 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:39:16,248 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:39:18,126 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:39:18,126 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:39:33,243 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:39:33,243 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:39:37,137 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:39:37,138 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:39:37,138 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:39:37,300 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:39:38,300 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:39:46,741 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:39:48,327 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:39:48,327 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:40:03,415 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:40:03,416 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:40:17,268 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:40:18,518 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:40:18,518 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:40:33,684 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:40:33,684 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:40:47,720 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:40:48,764 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:40:48,764 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:41:04,304 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:41:04,305 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:41:18,218 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:41:19,405 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:41:19,405 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:41:31,516 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:41:31,516 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:41:31,517 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:41:32,356 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:41:32,356 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:41:34,495 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:41:34,495 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:41:48,718 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:41:49,590 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:41:49,590 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:42:04,678 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:42:04,679 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:42:19,137 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:42:19,809 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:42:19,809 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:42:34,900 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:42:34,901 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:42:49,619 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:42:50,004 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:42:50,004 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:43:05,085 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:43:05,085 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:43:07,106 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:43:07,107 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:43:07,107 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:43:07,405 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:43:08,405 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:43:20,074 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:43:20,196 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:43:20,196 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:43:35,316 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:43:35,316 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:43:50,472 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:43:50,472 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:43:50,581 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:44:05,560 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:44:05,560 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:44:20,649 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:44:20,649 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:44:21,094 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:44:29,577 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:44:29,578 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:44:29,579 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:44:30,454 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:44:30,454 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:44:35,810 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:44:35,811 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:44:50,915 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:44:50,915 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:44:51,608 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:45:05,998 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:45:05,998 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:45:21,087 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:45:21,087 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:45:22,145 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:45:36,205 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:45:36,206 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:45:39,406 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:45:39,407 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:45:39,407 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:45:39,499 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:45:40,499 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:45:51,302 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:45:51,302 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:45:52,664 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:46:06,399 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:46:06,400 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:46:21,483 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:46:21,484 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:46:23,165 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:46:36,569 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:46:36,570 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:46:51,659 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:46:51,660 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:46:53,683 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:47:06,755 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:47:06,755 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:47:21,849 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:47:21,849 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:47:24,245 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:47:36,947 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:47:36,947 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:47:46,929 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:47:46,929 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:47:46,930 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:47:47,560 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:47:48,560 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:47:52,025 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:47:52,025 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:47:54,728 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:48:07,109 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:48:07,109 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:48:22,197 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:48:22,197 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:48:25,285 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:48:37,421 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:48:37,421 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:48:52,526 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:48:52,526 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:48:55,773 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:49:07,650 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:49:07,650 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:49:08,906 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:49:08,907 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:49:08,907 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:49:09,596 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:49:11,597 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:49:22,748 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:49:22,749 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:49:26,259 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:49:37,862 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:49:37,862 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:49:52,943 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:49:52,944 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:49:56,738 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:50:08,030 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:50:08,030 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:50:23,141 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:50:23,141 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:50:27,213 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:50:35,093 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:50:35,093 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:50:35,094 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:50:35,643 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:50:37,644 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:50:38,225 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:50:38,225 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:50:53,304 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:50:53,304 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:50:57,718 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:51:09,153 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:51:09,154 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:51:24,306 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:51:24,306 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:51:28,271 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:51:39,393 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:51:39,393 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:51:54,517 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:51:54,518 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:51:58,763 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:51:59,654 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:51:59,655 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:51:59,655 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:51:59,694 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:52:01,701 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:52:09,598 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:52:09,598 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:52:24,692 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:52:24,693 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:52:29,271 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:52:39,793 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:52:39,793 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:52:54,880 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:52:54,880 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:52:59,753 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:53:09,972 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:53:09,972 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:53:16,487 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:53:16,487 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:53:16,487 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:53:16,738 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:53:17,738 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:53:25,055 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:53:25,056 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:53:30,334 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:53:40,143 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:53:40,143 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:53:55,243 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:53:55,243 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:54:00,892 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:54:10,321 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:54:10,322 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:54:21,539 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:54:21,540 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:54:21,540 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:54:21,772 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:54:23,779 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:54:25,400 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:54:25,401 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:54:31,418 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:54:40,483 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:54:40,484 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:54:55,562 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:54:55,562 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:55:01,940 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:55:10,656 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:55:10,656 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:55:25,250 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:55:25,251 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:55:25,251 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:55:25,749 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:55:25,750 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:55:25,809 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:55:27,810 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:55:32,486 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:55:40,893 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:55:40,893 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:55:56,099 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:55:56,099 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:56:03,054 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:56:11,199 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:56:11,199 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:56:26,287 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:56:26,287 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:56:29,798 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:56:29,798 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:56:29,799 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:56:29,853 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:56:31,854 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:56:33,588 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:56:41,395 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:56:41,396 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:56:56,487 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:56:56,487 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:57:04,052 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:57:11,578 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:57:11,579 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:57:26,674 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:57:26,674 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:57:34,612 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:57:41,810 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:57:41,810 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:57:56,916 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:57:56,916 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:58:05,127 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:58:07,694 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:58:07,695 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:58:07,695 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:58:07,904 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:58:09,905 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:58:12,030 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:58:12,031 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:58:27,120 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:58:27,120 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:58:35,629 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:58:42,218 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:58:42,219 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:58:57,302 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:58:57,302 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:59:06,241 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:59:12,409 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:59:12,409 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:59:27,516 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:59:27,516 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:59:36,844 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 19:59:41,687 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 19:59:41,687 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 19:59:41,688 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 19:59:41,970 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 19:59:42,612 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:59:42,612 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 19:59:43,971 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 19:59:57,708 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 19:59:57,708 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:00:07,375 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:00:12,791 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:00:12,791 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:00:27,876 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:00:27,877 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:00:37,864 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:00:42,959 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:00:42,959 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:00:52,803 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:00:54,986 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:00:54,987 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:00:55,421 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:00:55,421 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:00:58,047 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:00:58,047 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:01:08,361 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:01:13,126 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:01:13,127 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:01:28,214 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:01:28,214 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:01:38,874 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:01:43,302 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:01:45,741 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:02:00,824 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:02:00,824 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:02:09,336 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:02:15,916 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:02:15,916 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:02:31,003 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:02:31,003 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:02:39,860 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:02:46,096 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:02:46,096 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:02:49,331 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:02:49,331 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:02:49,332 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:02:50,029 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:02:52,030 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:03:01,203 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:03:01,203 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:03:10,375 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:03:16,283 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:03:16,284 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:03:31,374 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:03:31,374 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:03:40,840 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:03:46,479 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:03:46,479 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:04:01,588 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:04:01,588 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:04:11,350 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:04:11,561 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:04:11,561 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:04:11,562 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:04:12,090 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:04:14,091 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:04:16,674 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:04:16,675 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:04:31,795 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:04:31,795 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:04:41,847 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:04:46,911 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:04:46,911 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:05:02,002 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:05:02,003 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:05:12,390 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:05:17,086 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:05:17,086 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:05:32,169 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:05:32,169 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:05:34,835 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:05:34,835 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:05:34,835 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:05:35,145 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:05:36,149 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:05:42,861 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:05:47,248 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:05:47,249 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:06:02,339 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:06:02,339 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:06:13,386 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:06:17,434 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:06:17,435 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:06:32,538 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:06:32,538 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:06:43,903 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:06:47,626 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:06:47,626 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:06:48,190 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:06:48,190 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:06:48,190 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:06:49,185 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:06:50,185 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:07:02,711 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:07:02,711 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:07:14,456 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:07:17,808 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:07:17,809 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:07:32,895 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:07:32,895 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:07:44,986 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:07:48,960 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:07:48,961 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:08:02,113 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:08:02,113 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:08:02,114 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:08:02,230 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:08:04,061 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:08:04,061 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:08:04,231 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:08:15,573 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:08:19,169 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:08:19,169 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:08:34,287 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:08:34,287 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:08:46,081 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:08:54,287 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:08:54,287 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:09:09,368 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:09:09,368 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:09:13,576 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:09:13,576 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:09:13,577 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:09:14,278 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:09:16,279 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:09:16,597 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:09:24,470 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:09:24,471 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:09:39,574 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:09:39,574 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:09:47,084 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:09:54,659 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:09:54,659 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:10:09,752 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:10:09,752 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:10:17,558 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:10:22,608 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:10:22,608 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:10:22,611 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:10:23,329 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:10:24,329 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:10:24,850 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:10:24,850 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:10:39,952 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:10:39,952 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:10:48,059 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:10:55,037 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:10:55,037 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:11:10,118 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:11:10,119 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:11:18,563 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:11:25,208 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:11:25,208 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:11:29,746 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:11:29,747 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:11:29,747 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:11:30,374 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:11:32,375 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:11:40,380 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:11:40,380 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:11:49,006 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:11:55,529 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:11:55,529 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:12:10,623 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:12:10,623 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:12:19,523 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:12:25,716 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:12:25,716 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:12:40,802 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:12:40,803 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:12:49,974 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:12:55,881 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:12:55,881 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:12:58,355 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:12:58,355 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:12:58,355 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:12:58,416 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:13:00,417 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:13:10,959 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:13:10,959 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:13:20,507 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:13:26,040 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:13:26,040 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:13:42,190 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:13:42,190 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:13:51,078 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:13:57,277 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:13:57,278 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:14:12,370 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:14:12,370 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:14:21,618 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:14:27,449 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:14:27,449 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:14:42,541 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:14:42,541 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:14:52,188 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:14:57,833 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:14:57,833 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:15:12,916 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:15:12,916 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:15:22,717 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:15:27,998 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:15:27,998 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:15:43,102 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:15:43,103 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:15:53,171 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:15:58,192 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:15:58,192 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:16:13,283 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:16:13,283 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:16:23,757 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:16:28,378 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:16:28,378 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:16:43,474 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:16:43,475 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:16:54,291 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:16:58,562 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:16:58,562 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:17:13,657 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:17:13,657 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:17:24,859 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:17:28,748 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:17:28,748 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:17:31,152 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:17:31,153 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:17:31,153 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:17:31,621 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:17:32,622 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:17:43,841 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:17:43,842 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:17:55,418 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:17:58,927 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:17:58,927 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:18:14,007 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:18:14,007 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:18:25,998 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:18:29,200 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:18:29,200 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:18:44,286 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:18:44,287 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:18:56,570 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:18:59,383 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:18:59,383 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:19:14,485 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:19:14,486 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:19:27,058 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:19:29,573 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:19:29,573 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:19:34,960 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:19:34,960 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:19:34,961 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:19:35,709 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:19:36,709 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:19:44,673 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:19:44,673 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:19:57,548 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:19:59,770 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:19:59,770 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:20:14,849 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:20:14,850 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:20:28,032 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:20:29,933 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:20:29,934 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:20:45,017 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:20:45,017 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:20:58,493 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:21:00,096 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:21:00,096 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:21:15,188 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:21:15,188 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:21:29,045 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:21:30,268 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:21:30,268 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:21:30,366 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:21:30,366 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:21:30,367 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:21:30,781 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:21:32,782 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:21:45,358 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:21:45,358 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:21:59,549 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:22:00,436 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:22:00,436 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:22:15,532 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:22:15,532 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:22:30,081 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:22:30,642 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:22:30,643 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:22:45,729 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:22:45,729 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:22:58,994 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:22:58,995 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:22:58,995 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:22:59,837 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:23:00,627 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:23:00,811 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:23:00,812 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:23:00,837 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:23:15,902 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:23:15,903 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:23:31,113 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:23:31,113 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:23:31,217 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:23:46,218 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:23:46,219 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:24:01,303 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:24:01,304 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:24:01,716 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:24:16,391 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:24:16,391 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:24:18,036 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:24:18,037 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:24:18,037 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:24:18,903 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:24:18,903 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:24:31,482 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:24:31,482 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:24:32,202 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:24:46,568 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:24:46,568 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:25:01,652 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:25:01,653 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:25:02,704 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:25:16,737 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:25:16,737 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:25:31,850 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:25:31,851 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:25:33,179 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:25:34,564 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:25:34,564 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:25:34,565 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:25:34,962 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:25:34,962 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:25:46,946 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:25:46,946 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:26:02,207 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:26:02,207 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:26:03,674 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:26:17,303 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:26:17,304 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:26:32,416 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:26:32,416 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:26:34,226 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:26:47,503 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:26:47,503 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:26:54,314 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:26:54,314 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:26:54,315 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:26:55,010 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:26:55,010 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:27:02,594 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:27:02,594 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:27:04,728 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:27:17,710 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:27:17,710 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:27:33,616 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:27:33,616 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:27:35,216 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:27:48,699 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:27:48,699 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:28:03,783 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:28:03,783 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:28:05,758 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:28:09,333 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:28:09,333 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:28:09,334 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:28:10,075 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:28:11,075 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:28:18,873 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:28:18,873 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:28:34,162 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:28:34,163 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:28:36,230 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:28:49,252 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:28:49,252 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:29:04,352 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:29:04,352 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:29:06,719 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:29:12,509 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:29:12,509 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:29:12,510 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:29:13,117 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:29:13,117 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:29:19,435 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:29:19,436 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:29:34,521 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:29:34,522 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:29:37,247 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:29:49,647 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:29:49,648 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:30:04,740 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:30:04,740 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:30:07,772 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:30:14,646 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:30:14,646 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:30:14,647 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:30:15,159 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:30:17,160 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:30:19,846 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:30:19,846 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:30:34,949 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:30:34,950 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:30:38,299 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:30:50,035 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:30:50,036 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:31:05,113 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:31:05,113 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:31:08,836 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:31:20,196 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:31:20,197 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:31:35,301 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:31:35,301 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:31:39,291 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:31:50,430 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:31:50,431 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:31:56,983 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:31:56,983 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:31:56,983 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:31:57,244 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:31:59,245 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:32:05,516 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:32:05,516 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:32:09,762 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:32:20,622 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:32:20,623 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:32:35,709 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:32:35,709 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:32:40,252 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:32:50,790 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:32:50,790 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:33:05,872 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:33:05,872 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:33:10,697 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:33:12,217 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:33:12,217 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:33:12,218 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:33:12,289 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:33:13,290 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:33:21,011 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:33:21,012 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:33:36,412 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:33:36,412 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:33:41,218 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:33:51,507 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:33:51,507 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:34:06,602 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:34:06,602 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:34:11,695 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:34:21,716 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:34:21,717 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:34:26,349 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:34:26,350 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:34:26,350 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:34:27,340 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:34:27,341 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:34:36,800 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:34:36,800 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:34:42,179 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:34:51,884 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:34:51,884 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:35:06,977 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:35:06,978 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:35:12,768 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:35:22,094 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:35:22,094 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:35:35,953 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:35:35,953 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:35:35,954 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:35:36,381 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:35:37,185 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:35:37,185 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:35:37,382 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:35:43,233 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:35:52,271 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:35:52,271 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:36:07,358 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:36:07,358 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:36:13,752 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:36:22,740 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:36:22,740 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:36:38,499 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:36:38,500 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:36:44,301 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:36:53,667 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:36:53,667 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:37:08,755 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:37:08,755 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:37:14,798 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:37:23,847 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:37:23,847 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:37:31,466 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:37:31,466 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:37:31,466 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:37:32,461 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:37:33,462 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:37:38,943 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:37:38,943 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:37:45,272 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:37:54,027 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:37:54,027 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:38:09,110 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:38:09,110 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:38:15,795 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:38:24,218 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:38:24,218 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:38:39,313 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:38:39,313 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:38:46,316 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:38:50,498 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:38:50,498 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:38:50,499 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:38:50,517 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:38:52,519 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:38:54,404 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:38:54,404 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:39:09,525 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:39:09,526 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:39:16,816 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:39:24,610 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:39:24,610 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:39:39,697 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:39:39,697 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:39:47,356 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:39:54,788 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:39:54,788 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:40:09,901 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:40:09,902 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:40:17,793 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:40:18,351 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:40:18,352 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:40:18,352 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:40:18,577 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:40:20,578 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:40:24,998 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:40:24,998 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:40:40,094 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:40:40,094 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:40:48,305 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:40:55,806 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:40:55,806 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:41:10,887 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:41:10,887 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:41:18,780 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:41:26,000 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:41:26,000 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:41:34,396 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:41:34,397 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:41:34,397 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:41:34,620 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:41:36,621 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:41:41,126 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:41:41,126 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:41:49,294 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:41:56,215 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:41:56,215 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:42:11,310 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:42:11,311 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:42:19,816 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:42:26,420 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:42:26,420 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:42:41,520 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:42:41,520 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:42:41,848 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:42:41,848 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:42:41,849 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:42:42,675 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:42:44,676 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:42:50,309 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:42:56,604 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:42:56,604 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:43:11,688 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:43:11,688 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:43:20,837 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:43:26,878 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:43:26,878 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:43:41,968 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:43:41,968 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:43:49,872 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:43:49,873 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:43:49,873 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:43:50,724 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:43:51,347 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:43:52,725 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:43:57,050 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:43:57,050 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:44:12,253 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:44:12,254 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:44:21,826 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:44:27,336 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:44:27,336 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:44:42,429 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:44:42,430 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:44:52,383 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:44:57,512 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:44:57,513 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:44:57,916 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:44:57,916 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:44:57,916 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:44:58,767 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:45:00,771 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:45:12,592 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:45:12,593 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:45:22,902 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:45:27,689 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:45:27,689 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:45:42,789 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:45:42,789 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:45:53,396 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:45:57,885 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-12 20:45:57,885 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: stop_status
+2022-06-12 20:46:04,301 DEBUG   SenderThread:21528 [sender.py:send():235] send: history
+2022-06-12 20:46:04,301 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:46:04,302 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:46:04,814 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:46:06,817 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:46:07,704 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:07,704 DEBUG   SenderThread:21528 [sender.py:send():235] send: telemetry
+2022-06-12 20:46:07,705 DEBUG   SenderThread:21528 [sender.py:send():235] send: exit
+2022-06-12 20:46:07,705 INFO    SenderThread:21528 [sender.py:send_exit():371] handling exit code: 0
+2022-06-12 20:46:07,707 INFO    SenderThread:21528 [sender.py:send_exit():373] handling runtime: 5290
+2022-06-12 20:46:07,708 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:46:07,709 INFO    SenderThread:21528 [sender.py:send_exit():379] send defer
+2022-06-12 20:46:07,709 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:07,710 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,711 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 0
+2022-06-12 20:46:07,713 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,713 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-12 20:46:07,713 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 1
+2022-06-12 20:46:07,714 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,714 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 1
+2022-06-12 20:46:07,756 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,757 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-12 20:46:07,757 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 2
+2022-06-12 20:46:07,757 DEBUG   SenderThread:21528 [sender.py:send():235] send: stats
+2022-06-12 20:46:07,758 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,758 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 2
+2022-06-12 20:46:07,758 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,758 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-12 20:46:07,758 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 3
+2022-06-12 20:46:07,759 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,759 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 3
+2022-06-12 20:46:07,759 DEBUG   SenderThread:21528 [sender.py:send():235] send: summary
+2022-06-12 20:46:07,760 INFO    SenderThread:21528 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-12 20:46:07,760 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,761 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-12 20:46:07,761 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 4
+2022-06-12 20:46:07,761 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,761 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 4
+2022-06-12 20:46:07,761 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,761 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-12 20:46:07,813 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:07,817 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:46:07,818 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:46:07,912 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 5
+2022-06-12 20:46:07,912 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:07,913 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:07,913 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 5
+2022-06-12 20:46:07,913 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:07,915 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-12 20:46:07,915 INFO    SenderThread:21528 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-06-12 20:46:08,015 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:08,818 INFO    Thread-9  :21528 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/config.yaml
+2022-06-12 20:46:08,820 INFO    SenderThread:21528 [dir_watcher.py:finish():313] scan: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files
+2022-06-12 20:46:08,820 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/conda-environment.yaml conda-environment.yaml
+2022-06-12 20:46:08,821 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-metadata.json wandb-metadata.json
+2022-06-12 20:46:08,821 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/config.yaml config.yaml
+2022-06-12 20:46:08,822 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/diff.patch diff.patch
+2022-06-12 20:46:08,822 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/requirements.txt requirements.txt
+2022-06-12 20:46:08,822 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json wandb-summary.json
+2022-06-12 20:46:08,823 INFO    SenderThread:21528 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log output.log
+2022-06-12 20:46:08,823 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 6
+2022-06-12 20:46:08,823 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:08,824 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:08,824 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 6
+2022-06-12 20:46:08,824 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:08,826 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-12 20:46:08,826 INFO    SenderThread:21528 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-12 20:46:08,926 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:08,927 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,028 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,028 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,130 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,130 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,233 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,233 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,335 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,336 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,438 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,438 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,540 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,541 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,643 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,643 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,746 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,746 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,848 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,849 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:09,950 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:09,950 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,052 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,053 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,155 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,155 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,258 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,258 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,360 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,361 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,463 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,464 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,566 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,566 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,671 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,671 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,773 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,774 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,876 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,876 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:10,978 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:10,979 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,081 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,081 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,183 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,183 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,285 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,285 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,387 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,388 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,489 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,490 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,592 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,592 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,694 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,695 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,796 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,797 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:11,899 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:11,899 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,001 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,002 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,104 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,104 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,206 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,207 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,309 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,309 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,411 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,412 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,514 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,514 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,616 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,617 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,719 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,719 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,821 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,822 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:12,924 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:12,924 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,026 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,026 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,129 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,129 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,231 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,232 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,333 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,334 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,436 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,436 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,538 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,539 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,641 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,641 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,742 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,743 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,844 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,844 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:13,946 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:13,946 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,048 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,048 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,150 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,150 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,212 INFO    Thread-15 :21528 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/requirements.txt
+2022-06-12 20:46:14,223 INFO    Thread-16 :21528 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/wandb-summary.json
+2022-06-12 20:46:14,224 INFO    Thread-13 :21528 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/conda-environment.yaml
+2022-06-12 20:46:14,252 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,253 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,257 INFO    Thread-14 :21528 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/config.yaml
+2022-06-12 20:46:14,265 INFO    Thread-17 :21528 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/files/output.log
+2022-06-12 20:46:14,355 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,355 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,457 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,457 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,465 INFO    Thread-8  :21528 [sender.py:transition_state():392] send defer: 7
+2022-06-12 20:46:14,466 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:14,466 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 7
+2022-06-12 20:46:14,467 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:14,467 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-12 20:46:14,559 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,737 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 8
+2022-06-12 20:46:14,737 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,738 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:14,738 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 8
+2022-06-12 20:46:14,739 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:14,739 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-12 20:46:14,739 INFO    SenderThread:21528 [sender.py:transition_state():392] send defer: 9
+2022-06-12 20:46:14,740 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: defer
+2022-06-12 20:46:14,740 INFO    HandlerThread:21528 [handler.py:handle_request_defer():154] handle defer: 9
+2022-06-12 20:46:14,740 DEBUG   SenderThread:21528 [sender.py:send():235] send: final
+2022-06-12 20:46:14,740 DEBUG   SenderThread:21528 [sender.py:send():235] send: footer
+2022-06-12 20:46:14,740 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: defer
+2022-06-12 20:46:14,740 INFO    SenderThread:21528 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-12 20:46:14,840 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:14,840 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:14,840 INFO    SenderThread:21528 [file_pusher.py:join():182] waiting for file pusher
+2022-06-12 20:46:19,942 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-12 20:46:20,038 DEBUG   SenderThread:21528 [sender.py:send_request():249] send_request: poll_exit
+2022-06-12 20:46:20,038 INFO    SenderThread:21528 [file_pusher.py:join():182] waiting for file pusher
+2022-06-12 20:46:20,041 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: get_summary
+2022-06-12 20:46:20,042 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: sampled_history
+2022-06-12 20:46:20,078 DEBUG   HandlerThread:21528 [handler.py:handle_request():131] handle_request: shutdown
+2022-06-12 20:46:20,079 INFO    HandlerThread:21528 [handler.py:finish():739] shutting down handler
+2022-06-12 20:46:20,741 INFO    WriterThread:21528 [datastore.py:close():281] close: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220612_191754-1s7aztlf/run-1s7aztlf.wandb
+2022-06-12 20:46:21,040 INFO    SenderThread:21528 [sender.py:finish():1075] shutting down sender
+2022-06-12 20:46:21,040 INFO    SenderThread:21528 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-12 20:46:21,040 INFO    SenderThread:21528 [file_pusher.py:join():182] waiting for file pusher
+2022-06-12 20:46:21,043 INFO    MainThread:21528 [internal.py:handle_exit():79] Internal process exited

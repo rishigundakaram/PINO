@@ -1,0 +1,111 @@
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run tough-sky-166
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/318ekddg
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131724-318ekddg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run noble-shape-165
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/3ck7xr0n
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131724-3ck7xr0n
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run firm-cosmos-167
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/15klqclu
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131724-15klqclu
+wandb: Run `wandb offline` to turn off syncing.
+
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run true-water-168
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/s9hxha7e
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131724-s9hxha7e
+wandb: Run `wandb offline` to turn off syncing.
+
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run misty-deluge-169
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/1dlxxm1s
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131726-1dlxxm1s
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run different-wave-170
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/34dmufae
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131728-34dmufae
+wandb: Run `wandb offline` to turn off syncing.
+
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run spring-dust-171
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2vbdz199
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_131729-2vbdz199
+wandb: Run `wandb offline` to turn off syncing.
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+  0% 0/10 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25826127.5 ON hpc-26-24 CANCELLED AT 2022-06-14T13:19:25 ***
+  0% 0/10 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25826127.6 ON hpc-90-38 CANCELLED AT 2022-06-14T13:19:25 ***
+  0% 0/10 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25826127.2 ON hpc-25-17 CANCELLED AT 2022-06-14T13:19:25 ***
+  0% 0/10 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25826127.4 ON hpc-26-23 CANCELLED AT 2022-06-14T13:19:25 ***
+  0% 0/10 [00:00<?, ?it/s]slurmstepd: error: *** STEP 25826127.3 ON hpc-26-15 CANCELLED AT 2022-06-14T13:19:25 ***
+slurmstepd: error: *** JOB 25826127 ON hpc-22-38 CANCELLED AT 2022-06-14T13:19:25 ***

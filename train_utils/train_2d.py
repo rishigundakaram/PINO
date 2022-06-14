@@ -120,9 +120,7 @@ def train_2d_operator_cgd(regressor,
                       train_loader,
                       config,
                       rank=0, 
-                      log=False,
-                      project='CGD-PINO',
-                      group='Darcy',
+                      log=False, 
                       tags=['default'],
                       use_tqdm=True,
                       entity='rishigundakaram'):
@@ -182,9 +180,10 @@ def train_2d_operator_cgd(regressor,
 
             a = x[..., 0]
             x_w = x[:, 2:-2, 2:-2]
-            pred_w = torch.unsqueeze(pred[:, 2:-2, 2:-2], -1)
-
-            x_w = torch.cat((x_w,pred_w), dim=3)
+            if len(config['model']['competitive_input']) == 2: 
+                pred_w = torch.unsqueeze(pred[:, 2:-2, 2:-2], -1)
+                x_w = torch.cat((x_w,pred_w), dim=3)
+    
             w = torch.squeeze(discriminator(x_w), dim=-1)
             f_loss_w, f_loss_uw = weighted_darcy_loss(pred, a, w)
 

@@ -1,0 +1,36 @@
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+loaded data
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run cerulean-firebrand-157
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/CPINO
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/CPINO/runs/2gwsrsnl
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_finetune/wandb/run-20220614_101354-2gwsrsnl
+wandb: Run `wandb offline` to turn off syncing.
+
+  0% 0/50 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 104
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 117
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 114
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 134
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 133
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 0, train loss: 3.04816, f_loss_w: 0.62289, f_loss_uw: 3.04816, data loss: 0.35579:   0% 0/50 [17:09<?, ?it/s]Epoch: 0, train loss: 3.04816, f_loss_w: 0.62289, f_loss_uw: 3.04816, data loss: 0.35579:   2% 1/50 [17:09<14:01:05, 1029.92s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 119
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 125
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 115
+  warnings.warn('CG iter num: %d' % (i + 1))
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 112
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 1, train loss: 3.03105, f_loss_w: 1.67133, f_loss_uw: 3.03105, data loss: 0.11786:   2% 1/50 [36:04<14:01:05, 1029.92s/it]Epoch: 1, train loss: 3.03105, f_loss_w: 1.67133, f_loss_uw: 3.03105, data loss: 0.11786:   4% 2/50 [36:04<14:28:02, 1085.06s/it]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 118
+  warnings.warn('CG iter num: %d' % (i + 1))
+Epoch: 2, train loss: 2.90397, f_loss_w: 0.66902, f_loss_uw: 2.90397, data loss: 0.09567:   4% 2/50 [48:07<14:28:02, 1085.06s/it]Epoch: 2, train loss: 2.90397, f_loss_w: 0.66902, f_loss_uw: 2.90397, data loss: 0.09567:   6% 3/50 [48:07<12:25:16, 951.42s/it] Epoch: 3, train loss: 2.15131, f_loss_w: 0.42841, f_loss_uw: 2.15131, data loss: 0.06760:   6% 3/50 [1:02:39<12:25:16, 951.42s/it]Epoch: 3, train loss: 2.15131, f_loss_w: 0.42841, f_loss_uw: 2.15131, data loss: 0.06760:   8% 4/50 [1:02:39<11:51:39, 928.25s/it]Epoch: 4, train loss: 1.97942, f_loss_w: 0.31688, f_loss_uw: 1.97942, data loss: 0.05459:   8% 4/50 [1:15:58<11:51:39, 928.25s/it]Epoch: 4, train loss: 1.97942, f_loss_w: 0.31688, f_loss_uw: 1.97942, data loss: 0.05459:  10% 5/50 [1:15:58<11:12:35, 896.78s/it]Epoch: 5, train loss: 1.81436, f_loss_w: 0.20493, f_loss_uw: 1.81436, data loss: 0.04887:  10% 5/50 [1:30:58<11:12:35, 896.78s/it]Epoch: 5, train loss: 1.81436, f_loss_w: 0.20493, f_loss_uw: 1.81436, data loss: 0.04887:  12% 6/50 [1:30:58<10:58:05, 897.39s/it]Epoch: 6, train loss: 1.71767, f_loss_w: 0.16864, f_loss_uw: 1.71767, data loss: 0.04359:  12% 6/50 [1:44:05<10:58:05, 897.39s/it]Epoch: 6, train loss: 1.71767, f_loss_w: 0.16864, f_loss_uw: 1.71767, data loss: 0.04359:  14% 7/50 [1:44:05<10:28:01, 876.31s/it]Epoch: 7, train loss: 1.62672, f_loss_w: 0.17628, f_loss_uw: 1.62672, data loss: 0.03988:  14% 7/50 [1:58:13<10:28:01, 876.31s/it]Epoch: 7, train loss: 1.62672, f_loss_w: 0.17628, f_loss_uw: 1.62672, data loss: 0.03988:  16% 8/50 [1:58:13<10:09:53, 871.28s/it]Epoch: 8, train loss: 1.56493, f_loss_w: 0.19388, f_loss_uw: 1.56493, data loss: 0.03763:  16% 8/50 [2:12:17<10:09:53, 871.28s/it]Epoch: 8, train loss: 1.56493, f_loss_w: 0.19388, f_loss_uw: 1.56493, data loss: 0.03763:  18% 9/50 [2:12:17<9:52:22, 866.89s/it] Epoch: 9, train loss: 1.50151, f_loss_w: 0.21078, f_loss_uw: 1.50151, data loss: 0.03641:  18% 9/50 [2:26:29<9:52:22, 866.89s/it]Epoch: 9, train loss: 1.50151, f_loss_w: 0.21078, f_loss_uw: 1.50151, data loss: 0.03srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 25821193 ON hpc-26-23 CANCELLED AT 2022-06-14T13:14:40 ***

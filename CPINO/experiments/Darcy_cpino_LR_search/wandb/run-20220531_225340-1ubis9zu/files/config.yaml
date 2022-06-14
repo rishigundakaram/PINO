@@ -1,0 +1,82 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.10
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.6.13
+    start_time: 1654062820
+    t:
+      1:
+      - 1
+      2:
+      - 1
+      3:
+      - 16
+      4: 3.6.13
+      5: 0.12.10
+      8:
+      - 5
+data:
+  desc: null
+  value:
+    datapath: /groups/tensorlab/rgundaka/code/data/piececonst_r421_N1024_smooth2.mat
+    n_sample: 500
+    name: Darcy
+    nx: 421
+    offset: 0
+    shuffle: false
+    sub: 7
+    total_num: 1000
+model:
+  desc: null
+  value:
+    activation: gelu
+    fc_dim: 128
+    layers:
+    - 64
+    - 64
+    - 64
+    - 64
+    - 64
+    modes1:
+    - 20
+    - 20
+    - 20
+    - 20
+    modes2:
+    - 20
+    - 20
+    - 20
+    - 20
+others:
+  desc: null
+  value:
+    entity: rishigundakaram
+    group: Darcy-test
+    project: CPINO
+test:
+  desc: null
+  value:
+    batchsize: 1
+    ckpt: /groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/checkpoints/darcy-cpino-7.pt
+train:
+  desc: null
+  value:
+    base_lr: 0.001
+    batchsize: 20
+    epochs: 25
+    f_loss: 1.0
+    lr_max: 0.01
+    lr_min: 0.025
+    milestones:
+    - 100
+    - 150
+    - 200
+    save_dir: ''
+    save_name: darcy-cpino.pt
+    scheduler_gamma: 0.5
+    xy_loss: 0

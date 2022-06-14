@@ -115,20 +115,19 @@ def train_2d(args, config):
                   fc_dim=config['model']['fc_dim'],
                   layers=config['model']['layers'],
                   activation=config['model']['activation']).to(device)
+        if len(config['model']['competitive_input']) == 2: 
+            in_dim = 4
+        else: 
+            in_dim = 3
         Discriminator = FNN2d(modes1=config['model']['modes1'],
-                  modes2=config['model']['modes2'],
-                  fc_dim=config['model']['fc_dim'],
-                  layers=config['model']['layers'],
-                  activation=config['model']['activation'],
-                  in_dim=4).to(device)
+                modes2=config['model']['modes2'],
+                fc_dim=config['model']['fc_dim'],
+                layers=config['model']['layers'],
+                activation=config['model']['activation'],
+                in_dim=in_dim).to(device)
         optimizer = ACGD(max_params=Discriminator.parameters(), 
                         min_params=Regressor.parameters(), 
-                        tol=1e-4, lr_max=config['train']['lr_max'], lr_min=config['train']['lr_min'])
-        # optimizer = BCGD(max_params=Discriminator.parameters(), 
-        #                 min_params=Regressor.parameters(), 
-        #                 lr_min=config['train']['lr_min'], 
-        #                 lr_max=config['train']['lr_max'],
-        #                 momentum=config['train']['momentum'])
+                        tol=config['train']['cg_tolerance'], lr_max=config['train']['lr_max'], lr_min=config['train']['lr_min'])
         train_2d_operator_cgd(Regressor, Discriminator, optimizer, train_loader,
                       config, rank=0, log=args.log, entity=config['others']['entity'])
 

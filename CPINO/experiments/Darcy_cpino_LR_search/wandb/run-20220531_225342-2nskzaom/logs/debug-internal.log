@@ -1,0 +1,163 @@
+2022-05-31 22:53:44,393 INFO    MainThread:16130 [internal.py:wandb_internal():92] W&B internal server running at pid: 16130, started at: 2022-05-31 22:53:44.391840
+2022-05-31 22:53:44,397 INFO    WriterThread:16130 [datastore.py:open_for_write():77] open: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/run-2nskzaom.wandb
+2022-05-31 22:53:44,399 DEBUG   SenderThread:16130 [sender.py:send():235] send: header
+2022-05-31 22:53:44,399 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: check_version
+2022-05-31 22:53:44,400 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: check_version
+2022-05-31 22:53:44,441 DEBUG   SenderThread:16130 [sender.py:send():235] send: run
+2022-05-31 22:53:44,573 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: run_start
+2022-05-31 22:53:44,581 DEBUG   HandlerThread:16130 [meta.py:__init__():36] meta init
+2022-05-31 22:53:44,582 DEBUG   HandlerThread:16130 [meta.py:__init__():50] meta init done
+2022-05-31 22:53:44,582 DEBUG   HandlerThread:16130 [meta.py:probe():210] probe
+2022-05-31 22:53:44,584 INFO    SenderThread:16130 [dir_watcher.py:__init__():169] watching files in: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files
+2022-05-31 22:53:44,585 INFO    SenderThread:16130 [sender.py:_start_run_threads():812] run started: 2nskzaom with start time 1654062822
+2022-05-31 22:53:44,585 DEBUG   SenderThread:16130 [sender.py:send():235] send: summary
+2022-05-31 22:53:44,586 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-05-31 22:53:44,603 DEBUG   HandlerThread:16130 [meta.py:_setup_git():200] setup git
+2022-05-31 22:53:44,681 DEBUG   HandlerThread:16130 [meta.py:_setup_git():207] setup git done
+2022-05-31 22:53:44,682 DEBUG   HandlerThread:16130 [meta.py:_save_code():88] save code
+2022-05-31 22:53:44,682 WARNING HandlerThread:16130 [meta.py:_save_code():90] unable to save code -- program entry not found
+2022-05-31 22:53:44,682 DEBUG   HandlerThread:16130 [meta.py:_save_patches():126] save patches
+2022-05-31 22:53:45,046 DEBUG   HandlerThread:16130 [meta.py:_save_patches():168] save patches done
+2022-05-31 22:53:45,047 DEBUG   HandlerThread:16130 [meta.py:_save_pip():54] save pip
+2022-05-31 22:53:45,048 DEBUG   HandlerThread:16130 [meta.py:_save_pip():68] save pip done
+2022-05-31 22:53:45,049 DEBUG   HandlerThread:16130 [meta.py:_save_conda():75] save conda
+2022-05-31 22:53:45,587 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/requirements.txt
+2022-05-31 22:53:45,588 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/conda-environment.yaml
+2022-05-31 22:53:45,588 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/diff.patch
+2022-05-31 22:53:45,588 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json
+2022-05-31 22:53:47,121 DEBUG   HandlerThread:16130 [meta.py:_save_conda():85] save conda done
+2022-05-31 22:53:47,121 DEBUG   HandlerThread:16130 [meta.py:probe():248] probe done
+2022-05-31 22:53:47,127 DEBUG   SenderThread:16130 [sender.py:send():235] send: files
+2022-05-31 22:53:47,127 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file wandb-metadata.json with policy now
+2022-05-31 22:53:47,130 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file diff.patch with policy now
+2022-05-31 22:53:47,154 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: stop_status
+2022-05-31 22:53:47,154 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: stop_status
+2022-05-31 22:53:47,511 INFO    Thread-11 :16130 [upload_job.py:push():137] Uploaded file /tmp/tmpjgy09gv2wandb/86lv4316-wandb-metadata.json
+2022-05-31 22:53:47,586 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/conda-environment.yaml
+2022-05-31 22:53:47,586 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-metadata.json
+2022-05-31 22:53:47,587 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_created():217] file/dir created: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log
+2022-05-31 22:53:47,922 INFO    Thread-12 :16130 [upload_job.py:push():137] Uploaded file /tmp/tmpjgy09gv2wandb/2vg78k4e-diff.patch
+2022-05-31 22:53:49,588 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log
+2022-05-31 22:53:49,636 INFO    FileStreamThread:16130 [file_stream.py:request_with_retry():591] Filestream rate limit exceeded, retrying in 2.4388075772745856 seconds
+2022-05-31 22:53:49,898 DEBUG   SenderThread:16130 [sender.py:send():235] send: history
+2022-05-31 22:53:49,898 DEBUG   SenderThread:16130 [sender.py:send():235] send: summary
+2022-05-31 22:53:49,899 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-05-31 22:53:50,588 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json
+2022-05-31 22:53:51,589 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log
+2022-05-31 22:53:52,138 INFO    FileStreamThread:16130 [file_stream.py:request_with_retry():591] Filestream rate limit exceeded, retrying in 4.100721636489465 seconds
+2022-05-31 22:53:52,549 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:52,549 DEBUG   SenderThread:16130 [sender.py:send():235] send: telemetry
+2022-05-31 22:53:52,549 DEBUG   SenderThread:16130 [sender.py:send():235] send: exit
+2022-05-31 22:53:52,550 INFO    SenderThread:16130 [sender.py:send_exit():371] handling exit code: 0
+2022-05-31 22:53:52,551 INFO    SenderThread:16130 [sender.py:send_exit():373] handling runtime: 7
+2022-05-31 22:53:52,552 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-05-31 22:53:52,553 INFO    SenderThread:16130 [sender.py:send_exit():379] send defer
+2022-05-31 22:53:52,553 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:52,554 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,555 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 0
+2022-05-31 22:53:52,557 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,557 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-05-31 22:53:52,558 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 1
+2022-05-31 22:53:52,558 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,558 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 1
+2022-05-31 22:53:52,590 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json
+2022-05-31 22:53:52,591 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log
+2022-05-31 22:53:52,616 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,616 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-05-31 22:53:52,616 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 2
+2022-05-31 22:53:52,617 DEBUG   SenderThread:16130 [sender.py:send():235] send: stats
+2022-05-31 22:53:52,617 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,618 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 2
+2022-05-31 22:53:52,618 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,618 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-05-31 22:53:52,618 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 3
+2022-05-31 22:53:52,619 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,619 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 3
+2022-05-31 22:53:52,619 DEBUG   SenderThread:16130 [sender.py:send():235] send: summary
+2022-05-31 22:53:52,620 INFO    SenderThread:16130 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-05-31 22:53:52,620 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,620 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-05-31 22:53:52,621 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 4
+2022-05-31 22:53:52,621 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,621 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 4
+2022-05-31 22:53:52,621 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,621 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-05-31 22:53:52,658 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:52,745 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 5
+2022-05-31 22:53:52,745 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:52,746 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:52,746 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 5
+2022-05-31 22:53:52,747 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:52,748 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-05-31 22:53:52,748 INFO    SenderThread:16130 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-05-31 22:53:52,849 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:53,591 INFO    Thread-9  :16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/config.yaml
+2022-05-31 22:53:53,592 INFO    SenderThread:16130 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json
+2022-05-31 22:53:53,593 INFO    SenderThread:16130 [dir_watcher.py:finish():313] scan: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files
+2022-05-31 22:53:53,594 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/conda-environment.yaml conda-environment.yaml
+2022-05-31 22:53:53,594 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-metadata.json wandb-metadata.json
+2022-05-31 22:53:53,594 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/config.yaml config.yaml
+2022-05-31 22:53:53,595 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/diff.patch diff.patch
+2022-05-31 22:53:53,595 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/requirements.txt requirements.txt
+2022-05-31 22:53:53,596 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json wandb-summary.json
+2022-05-31 22:53:53,596 INFO    SenderThread:16130 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log output.log
+2022-05-31 22:53:53,596 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 6
+2022-05-31 22:53:53,597 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:53,597 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:53,598 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 6
+2022-05-31 22:53:53,598 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:53,600 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-05-31 22:53:53,600 INFO    SenderThread:16130 [file_pusher.py:finish():177] shutting down file pusher
+2022-05-31 22:53:53,700 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:53,701 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:53,802 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:53,803 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:53,905 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:53,905 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:53,960 INFO    Thread-13 :16130 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/conda-environment.yaml
+2022-05-31 22:53:54,001 INFO    Thread-16 :16130 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/wandb-summary.json
+2022-05-31 22:53:54,007 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:54,008 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:54,014 INFO    Thread-14 :16130 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/config.yaml
+2022-05-31 22:53:54,030 INFO    Thread-15 :16130 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/requirements.txt
+2022-05-31 22:53:54,076 INFO    Thread-17 :16130 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/files/output.log
+2022-05-31 22:53:54,111 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:54,111 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:54,214 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:54,214 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:53:54,277 INFO    Thread-8  :16130 [sender.py:transition_state():392] send defer: 7
+2022-05-31 22:53:54,278 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:53:54,278 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 7
+2022-05-31 22:53:54,278 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:53:54,278 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-05-31 22:53:54,316 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:53:56,304 INFO    FileStreamThread:16130 [file_stream.py:request_with_retry():591] Filestream rate limit exceeded, retrying in 8.601726598518002 seconds
+2022-05-31 22:53:59,419 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:54:04,520 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:54:05,278 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 8
+2022-05-31 22:54:05,279 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:54:05,279 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:54:05,279 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:54:05,280 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:54:05,280 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 8
+2022-05-31 22:54:05,282 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:54:05,282 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-05-31 22:54:05,282 INFO    SenderThread:16130 [sender.py:transition_state():392] send defer: 9
+2022-05-31 22:54:05,284 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: defer
+2022-05-31 22:54:05,284 INFO    HandlerThread:16130 [handler.py:handle_request_defer():154] handle defer: 9
+2022-05-31 22:54:05,284 DEBUG   SenderThread:16130 [sender.py:send():235] send: final
+2022-05-31 22:54:05,284 DEBUG   SenderThread:16130 [sender.py:send():235] send: footer
+2022-05-31 22:54:05,284 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: defer
+2022-05-31 22:54:05,285 INFO    SenderThread:16130 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-05-31 22:54:05,383 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: poll_exit
+2022-05-31 22:54:05,383 DEBUG   SenderThread:16130 [sender.py:send_request():249] send_request: poll_exit
+2022-05-31 22:54:05,384 INFO    SenderThread:16130 [file_pusher.py:join():182] waiting for file pusher
+2022-05-31 22:54:05,571 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: get_summary
+2022-05-31 22:54:05,573 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: sampled_history
+2022-05-31 22:54:05,575 DEBUG   HandlerThread:16130 [handler.py:handle_request():131] handle_request: shutdown
+2022-05-31 22:54:05,575 INFO    HandlerThread:16130 [handler.py:finish():739] shutting down handler
+2022-05-31 22:54:06,284 INFO    WriterThread:16130 [datastore.py:close():281] close: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_LR_search/wandb/run-20220531_225342-2nskzaom/run-2nskzaom.wandb
+2022-05-31 22:54:06,576 INFO    SenderThread:16130 [sender.py:finish():1075] shutting down sender
+2022-05-31 22:54:06,576 INFO    SenderThread:16130 [file_pusher.py:finish():177] shutting down file pusher
+2022-05-31 22:54:06,577 INFO    SenderThread:16130 [file_pusher.py:join():182] waiting for file pusher
+2022-05-31 22:54:06,581 INFO    MainThread:16130 [internal.py:handle_exit():79] Internal process exited

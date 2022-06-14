@@ -1,0 +1,28 @@
+
+  0% 0/25 [00:00<?, ?it/s]/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/CGDs/cgd_utils.py:201: UserWarning: CG iter num: 121
+  warnings.warn('CG iter num: %d' % (i + 1))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch: 24, train loss: 1.54039, f_loss_w: 3701217.56500, f_loss_uw: 1.54039, data loss: 0.04895: 100% 25/25 [3:01:55<00:00, 436.60s/it]

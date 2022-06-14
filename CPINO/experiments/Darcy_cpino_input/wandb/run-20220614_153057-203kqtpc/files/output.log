@@ -1,0 +1,5 @@
+
+Equation error: 2.23851, test l2 error: 0.06400694698095322:  82% 410/500 [00:01<00:00, 237.66it/s]
+==Averaged relative L2 error mean: 0.09623183135688305, std error: 0.0019121081863485315==
+
+Equation error: 3.04761, test l2 error: 0.20188648998737335: 100% 500/500 [00:02<00:00, 242.02it/s]

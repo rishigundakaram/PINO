@@ -1,13 +1,15 @@
 import itertools
 import yaml
 import os
+import sys
 from pprint import pprint
+
 # param_grid = {
 #     'train': {
 #         'lr_min': [.05, .025, .01, .005, .001], 
 #         'lr_max': [.05, .025, .01, .005, .001],
 #         'epochs': [25], 
-#         'batchsize': [20]
+#         'batchsize': [60]
 #     }
 # }
 # walltime="18:00:00"
@@ -24,21 +26,21 @@ from pprint import pprint
 # walltime="18:00:00"
 # experiment_name='Darcy_cpino_batchsize'
 
-param_grid = {
-    'model': {
-        'competitive': [True],
-        'competitive_input': [['FNN output', 'initial_conditions']]
-    }, 
-    'train': {
-        'batchsize': [60],
-        'epochs': [50],
-        'lr_min': [.005],
-        'lr_max': [.025],
-        'cg_tolerance': [10e-4]
-    }
-}
-walltime="18:00:00"
-experiment_name='Darcy_cpino'
+# param_grid = {
+#     'model': {
+#         'competitive': [True],
+#         'competitive_input': [['FNN output', 'initial_conditions']]
+#     }, 
+#     'train': {
+#         'batchsize': [60],
+#         'epochs': [50],
+#         'lr_min': [.005],
+#         'lr_max': [.025],
+#         'cg_tolerance': [10e-4]
+#     }
+# }
+# walltime="18:00:00"
+# experiment_name='Darcy_cpino'
 
 # param_grid = {
 #     'model': {
@@ -70,12 +72,35 @@ experiment_name='Darcy_cpino'
 # walltime="24:00:00"
 # experiment_name='Darcy_cpino_tolerance'
 
+param_grid = {
+    'model': {
+        'competitive_input': [['FNN output', 'initial conditions'], ['initial conditions']]
+    }, 
+    'train': {
+        'batchsize': [1],
+        'epochs': [1],
+        'lr_min': [.005],
+        'lr_max': [.025], 
+        'cg_tolerance': [.001]
+    }
+}
+walltime="1:00:00"
+experiment_name='NS_initial_test'
+
 base_dir='/groups/tensorlab/rgundaka/code/PINO/'
 experiment_dir='CPINO/experiments'
 
 
-base_config_train = os.path.join(base_dir, experiment_dir, 'Darcy_cpino_LR_search/configs/train/Darcy-train-0.yaml')
-base_config_test = os.path.join(base_dir, experiment_dir, 'Darcy_cpino_LR_search/configs/test/Darcy-test-0.yaml')
+if sys.argv[1] == 'Darcy':
+    base_config_train = os.path.join(base_dir, 'CPINO/base_configs/Darcy-train.yaml')
+    base_config_test = os.path.join(base_dir, 'CPINO/base_configs/Darcy-test.yaml')
+    pde = 'Darcy'
+elif sys.argv[1] == 'NS':
+    base_config_train = os.path.join(base_dir, 'CPINO/base_configs/NS-1s-train.yaml')
+    base_config_test = os.path.join(base_dir, 'CPINO/base_configs/NS-05s-test.yaml')
+    pde = 'NS'
+else: 
+    raise ValueError('invalid pde provided as an argument')
 
 
 def paths(cur_dict):
@@ -121,11 +146,11 @@ f"""#!/bin/bash
 """
         )
         for idx in range(n_tasks):
-            train_str =  f'python {os.path.join(base_dir, "train_operator.py")} --log --config_path {os.path.join(base_dir, experiment_dir, experiment_name, "configs/train/Darcy-train")}-{idx}.yaml'
+            train_str =  f'python {os.path.join(base_dir, "train_operator.py")} --log --config_path {os.path.join(base_dir, experiment_dir, experiment_name, f"configs/train/{pde}-train")}-{idx}.yaml'
             file.write(f"srun -n 1 --nodes=1 {train_str} &\n")
         file.write('wait\n')
         for idx in range(n_tasks):
-            test_str = f'python {os.path.join(base_dir, "eval_operator.py")} --log --config_path {os.path.join(base_dir, experiment_dir, experiment_name, "configs/test/Darcy-test")}-{idx}.yaml'
+            test_str = f'python {os.path.join(base_dir, "eval_operator.py")} --log --config_path {os.path.join(base_dir, experiment_dir, experiment_name, f"configs/test/{pde}-test")}-{idx}.yaml'
             file.write(f"srun -n 1 --nodes=1 {test_str} &\n")
         file.write('wait\n')
 
@@ -151,14 +176,14 @@ with open(base_config_test, 'r') as stream:
 
 for idx, param in enumerate(params): 
     cur_train_config = update_config(config_train, param)
-    cur_train_config['train']['save_name'] = f'darcy-cpino-{idx}.pt'
+    cur_train_config['train']['save_name'] = f'{pde}-cpino-{idx}.pt'
     cur_path = os.path.join(base_dir, experiment_dir, experiment_name)
-    with open(os.path.join(cur_path, f'configs/train/Darcy-train-{idx}.yaml'), 'w') as outfile:
+    with open(os.path.join(cur_path, f'configs/train/{pde}-train-{idx}.yaml'), 'w') as outfile:
             yaml.dump(cur_train_config, outfile)
 
     cur_test_config = update_config(config_test, param)
-    cur_test_config['test']['ckpt'] = os.path.join(cur_path, f'checkpoints/darcy-cpino-{idx}.pt')
-    with open(os.path.join(cur_path, f'configs/test/Darcy-test-{idx}.yaml'), 'w') as outfile:
+    cur_test_config['test']['ckpt'] = os.path.join(cur_path, f'checkpoints/{pde}-cpino-{idx}.pt')
+    with open(os.path.join(cur_path, f'configs/test/{pde}-test-{idx}.yaml'), 'w') as outfile:
             yaml.dump(cur_test_config, outfile)
     
 

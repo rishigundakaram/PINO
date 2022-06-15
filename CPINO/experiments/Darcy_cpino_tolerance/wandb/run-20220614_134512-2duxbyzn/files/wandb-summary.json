@@ -1,1 +1,1 @@
-{"train loss": 0.846313145160675, "f loss": 0.846313145160675, "f loss weighted": 0.012527259811758996, "data loss": 0.03452995520085096, "_runtime": 8306, "_timestamp": 1655247818, "_step": 18}
+{"train loss": 0.5149622386693955, "f loss": 0.5149622386693955, "f loss weighted": 0.9821760642528534, "data loss": 0.016249669790267943, "_runtime": 29738, "_timestamp": 1655269250, "_step": 39, "_wandb": {"runtime": 29739}}

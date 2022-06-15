@@ -25,3 +25,102 @@ config: {'data': {'datapath': '/groups/tensorlab/rgundaka/code/data/piececonst_r
 2022-06-14 13:45:17,980 INFO    MainThread:6904 [wandb_run.py:_redirect():1706] Redirecting console.
 2022-06-14 13:45:17,999 INFO    MainThread:6904 [wandb_run.py:_redirect():1762] Redirects installed.
 2022-06-14 13:45:17,999 INFO    MainThread:6904 [wandb_init.py:init():651] run started, returning control to user process
+2022-06-14 22:00:51,016 INFO    MainThread:6904 [wandb_run.py:finish():1468] finishing run rishigundakaram/CPINO/2duxbyzn
+2022-06-14 22:00:51,035 INFO    MainThread:6904 [wandb_run.py:_atexit_cleanup():1797] got exitcode: 0
+2022-06-14 22:00:51,038 INFO    MainThread:6904 [wandb_run.py:_restore():1769] restore
+2022-06-14 22:00:53,851 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 8197385
+  total_bytes: 8197385
+}
+
+2022-06-14 22:00:54,031 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 2
+}
+pusher_stats {
+  uploaded_bytes: 8197385
+  total_bytes: 8197385
+}
+
+2022-06-14 22:00:54,610 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8197385
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:54,712 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8197385
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:54,815 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8197385
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:54,918 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:55,021 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:55,124 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:55,228 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:55,576 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+
+2022-06-14 22:00:55,871 INFO    MainThread:6904 [wandb_run.py:_wait_for_finish():1929] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 7
+}
+pusher_stats {
+  uploaded_bytes: 8214747
+  total_bytes: 8214747
+}
+local_info {
+}
+
+2022-06-14 22:00:57,239 INFO    MainThread:6904 [wandb_run.py:_append_history():2144] rendering history
+2022-06-14 22:00:57,240 INFO    MainThread:6904 [wandb_run.py:_append_summary():2102] rendering summary
+2022-06-14 22:00:57,241 INFO    MainThread:6904 [wandb_run.py:_append_files():2194] logging synced files

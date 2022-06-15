@@ -1661,3 +1661,364 @@
 2022-06-14 16:10:38,075 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
 2022-06-14 16:10:43,885 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
 2022-06-14 16:10:43,885 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:10:58,963 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:10:58,965 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:11:08,495 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:11:14,044 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:11:14,044 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:11:20,042 DEBUG   SenderThread:13732 [sender.py:send():235] send: history
+2022-06-14 16:11:20,042 DEBUG   SenderThread:13732 [sender.py:send():235] send: summary
+2022-06-14 16:11:20,043 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:11:20,078 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:11:22,085 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:11:29,129 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:11:29,129 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:11:38,952 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:11:44,218 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:11:44,219 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:11:59,314 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:11:59,314 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:12:09,381 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:12:14,395 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:12:14,395 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:12:29,582 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:12:29,583 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:12:39,835 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:12:44,665 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:12:44,665 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:12:59,742 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:12:59,743 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:13:10,368 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:13:14,829 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:13:14,829 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:13:29,910 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:13:29,911 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:13:40,766 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:13:44,993 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:13:44,993 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:14:00,073 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:14:00,073 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:14:11,215 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:14:15,150 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:14:15,150 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:14:30,225 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:14:30,225 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:14:41,579 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:14:45,304 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:14:45,304 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:15:00,382 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:15:00,383 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:15:11,969 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:15:15,460 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:15:15,461 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:15:30,547 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:15:30,547 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:15:42,402 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:15:45,639 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:15:45,639 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:16:00,738 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:16:00,738 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:16:12,753 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:16:15,833 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:16:15,834 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:16:30,915 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:16:30,915 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:16:43,204 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:16:45,995 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:16:45,995 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:17:01,080 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:17:01,080 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:17:13,635 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:17:16,158 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:17:16,158 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:17:31,251 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:17:31,251 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:17:44,087 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:17:46,334 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:17:46,334 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:18:01,419 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:18:01,420 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:18:14,487 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:18:16,504 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:18:16,504 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:18:26,041 DEBUG   SenderThread:13732 [sender.py:send():235] send: history
+2022-06-14 16:18:26,041 DEBUG   SenderThread:13732 [sender.py:send():235] send: summary
+2022-06-14 16:18:26,043 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:18:26,375 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:18:28,376 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:18:31,617 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:18:31,617 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:18:44,921 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:18:46,704 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:18:46,704 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:19:01,795 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:19:01,795 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:19:15,359 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:19:16,872 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:19:16,872 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:19:31,959 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:19:31,960 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:19:45,792 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:19:47,044 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:19:47,045 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:20:02,133 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:20:02,133 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:20:16,209 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:20:17,219 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:20:17,219 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:20:32,324 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:20:32,324 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:20:46,642 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:20:47,454 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:20:47,455 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:21:02,533 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:21:02,533 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:21:17,101 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:21:17,613 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:21:17,613 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:21:32,690 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:21:32,690 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:21:47,509 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:21:47,771 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:21:47,772 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:22:02,858 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:22:02,858 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:22:17,931 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:22:17,952 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:22:17,952 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:22:33,034 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:22:33,034 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:22:48,127 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:22:48,127 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:22:48,343 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:23:03,209 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:23:03,209 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:23:18,302 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:23:18,302 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:23:18,774 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:23:33,382 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:23:33,383 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:23:48,460 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:23:48,460 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:23:49,190 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:24:03,546 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:24:03,546 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:24:18,657 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:24:18,657 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:24:19,610 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:24:33,742 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:24:33,742 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:24:48,822 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:24:48,823 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:24:50,030 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:25:03,907 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:25:03,907 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:25:18,989 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:25:18,990 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:25:20,415 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:25:34,072 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:25:34,073 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:25:49,152 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:25:49,152 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:25:50,818 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:25:51,477 DEBUG   SenderThread:13732 [sender.py:send():235] send: history
+2022-06-14 16:25:51,477 DEBUG   SenderThread:13732 [sender.py:send():235] send: summary
+2022-06-14 16:25:51,478 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:25:51,679 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:25:52,680 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:26:04,231 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:26:04,231 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:26:20,376 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:26:20,376 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:26:21,226 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:26:35,458 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:26:35,459 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:26:50,538 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:26:50,538 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:26:51,612 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:27:05,615 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:27:05,616 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:27:20,701 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:27:20,701 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:27:22,029 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:27:35,790 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:27:35,790 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:27:50,875 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:27:50,875 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:27:52,423 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:28:05,956 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:28:05,957 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:28:21,038 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:28:21,038 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:28:22,867 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:28:36,157 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:28:36,157 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:28:51,233 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:28:51,233 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:28:53,278 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:29:06,315 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:29:06,315 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:29:21,397 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:29:21,397 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:29:23,722 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:29:36,490 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:29:36,490 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:29:51,586 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:29:51,587 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:29:54,236 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:30:06,670 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:30:06,670 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:30:21,760 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:30:21,760 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:30:24,751 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:30:36,857 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:30:36,857 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:30:51,950 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:30:51,950 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:30:55,325 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:31:07,038 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:31:07,038 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:31:22,118 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:31:22,119 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:31:25,813 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:31:37,199 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:31:37,199 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:31:52,281 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:31:52,281 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:31:56,326 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:32:07,358 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:32:07,359 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:32:22,460 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:32:22,460 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:32:26,860 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:32:37,547 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:32:37,547 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:32:52,631 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:32:52,631 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:32:57,377 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:33:07,718 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:33:07,718 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:33:22,810 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:33:22,810 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:33:27,889 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:33:37,902 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:33:37,903 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:33:52,984 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: stop_status
+2022-06-14 16:33:52,984 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: stop_status
+2022-06-14 16:33:53,074 DEBUG   SenderThread:13732 [sender.py:send():235] send: history
+2022-06-14 16:33:53,074 DEBUG   SenderThread:13732 [sender.py:send():235] send: summary
+2022-06-14 16:33:53,075 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:33:54,001 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:33:55,002 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:33:55,841 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:55,841 DEBUG   SenderThread:13732 [sender.py:send():235] send: telemetry
+2022-06-14 16:33:55,841 DEBUG   SenderThread:13732 [sender.py:send():235] send: exit
+2022-06-14 16:33:55,841 INFO    SenderThread:13732 [sender.py:send_exit():371] handling exit code: 0
+2022-06-14 16:33:55,844 INFO    SenderThread:13732 [sender.py:send_exit():373] handling runtime: 10126
+2022-06-14 16:33:55,844 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:33:55,845 INFO    SenderThread:13732 [sender.py:send_exit():379] send defer
+2022-06-14 16:33:55,845 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:55,846 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:55,846 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 0
+2022-06-14 16:33:55,848 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:55,849 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-06-14 16:33:55,849 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 1
+2022-06-14 16:33:55,849 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:55,849 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 1
+2022-06-14 16:33:55,960 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:55,960 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:55,960 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-06-14 16:33:55,961 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 2
+2022-06-14 16:33:55,961 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:55,961 DEBUG   SenderThread:13732 [sender.py:send():235] send: stats
+2022-06-14 16:33:55,963 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:55,963 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 2
+2022-06-14 16:33:55,963 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:55,963 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-06-14 16:33:55,963 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 3
+2022-06-14 16:33:55,964 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:55,964 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 3
+2022-06-14 16:33:55,964 DEBUG   SenderThread:13732 [sender.py:send():235] send: summary
+2022-06-14 16:33:55,965 INFO    SenderThread:13732 [sender.py:_save_file():944] saving file wandb-summary.json with policy end
+2022-06-14 16:33:55,965 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:55,965 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-06-14 16:33:55,966 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 4
+2022-06-14 16:33:55,966 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:55,966 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 4
+2022-06-14 16:33:55,966 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:55,966 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-06-14 16:33:56,003 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:33:56,003 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:33:56,063 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:56,085 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 5
+2022-06-14 16:33:56,086 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:56,086 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:56,086 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 5
+2022-06-14 16:33:56,087 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:56,088 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-06-14 16:33:56,088 INFO    SenderThread:13732 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-06-14 16:33:56,188 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,003 INFO    Thread-9  :13732 [dir_watcher.py:_on_file_modified():230] file/dir modified: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/config.yaml
+2022-06-14 16:33:57,005 INFO    SenderThread:13732 [dir_watcher.py:finish():313] scan: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files
+2022-06-14 16:33:57,005 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/conda-environment.yaml conda-environment.yaml
+2022-06-14 16:33:57,006 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-metadata.json wandb-metadata.json
+2022-06-14 16:33:57,006 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/config.yaml config.yaml
+2022-06-14 16:33:57,006 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/diff.patch diff.patch
+2022-06-14 16:33:57,007 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/requirements.txt requirements.txt
+2022-06-14 16:33:57,007 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json wandb-summary.json
+2022-06-14 16:33:57,007 INFO    SenderThread:13732 [dir_watcher.py:finish():327] scan save: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log output.log
+2022-06-14 16:33:57,008 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 6
+2022-06-14 16:33:57,008 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,008 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:57,009 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 6
+2022-06-14 16:33:57,009 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:57,010 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-06-14 16:33:57,010 INFO    SenderThread:13732 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-14 16:33:57,110 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,111 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,212 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,212 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,314 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,314 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,357 INFO    Thread-13 :13732 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/conda-environment.yaml
+2022-06-14 16:33:57,390 INFO    Thread-14 :13732 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/config.yaml
+2022-06-14 16:33:57,416 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,417 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,418 INFO    Thread-15 :13732 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/requirements.txt
+2022-06-14 16:33:57,420 INFO    Thread-17 :13732 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/output.log
+2022-06-14 16:33:57,427 INFO    Thread-16 :13732 [upload_job.py:push():137] Uploaded file /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/files/wandb-summary.json
+2022-06-14 16:33:57,518 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,519 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,620 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:57,621 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:57,627 INFO    Thread-8  :13732 [sender.py:transition_state():392] send defer: 7
+2022-06-14 16:33:57,628 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:57,628 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 7
+2022-06-14 16:33:57,629 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:57,629 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-06-14 16:33:57,723 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:58,173 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 8
+2022-06-14 16:33:58,174 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:58,174 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:58,174 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 8
+2022-06-14 16:33:58,176 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:58,176 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-06-14 16:33:58,176 INFO    SenderThread:13732 [sender.py:transition_state():392] send defer: 9
+2022-06-14 16:33:58,177 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: defer
+2022-06-14 16:33:58,177 INFO    HandlerThread:13732 [handler.py:handle_request_defer():154] handle defer: 9
+2022-06-14 16:33:58,177 DEBUG   SenderThread:13732 [sender.py:send():235] send: final
+2022-06-14 16:33:58,177 DEBUG   SenderThread:13732 [sender.py:send():235] send: footer
+2022-06-14 16:33:58,178 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: defer
+2022-06-14 16:33:58,178 INFO    SenderThread:13732 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-06-14 16:33:58,276 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: poll_exit
+2022-06-14 16:33:58,277 DEBUG   SenderThread:13732 [sender.py:send_request():249] send_request: poll_exit
+2022-06-14 16:33:58,277 INFO    SenderThread:13732 [file_pusher.py:join():182] waiting for file pusher
+2022-06-14 16:33:58,472 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: get_summary
+2022-06-14 16:33:58,473 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: sampled_history
+2022-06-14 16:33:58,476 DEBUG   HandlerThread:13732 [handler.py:handle_request():131] handle_request: shutdown
+2022-06-14 16:33:58,476 INFO    HandlerThread:13732 [handler.py:finish():739] shutting down handler
+2022-06-14 16:33:59,178 INFO    WriterThread:13732 [datastore.py:close():281] close: /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_tolerance/wandb/run-20220614_134507-3f6d7w7k/run-3f6d7w7k.wandb
+2022-06-14 16:33:59,477 INFO    SenderThread:13732 [sender.py:finish():1075] shutting down sender
+2022-06-14 16:33:59,477 INFO    SenderThread:13732 [file_pusher.py:finish():177] shutting down file pusher
+2022-06-14 16:33:59,477 INFO    SenderThread:13732 [file_pusher.py:join():182] waiting for file pusher
+2022-06-14 16:33:59,481 INFO    MainThread:13732 [internal.py:handle_exit():79] Internal process exited

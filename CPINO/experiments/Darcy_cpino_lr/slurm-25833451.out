@@ -1,0 +1,675 @@
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-90-38: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-26-24: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-26-23: task 0: Exited with exit code 1
+srun: error: hpc-25-17: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-25-15: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-93-38: task 0: Exited with exit code 1
+srun: error: hpc-24-32: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-25-21: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-26-15: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-26-18: task 0: Exited with exit code 1
+srun: error: hpc-23-34: task 0: Exited with exit code 1
+srun: error: hpc-93-36: task 0: Exited with exit code 1
+srun: error: hpc-90-36: task 0: Exited with exit code 1
+srun: error: hpc-25-24: task 0: Exited with exit code 1
+srun: error: hpc-26-14: task 0: Exited with exit code 1
+srun: error: hpc-22-30: task 0: Exited with exit code 1
+srun: error: hpc-93-37: task 0: Exited with exit code 1
+srun: error: hpc-90-35: task 0: Exited with exit code 1
+srun: error: hpc-26-17: task 0: Exited with exit code 1
+srun: error: hpc-25-23: task 0: Exited with exit code 1
+srun: error: hpc-23-36: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-26-21: task 0: Exited with exit code 1
+srun: error: hpc-23-38: task 0: Exited with exit code 1
+srun: error: hpc-26-20: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+loading data
+loaded data
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 148, in <module>
+    train_2d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 118, in train_2d
+    if len(config['model']['competitive_input']) == 2: 
+KeyError: 'competitive_input'
+srun: error: hpc-22-32: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-14.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-3.pt'
+srun: error: hpc-26-15: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-20.pt'
+srun: error: hpc-90-38: task 0: Exited with exit code 1
+srun: error: hpc-26-24: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-16.pt'
+srun: error: hpc-25-17: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-0.pt'
+srun: error: hpc-93-38: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-2.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-18.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-7.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-23.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-6.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-15.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-19.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-5.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-17.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-24.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-13.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-4.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-10.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-8.pt'
+srun: error: hpc-93-36: task 0: Exited with exit code 1
+srun: error: hpc-23-36: task 0: Exited with exit code 1
+srun: error: hpc-23-34: task 0: Exited with exit code 1
+srun: error: hpc-25-24: task 0: Exited with exit code 1
+srun: error: hpc-26-17: task 0: Exited with exit code 1
+srun: error: hpc-90-35: task 0: Exited with exit code 1
+srun: error: hpc-90-36: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-1.pt'
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-11.pt'
+srun: error: hpc-25-23: task 0: Exited with exit code 1
+srun: error: hpc-26-14: task 0: Exited with exit code 1
+srun: error: hpc-26-18: task 0: Exited with exit code 1
+srun: error: hpc-22-30: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-9.pt'
+srun: error: hpc-26-21: task 0: Exited with exit code 1
+srun: error: hpc-26-20: task 0: Exited with exit code 1
+srun: error: hpc-23-38: task 0: Exited with exit code 1
+srun: error: hpc-93-37: task 0: Exited with exit code 1
+srun: error: hpc-25-21: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-22.pt'
+srun: error: hpc-26-23: task 0: Exited with exit code 1
+srun: error: hpc-22-32: task 0: Exited with exit code 1
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-12.pt'
+/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/functional.py:445: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  ../aten/src/ATen/native/TensorShape.cpp:2157.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+0
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 80, in <module>
+    test_2d(config, args)
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 64, in test_2d
+    ckpt = torch.load(ckpt_path)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 594, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/Darcy_cpino_lr/checkpoints/darcy-cpino-21.pt'
+srun: error: hpc-25-15: task 0: Exited with exit code 1
+srun: error: hpc-24-32: task 0: Exited with exit code 1

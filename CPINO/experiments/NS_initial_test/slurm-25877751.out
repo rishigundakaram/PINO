@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 156, in <module>
+    with open(config_file, 'r') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/configs/train/Darcy-train-0.yaml'
+srun: error: hpc-22-32: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 156, in <module>
+    with open(config_file, 'r') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/configs/train/Darcy-train-1.yaml'
+srun: error: hpc-89-38: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 76, in <module>
+    with open(config_file, 'r') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/configs/test/Darcy-test-0.yaml'
+srun: error: hpc-89-38: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 76, in <module>
+    with open(config_file, 'r') as stream:
+FileNotFoundError: [Errno 2] No such file or directory: '/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/configs/test/Darcy-test-1.yaml'
+srun: error: hpc-22-32: task 0: Exited with exit code 1

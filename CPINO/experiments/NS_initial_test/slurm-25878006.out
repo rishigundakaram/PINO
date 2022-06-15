@@ -1,0 +1,93 @@
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+data loaded
+cuda:0
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Currently logged in as: rishigundakaram (use `wandb login --relogin` to force relogin)
+loading data
+data loaded
+cuda:0
+wandb: wandb version 0.12.18 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run glamorous-snow-3
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/NS-cpino
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/NS-cpino/runs/3v0azqqw
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/wandb/run-20220615_150324-3v0azqqw
+wandb: Run `wandb offline` to turn off syncing.
+
+torch.Size([1, 128, 128, 134, 4])
+torch.Size([1, 128, 128, 134])
+torch.Size([1, 128, 128, 129])
+torch.Size([1, 128, 128, 129, 5])
+  0% 0/1 [00:00<?, ?it/s]  0% 0/1 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 162, in <module>
+    train_3d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 93, in train_3d
+    config, device, log=args.log)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_3d.py", line 318, in mixed_train_cgd
+    w = torch.squeeze(discriminator(x_w), dim=-1)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/models/fourier3d.py", line 58, in forward
+    x1 = speconv(x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/models/basics.py", line 175, in forward
+    x = torch.fft.irfftn(out_ft, s=(x.size(2), x.size(3), x.size(4)), dim=[2,3,4])
+RuntimeError: CUDA out of memory. Tried to allocate 4.22 GiB (GPU 0; 15.90 GiB total capacity; 9.36 GiB already allocated; 2.79 GiB free; 12.18 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+wandb: Waiting for W&B process to finish, PID 4819... (failed 1). Press ctrl-c to abort syncing.
+wandb: Tracking run with wandb version 0.12.10
+wandb: Syncing run cerulean-surf-4
+wandb: ⭐️ View project at https://wandb.ai/rishigundakaram/NS-cpino
+wandb: 🚀 View run at https://wandb.ai/rishigundakaram/NS-cpino/runs/20q9n4u8
+wandb: Run data is saved locally in /central/groups/tensorlab/rgundaka/code/PINO/CPINO/experiments/NS_initial_test/wandb/run-20220615_150328-20q9n4u8
+wandb: Run `wandb offline` to turn off syncing.
+
+  0% 0/1 [00:00<?, ?it/s]  0% 0/1 [00:00<?, ?it/s]
+torch.Size([1, 128, 128, 134, 4])
+torch.Size([1, 128, 128, 134])
+torch.Size([1, 128, 128, 129])
+wandb: - 135.68MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 152.56MB of 377.21MB uploaded (0.00MB deduped)wandb: | 177.74MB of 377.21MB uploaded (0.00MB deduped)wandb: / 189.47MB of 377.21MB uploaded (0.00MB deduped)wandb: - 199.55MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 210.81MB of 377.21MB uploaded (0.00MB deduped)wandb: | 221.55MB of 377.21MB uploaded (0.00MB deduped)wandb: / 231.54MB of 377.21MB uploaded (0.00MB deduped)wandb: - 243.59MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 253.88MB of 377.21MB uploaded (0.00MB deduped)wandb: | 263.18MB of 377.21MB uploaded (0.00MB deduped)wandb: / 274.72MB of 377.21MB uploaded (0.00MB deduped)wandb: - 285.47MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 297.12MB of 377.21MB uploaded (0.00MB deduped)wandb: | 306.48MB of 377.21MB uploaded (0.00MB deduped)wandb: / 316.41MB of 377.21MB uploaded (0.00MB deduped)wandb: - 325.59MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 336.80MB of 377.21MB uploaded (0.00MB deduped)wandb: | 347.86MB of 377.21MB uploaded (0.00MB deduped)wandb: / 357.10MB of 377.21MB uploaded (0.00MB deduped)wandb: - 367.77MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: / 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: - 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: / 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: - 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb:                                                                                
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 162, in <module>
+    train_3d(args, config)
+  File "/groups/tensorlab/rgundaka/code/PINO/train_operator.py", line 93, in train_3d
+    config, device, log=args.log)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/train_utils/train_3d.py", line 318, in mixed_train_cgd
+    w = torch.squeeze(discriminator(x_w), dim=-1)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/models/fourier3d.py", line 58, in forward
+    x1 = speconv(x)
+  File "/home/rgundaka/miniconda3/envs/rishig/lib/python3.6/site-packages/torch/nn/modules/module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/central/groups/tensorlab/rgundaka/code/PINO/models/basics.py", line 175, in forward
+    x = torch.fft.irfftn(out_ft, s=(x.size(2), x.size(3), x.size(4)), dim=[2,3,4])
+RuntimeError: CUDA out of memory. Tried to allocate 4.22 GiB (GPU 0; 15.90 GiB total capacity; 9.32 GiB already allocated; 3.29 GiB free; 11.67 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+wandb: Waiting for W&B process to finish, PID 8787... (failed 1). Press ctrl-c to abort syncing.
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced glamorous-snow-3: https://wandb.ai/rishigundakaram/NS-cpino/runs/3v0azqqw
+wandb: Find logs at: ./wandb/run-20220615_150324-3v0azqqw/logs/debug.log
+wandb: 
+
+srun: error: hpc-25-17: task 0: Exited with exit code 1
+wandb: - 75.74MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 98.69MB of 377.21MB uploaded (0.00MB deduped)wandb: | 171.04MB of 377.21MB uploaded (0.00MB deduped)wandb: / 181.96MB of 377.21MB uploaded (0.00MB deduped)wandb: - 191.24MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 200.47MB of 377.21MB uploaded (0.00MB deduped)wandb: | 211.58MB of 377.21MB uploaded (0.00MB deduped)wandb: / 221.94MB of 377.21MB uploaded (0.00MB deduped)wandb: - 233.84MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 244.75MB of 377.21MB uploaded (0.00MB deduped)wandb: | 256.18MB of 377.21MB uploaded (0.00MB deduped)wandb: / 267.66MB of 377.21MB uploaded (0.00MB deduped)wandb: - 279.51MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 290.49MB of 377.21MB uploaded (0.00MB deduped)wandb: | 302.22MB of 377.21MB uploaded (0.00MB deduped)wandb: / 313.55MB of 377.21MB uploaded (0.00MB deduped)wandb: - 323.80MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 334.04MB of 377.21MB uploaded (0.00MB deduped)wandb: | 344.59MB of 377.21MB uploaded (0.00MB deduped)wandb: / 355.19MB of 377.21MB uploaded (0.00MB deduped)wandb: - 366.09MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: / 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: - 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: / 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: - 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: \ 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb: | 377.21MB of 377.21MB uploaded (0.00MB deduped)wandb:                                                                                
+wandb: Synced 7 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Synced cerulean-surf-4: https://wandb.ai/rishigundakaram/NS-cpino/runs/20q9n4u8
+wandb: Find logs at: ./wandb/run-20220615_150328-20q9n4u8/logs/debug.log
+wandb: 
+
+srun: error: hpc-25-15: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 82, in <module>
+    test_3d(config, args)
+TypeError: test_3d() takes 1 positional argument but 2 were given
+srun: error: hpc-25-17: task 0: Exited with exit code 1
+Traceback (most recent call last):
+  File "/groups/tensorlab/rgundaka/code/PINO/eval_operator.py", line 82, in <module>
+    test_3d(config, args)
+TypeError: test_3d() takes 1 positional argument but 2 were given
+srun: error: hpc-25-15: task 0: Exited with exit code 1
